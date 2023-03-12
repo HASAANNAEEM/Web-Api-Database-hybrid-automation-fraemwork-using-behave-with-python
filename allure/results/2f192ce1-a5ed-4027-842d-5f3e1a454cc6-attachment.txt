@@ -1,0 +1,6 @@
+Message: element click intercepted: Element <span class="fade-to-show">...</span> is not clickable at point (143, 609). Other element would receive the click: <div class="pl70 ml1 mt-1 sidebar-menu-item 
+      
+      dropdown
+      
+      ">...</div>
+  (Session info: chrome=102.0.5005.115)

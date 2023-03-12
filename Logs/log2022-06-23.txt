@@ -1,0 +1,293 @@
+2022-06-23 17:52:24,501 - environment.py:[27] - [INFO] - Start scenario name Create loader policy and verified the test parameter from database -- @1.1 
+2022-06-23 17:52:24,504 - delete_s3_bucket.py:[17] - [INFO] - Deleting ...
+2022-06-23 17:52:27,919 - delete_s3_bucket.py:[27] - [INFO] - done
+2022-06-23 17:52:27,927 - delete_s3_bucket.py:[17] - [INFO] - Deleting ...
+2022-06-23 17:52:30,836 - delete_s3_bucket.py:[27] - [INFO] - done
+2022-06-23 17:52:30,843 - delete_s3_bucket.py:[17] - [INFO] - Deleting ...
+2022-06-23 17:52:34,254 - delete_s3_bucket.py:[27] - [INFO] - done
+2022-06-23 17:52:34,258 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-23 17:52:34,274 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-23 17:52:34,289 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-23 17:52:40,962 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-23 17:52:40,965 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-23 17:52:41,030 - converter.py:[111] - [INFO] - Uploading files into the bucket
+2022-06-23 17:52:41,046 - converter.py:[117] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-23 17:53:17,232 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-23 17:53:17,240 - converter.py:[120] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-23 17:53:17,255 - database.py:[780] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-23 17:53:17,272 - database.py:[786] - [INFO] - Inserting source file link to TestDatabase
+2022-06-23 17:53:17,279 - database.py:[807] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-23 17:53:17,299 - converter.py:[35] - [INFO] -  Post Login API Endpoint with login api url and their payload 
+2022-06-23 17:53:18,424 - converter.py:[47] - [INFO] - Generated Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiJkZjZhMWY2Zi01ZjdjLTRlYTQtOTVmMS0wYTMwMzNhMzJkMDMiLCJpYXQiOiI2LzIzLzIwMjIgMTI6NTM6MTkgUE0iLCJVc2VySWQiOiJkYTllYjg1NS03NWE0LTQwM2ItOTU1Yy05NzgwM2RiMzkyNzUiLCJVc2VyTmFtZSI6Imt0bSIsImV4cCI6MTY1NjA3NTE5OSwiaXNzIjoieWllbGRXZXJ4QXV0aGVudGljYXRpb25TZXJ2ZXIiLCJhdWQiOiJ5aWVsZFdlcngifQ.RQnsr-qRE58vbcUA085xCt_IcSGNdmLmOMYILWQ00fY
+2022-06-23 17:53:18,432 - converter.py:[175] - [INFO] - Starting time after getting response status : 200
+2022-06-23 17:53:18,436 - converter.py:[179] - [INFO] - Expected Status code 200 is equal to 200
+2022-06-23 17:53:18,456 - payload_modifications.py:[32] - [INFO] - Future date time : 2022-06-23 17:53:48.456409
+2022-06-23 17:53:18,461 - converter.py:[150] - [INFO] - Update The Payload Policy
+2022-06-23 17:53:19,546 - converter.py:[74] - [INFO] - Post the api end point for Loader
+2022-06-23 17:53:19,556 - converter.py:[175] - [INFO] - Starting time after getting response status : 200
+2022-06-23 17:53:19,562 - converter.py:[179] - [INFO] - Expected Status code 200 is equal to 200
+2022-06-23 17:53:19,578 - db_config.py:[91] - [INFO] - tunnel_connection
+2022-06-23 17:53:20,089 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-23 17:53:21,387 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-23 17:53:22,670 - db_config.py:[103] - [INFO] - db_connection
+2022-06-23 17:53:22,676 - db_config.py:[104] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001690712E340>
+2022-06-23 17:53:22,679 - database.py:[75] - [INFO] - policy_name : ModifiedLoaderPolicyNamefordataVerificationForLoaderPolicyUsingAPI 2022-06-23 17:53:18.440447
+2022-06-23 17:53:22,950 - database.py:[77] - [INFO] - Policy id : (('1139144c-a5ac-4a7b-a176-0ab7c07272ea',),)
+2022-06-23 17:53:22,952 - database.py:[83] - [INFO] - Policy id : 1139144c-a5ac-4a7b-a176-0ab7c07272ea
+2022-06-23 17:53:27,716 - database.py:[88] - [INFO] - Policy step id : 39c67c32-25ba-42e4-b1c7-38454eccb255
+2022-06-23 17:53:48,000 - database.py:[103] - [INFO] - Validate start at from task_scheduling 2022-06-23 12:53:48
+2022-06-23 17:53:48,008 - db_config.py:[91] - [INFO] - tunnel_connection
+2022-06-23 17:53:48,535 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-23 17:53:49,854 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-23 17:53:51,168 - db_config.py:[103] - [INFO] - db_connection
+2022-06-23 17:53:51,170 - db_config.py:[104] - [INFO] - <_mysql.connection open to '127.0.0.1' at 00000169071310D0>
+2022-06-23 17:53:51,414 - database.py:[112] - [INFO] - work flow step c3017597-bc47-421f-b2dc-755aecb62d71
+2022-06-23 17:53:51,436 - db_config.py:[91] - [INFO] - tunnel_connection
+2022-06-23 17:53:51,986 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-23 17:53:53,355 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-23 17:53:54,627 - db_config.py:[103] - [INFO] - db_connection
+2022-06-23 17:53:54,635 - db_config.py:[104] - [INFO] - <_mysql.connection open to '127.0.0.1' at 00000169071315E0>
+2022-06-23 17:53:54,959 - database.py:[119] - [INFO] - work flow instance ids ca6f0c53-6833-4386-b8fa-3cc23e90f3d8
+2022-06-23 17:53:54,972 - database.py:[47] - [INFO] - Verify the SUCCESS status of the file
+2022-06-23 17:53:55,016 - database_helper.py:[150] - [INFO] - Getting source file link from TestDatabase
+2022-06-23 17:53:55,018 - database.py:[57] - [INFO] - s3://yw-loader-2/FinisarSmall.atdf
+2022-06-23 17:53:55,020 - database_helper.py:[75] - [INFO] - Starting time for verifying status of file in yw-db  in at : 17:53:55
+2022-06-23 17:53:55,022 - db_config.py:[123] - [INFO] - ktm
+2022-06-23 17:53:55,042 - db_config.py:[129] - [INFO] - SELECT status from workflow_load_file WHERE source_file_location LIKE 's3://yw-loader-2/FinisarSmall.atdf' and created_by_id = (select id from user where user_name = 'ktm') order by created_on desc limit 1
+2022-06-23 17:53:55,285 - db_config.py:[132] - [INFO] - (('PROCESSING',),)
+2022-06-23 17:53:55,287 - database_helper.py:[114] - [WARNING] - Not getting status of file at : 17:53:55
+2022-06-23 17:53:55,290 - database_helper.py:[115] - [WARNING] - 0
+2022-06-23 17:53:55,297 - db_config.py:[91] - [INFO] - tunnel_connection
+2022-06-23 17:53:55,818 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-23 17:53:57,134 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-23 17:53:58,400 - db_config.py:[103] - [INFO] - db_connection
+2022-06-23 17:53:58,409 - db_config.py:[104] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001690712CF00>
+2022-06-23 17:53:58,416 - db_config.py:[123] - [INFO] - ktm
+2022-06-23 17:53:58,440 - db_config.py:[129] - [INFO] - SELECT status from workflow_load_file WHERE source_file_location LIKE 's3://yw-loader-2/FinisarSmall.atdf' and created_by_id = (select id from user where user_name = 'ktm') order by created_on desc limit 1
+2022-06-23 17:53:58,682 - db_config.py:[132] - [INFO] - (('SUCCESS',),)
+2022-06-23 17:53:58,685 - database_helper.py:[88] - [INFO] - Getting SUCCESS of file in yw-db in at : 17:53:58
+2022-06-23 17:53:58,688 - db_config.py:[123] - [INFO] - ktm
+2022-06-23 17:53:58,711 - db_config.py:[129] - [INFO] - SELECT created_on from workflow_load_file WHERE source_file_location LIKE 's3://yw-loader-2/FinisarSmall.atdf' and created_by_id = (select id from user where user_name = 'ktm') order by created_on desc limit 1
+2022-06-23 17:53:58,962 - db_config.py:[132] - [INFO] - ((datetime.datetime(2022, 6, 23, 12, 53, 49, 26451),),)
+2022-06-23 17:53:58,968 - database_helper.py:[92] - [INFO] - Workflow table created on time after creating policy : 2022-06-23 12:53:49.026451
+2022-06-23 17:53:58,974 - db_config.py:[123] - [INFO] - ktm
+2022-06-23 17:53:59,001 - db_config.py:[129] - [INFO] - SELECT start_date from workflow_load_file wlf WHERE source_file_location LIKE 's3://yw-loader-2/FinisarSmall.atdf' and created_by_id = (select id from user where user_name = 'ktm')  order by created_on desc limit 1
+2022-06-23 17:53:59,244 - db_config.py:[132] - [INFO] - ((datetime.datetime(2022, 6, 23, 12, 53, 49, 247589),),)
+2022-06-23 17:53:59,253 - database_helper.py:[97] - [INFO] - Workflow table start date time after creating policy : 2022-06-23 12:53:49.247589
+2022-06-23 17:53:59,261 - db_config.py:[123] - [INFO] - ktm
+2022-06-23 17:53:59,290 - db_config.py:[129] - [INFO] - SELECT end_date from workflow_load_file wlf WHERE source_file_location LIKE 's3://yw-loader-2/FinisarSmall.atdf' and created_by_id = (select id from user where user_name = 'ktm') order by created_on desc limit 1
+2022-06-23 17:53:59,532 - db_config.py:[132] - [INFO] - ((datetime.datetime(2022, 6, 23, 12, 53, 59, 5874),),)
+2022-06-23 17:53:59,536 - database_helper.py:[101] - [INFO] - Workflow table end date time after creating policy : 2022-06-23 12:53:59.005874
+2022-06-23 17:53:59,542 - database.py:[146] - [INFO] - Verify the Performance log of the file
+2022-06-23 17:53:59,574 - db_config.py:[123] - [INFO] - ktm
+2022-06-23 17:53:59,595 - db_config.py:[129] - [INFO] - SELECT target_file_location from workflow_load_file wlf WHERE source_file_location LIKE 's3://yw-loader-2/FinisarSmall.atdf'and created_by_id = (select id from user where user_name = 'ktm')  order by created_on desc limit 1
+2022-06-23 17:53:59,839 - db_config.py:[132] - [INFO] - ((None,),)
+2022-06-23 17:53:59,843 - db_config.py:[123] - [INFO] - ktm
+2022-06-23 17:53:59,872 - db_config.py:[129] - [INFO] - SELECT start_date from workflow_load_file wlf WHERE source_file_location LIKE 's3://yw-loader-2/FinisarSmall.atdf' and created_by_id = (select id from user where user_name = 'ktm')  order by created_on desc limit 1
+2022-06-23 17:54:00,118 - db_config.py:[132] - [INFO] - ((datetime.datetime(2022, 6, 23, 12, 53, 49, 247589),),)
+2022-06-23 17:54:00,123 - db_config.py:[123] - [INFO] - ktm
+2022-06-23 17:54:00,153 - db_config.py:[129] - [INFO] - SELECT end_date from workflow_load_file wlf WHERE source_file_location LIKE 's3://yw-loader-2/FinisarSmall.atdf' and created_by_id = (select id from user where user_name = 'ktm') order by created_on desc limit 1
+2022-06-23 17:54:00,399 - db_config.py:[132] - [INFO] - ((datetime.datetime(2022, 6, 23, 12, 53, 59, 5874),),)
+2022-06-23 17:54:00,422 - performance_log_calculation.py:[20] - [INFO] - Difference between two datetime in minutes:0.16263808333333335
+2022-06-23 17:54:00,425 - database.py:[174] - [INFO] - FinisarSmall.atdf']
+2022-06-23 17:54:05,151 - loader.py:[170] - [INFO] - Getting the data after against facility name that is generated
+2022-06-23 17:54:07,769 - database.py:[432] - [INFO] - Getting test parameter table data against file_name : FinisarSmall.atdf
+2022-06-23 17:54:08,921 - loader.py:[179] - [INFO] - Get facility name from test db : TestTenant2 Test dataVerificationForLoaderPolicyUsingAPI 815
+2022-06-23 17:54:24,241 - database.py:[450] - [INFO] - Getting facility id table data against facility name : TestTenant2 Test dataVerificationForLoaderPolicyUsingAPI 815
+2022-06-23 17:54:54,756 - database.py:[469] - [INFO] - Getting customer id table data against facility_id : aba05382-3928-4748-9aa6-849ebf1e8518
+2022-06-23 17:55:58,893 - database.py:[486] - [INFO] - Getting business unit id table data against customer_id + 3f9b1df2-633e-47c7-bc50-a8c2797ff21f
+2022-06-23 17:56:03,231 - database.py:[505] - [INFO] - Getting test parameter table data against business_unit_id : 680074e2-bf4e-4856-b4da-260555697754
+2022-06-23 17:56:03,480 - database.py:[525] - [INFO] - Getting device family id table data against work_center_id : 31589371-19aa-4d87-8f0d-41bd76b84f8c
+2022-06-23 17:56:03,723 - database.py:[544] - [INFO] - Getting device id table data against device_family_id : 34cf8cfd-c9a8-4cfd-bc4e-9d02f4d92f20
+2022-06-23 17:56:03,971 - database.py:[563] - [INFO] - Getting test program id table data against device_id : 59b04d72-c3d9-41e9-8365-f38c8cad529b
+2022-06-23 17:56:04,214 - database.py:[580] - [INFO] - Getting test parameter table data against test_program_id : 854f0914-7b33-4221-a138-c641c5937931
+2022-06-23 17:56:04,463 - database.py:[310] - [INFO] - Getting test parameter table data against test_program_id : 9ad1975c-b563-4450-a956-36a6ed4d8670
+2022-06-23 17:56:04,715 - database.py:[329] - [INFO] - Getting test parameter table data against lot_id : 8cf2895b-6280-46aa-85e0-d6da6829af3b
+2022-06-23 17:56:04,962 - database.py:[599] - [INFO] - Getting test parameter table data against test_program_revision_id : 9ad1975c-b563-4450-a956-36a6ed4d8670
+2022-06-23 17:56:05,229 - database.py:[276] - [INFO] - Getting die id table data against wafer_id : e9dc359d-6989-4552-b405-21dd701fb0fa
+2022-06-23 17:56:09,852 - loader.py:[142] - [INFO] - Getting the data after against facility name that is generated
+2022-06-23 17:56:09,856 - warnings.py:[109] - [WARNING] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto\Utilities\yaml_reader.py:36: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data_loaded = yaml.load(stream)
+
+2022-06-23 17:56:09,880 - loader.py:[27] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-23 17:56:16,292 - loader.py:[224] - [INFO] - Verifying the data of file is verified from database after marking the file
+2022-06-23 17:56:16,309 - loader.py:[27] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-23 17:56:23,077 - loader.py:[52] - [INFO] - Verify the test parameter
+2022-06-23 17:56:23,081 - loader.py:[74] - [INFO] - PTR Low Critical Limit and Expected PTR Low Critical Limit Value is close 
+2022-06-23 17:56:23,083 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,085 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,086 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,088 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,090 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,093 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,096 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,097 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,099 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,101 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,103 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,105 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,106 - loader.py:[74] - [INFO] - PTR Low Critical Limit and Expected PTR Low Critical Limit Value is close 
+2022-06-23 17:56:23,109 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,112 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,114 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,116 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,118 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,120 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,122 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,123 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,128 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,129 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,131 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,133 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,135 - loader.py:[74] - [INFO] - PTR Low Critical Limit and Expected PTR Low Critical Limit Value is close 
+2022-06-23 17:56:23,136 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,138 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,140 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,144 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,146 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,148 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,150 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,151 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,153 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,155 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,157 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,160 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,162 - loader.py:[74] - [INFO] - PTR Low Critical Limit and Expected PTR Low Critical Limit Value is close 
+2022-06-23 17:56:23,164 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,166 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,168 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,169 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,171 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,173 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,176 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,178 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,180 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,182 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,184 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,186 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,188 - loader.py:[74] - [INFO] - PTR Low Critical Limit and Expected PTR Low Critical Limit Value is close 
+2022-06-23 17:56:23,190 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,194 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,196 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,198 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,200 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,201 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,203 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,205 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,207 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,210 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,212 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,214 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,215 - loader.py:[74] - [INFO] - PTR Low Critical Limit and Expected PTR Low Critical Limit Value is close 
+2022-06-23 17:56:23,217 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,219 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,221 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,223 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,226 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,228 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,230 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,232 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,233 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,235 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,237 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,240 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,242 - loader.py:[74] - [INFO] - PTR Low Critical Limit and Expected PTR Low Critical Limit Value is close 
+2022-06-23 17:56:23,245 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,247 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,249 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,251 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,252 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,255 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,257 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,259 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,261 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,263 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,265 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,267 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,269 - loader.py:[74] - [INFO] - PTR Low Critical Limit and Expected PTR Low Critical Limit Value is close 
+2022-06-23 17:56:23,271 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,273 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,275 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,277 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,279 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,281 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,283 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,285 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,287 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,289 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,291 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,293 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,295 - loader.py:[74] - [INFO] - PTR Low Critical Limit and Expected PTR Low Critical Limit Value is close 
+2022-06-23 17:56:23,297 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,299 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,303 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,306 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,310 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,312 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,314 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,316 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,318 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,320 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,322 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,324 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,327 - loader.py:[74] - [INFO] - PTR Low Critical Limit and Expected PTR Low Critical Limit Value is close 
+2022-06-23 17:56:23,329 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,330 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,334 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,336 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,338 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,340 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,343 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,345 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,346 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,349 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,351 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,353 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,354 - loader.py:[74] - [INFO] - PTR Low Critical Limit and Expected PTR Low Critical Limit Value is close 
+2022-06-23 17:56:23,356 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,359 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,362 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,364 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,366 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,368 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,370 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,372 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,374 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,377 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,379 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,381 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,383 - loader.py:[74] - [INFO] - PTR Low Critical Limit and Expected PTR Low Critical Limit Value is close 
+2022-06-23 17:56:23,385 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,387 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,388 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,390 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,393 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,395 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,397 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,399 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,401 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,403 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,405 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,406 - loader.py:[92] - [INFO] - PTR high critical limit and expected ptr high critical limit value is close 
+2022-06-23 17:56:23,410 - loader.py:[152] - [WARNING] - Attach the value into allure report
+2022-06-23 17:56:23,417 - loader.py:[792] - [INFO] - Cleaning the data base after creating loader policy
+2022-06-23 17:56:36,833 - loader.py:[170] - [INFO] - Getting the data after against facility name that is generated
+2022-06-23 17:56:36,850 - database.py:[432] - [INFO] - Getting test parameter table data against file_name : FinisarSmall.atdf
+2022-06-23 17:56:36,864 - loader.py:[179] - [INFO] - Get facility name from test db : TestTenant2 Test dataVerificationForLoaderPolicyUsingAPI 815
+2022-06-23 17:56:38,868 - database.py:[450] - [INFO] - Getting facility id table data against facility name : TestTenant2 Test dataVerificationForLoaderPolicyUsingAPI 815
+2022-06-23 17:56:39,110 - database.py:[469] - [INFO] - Getting customer id table data against facility_id : aba05382-3928-4748-9aa6-849ebf1e8518
+2022-06-23 17:56:39,356 - database.py:[486] - [INFO] - Getting business unit id table data against customer_id + 3f9b1df2-633e-47c7-bc50-a8c2797ff21f
+2022-06-23 17:56:39,601 - database.py:[505] - [INFO] - Getting test parameter table data against business_unit_id : 680074e2-bf4e-4856-b4da-260555697754
+2022-06-23 17:56:39,848 - database.py:[525] - [INFO] - Getting device family id table data against work_center_id : 31589371-19aa-4d87-8f0d-41bd76b84f8c
+2022-06-23 17:56:40,088 - database.py:[544] - [INFO] - Getting device id table data against device_family_id : 34cf8cfd-c9a8-4cfd-bc4e-9d02f4d92f20
+2022-06-23 17:56:40,333 - database.py:[563] - [INFO] - Getting test program id table data against device_id : 59b04d72-c3d9-41e9-8365-f38c8cad529b
+2022-06-23 17:56:40,574 - database.py:[580] - [INFO] - Getting test parameter table data against test_program_id : 854f0914-7b33-4221-a138-c641c5937931
+2022-06-23 17:56:40,824 - database.py:[310] - [INFO] - Getting test parameter table data against test_program_id : 9ad1975c-b563-4450-a956-36a6ed4d8670
+2022-06-23 17:56:41,067 - database.py:[329] - [INFO] - Getting test parameter table data against lot_id : 8cf2895b-6280-46aa-85e0-d6da6829af3b
+2022-06-23 17:56:41,309 - database.py:[599] - [INFO] - Getting test parameter table data against test_program_revision_id : 9ad1975c-b563-4450-a956-36a6ed4d8670
+2022-06-23 17:56:41,556 - database.py:[276] - [INFO] - Getting die id table data against wafer_id : e9dc359d-6989-4552-b405-21dd701fb0fa
+2022-06-23 17:56:43,478 - database.py:[643] - [INFO] - Getting test parameter table all id against test_program_id : 9ad1975c-b563-4450-a956-36a6ed4d8670
+2022-06-23 17:56:43,723 - database.py:[745] - [INFO] - Getting the data for test dynamic table after marking the file
+2022-06-23 17:58:04,940 - database.py:[346] - [INFO] - Getting wafer table all id's against lot_id : 8cf2895b-6280-46aa-85e0-d6da6829af3b
+2022-06-23 17:59:16,770 - database.py:[380] - [INFO] - Getting policy table all id's against ModifiedLoaderPolicyNamefordataVerificationForLoaderPolicyUsingAPI 2022-06-23 17:53:18.440447
+2022-06-23 17:59:17,014 - database.py:[397] - [INFO] - Getting policy step table id against 1139144c-a5ac-4a7b-a176-0ab7c07272ea

@@ -1,0 +1,69 @@
+2022-06-09 11:24:59,621 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-09 11:25:00,261 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-09 11:25:01,433 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-09 11:25:02,595 - db_config.py:[101] - [INFO] - db_connection
+2022-06-09 11:25:02,602 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 00000177F9FAC840>
+2022-06-09 11:25:02,604 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 11:25:05,647 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 11:25:05,649 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 11:25:08,403 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 11:25:08,412 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 11:25:11,368 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 11:25:11,371 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-09 11:25:11,373 - warnings.py:[109] - [WARNING] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto\Utilities\yaml_reader.py:38: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data_loaded = yaml.load(stream)
+
+2022-06-09 11:25:11,392 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-09 11:25:11,408 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-09 11:25:18,288 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-09 11:25:18,292 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-09 11:25:18,319 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-09 11:25:18,335 - converter.py:[113] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-09 11:25:49,014 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-09 11:25:49,016 - converter.py:[116] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-09 11:25:49,019 - database.py:[789] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-09 11:25:49,045 - database.py:[795] - [INFO] - Inserting source file link to TestDatabase
+2022-06-09 11:25:49,048 - database.py:[815] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-09 11:25:57,320 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-09 11:26:03,797 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-09 11:26:03,800 - logger.py:[26] - [INFO] - 
+
+2022-06-09 11:26:03,802 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-09 11:26:03,840 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-09 11:26:03,842 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-09 11:26:04,131 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-09 11:26:16,327 - login.py:[60] - [INFO] - Entering username and password for Login
+2022-06-09 11:26:16,333 - warnings.py:[109] - [WARNING] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto\Utilities\yaml_reader.py:29: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data_loaded = yaml.load(stream)
+
+2022-06-09 11:26:16,466 - login.py:[68] - [INFO] - Ku@litatem!1
+2022-06-09 11:26:16,602 - login.py:[85] - [INFO] - Click the Login button
+2022-06-09 11:26:19,770 - login.py:[104] - [INFO] - Verify the dashboard
+2022-06-09 11:26:21,991 - login.py:[107] - [INFO] - Login Successful
+2022-06-09 11:26:21,995 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-09 11:26:25,392 - createpolicy.py:[98] - [INFO] - Verifying the create policy button
+2022-06-09 11:26:25,647 - createpolicy.py:[115] - [INFO] - Clicked on create policy button
+2022-06-09 11:26:25,824 - createpolicy.py:[133] - [INFO] - Entered policy name
+2022-06-09 11:26:25,831 - warnings.py:[109] - [WARNING] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto\Utilities\yaml_reader.py:69: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data_loaded = yaml.load(stream)
+
+2022-06-09 11:26:25,864 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 11:26:26,787 - createpolicy.py:[159] - [INFO] - Entered policy version
+2022-06-09 11:26:26,816 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 11:26:26,945 - createpolicy.py:[177] - [INFO] - Entered policy description
+2022-06-09 11:26:26,977 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 11:26:27,269 - createpolicy.py:[197] - [INFO] - Entered policy owner email address
+2022-06-09 11:26:27,310 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 11:26:27,619 - createpolicy.py:[236] - [INFO] - Click add stage button
+2022-06-09 11:26:30,672 - createpolicy.py:[254] - [INFO] - Select stage :"Load"
+2022-06-09 11:26:30,728 - createpolicy.py:[258] - [INFO] - Stage selected
+2022-06-09 11:26:30,731 - createpolicy.py:[273] - [INFO] - Click on view button
+2022-06-09 11:26:30,891 - createpolicy.py:[312] - [INFO] - Enter source cloud
+2022-06-09 11:26:30,980 - createpolicy.py:[332] - [INFO] - Enter container name for policy
+2022-06-09 11:26:31,002 - createpolicy.py:[335] - [INFO] - DATA yw-loader-2
+2022-06-09 11:26:31,005 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 11:26:31,270 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-09 11:26:34,345 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-09 11:26:37,419 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-09 11:26:47,933 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-09 11:26:49,828 - generics.py:[115] - [INFO] - Scrolling to element

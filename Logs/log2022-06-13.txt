@@ -1,0 +1,139 @@
+2022-06-13 22:06:27,023 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-13 22:06:30,936 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-13 22:06:30,947 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-13 22:06:34,690 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-13 22:06:34,699 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-13 22:06:38,146 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-13 22:06:38,159 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-13 22:06:38,227 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-13 22:06:38,292 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-13 22:07:00,510 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-13 22:07:00,524 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-13 22:07:00,551 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-13 22:07:00,625 - converter.py:[113] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-13 22:07:32,841 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-13 22:07:32,850 - converter.py:[116] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-13 22:07:32,861 - database.py:[782] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-13 22:07:32,900 - database.py:[788] - [INFO] - Inserting source file link to TestDatabase
+2022-06-13 22:07:32,913 - database.py:[808] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-13 22:07:32,928 - converter.py:[36] - [INFO] -  Post Login API Endpoint with login api url and their payload 
+2022-06-13 22:07:34,194 - converter.py:[45] - [INFO] - Generated Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiJlNzNkNTIwMC1iZDBjLTRlYzQtOTc4NS0yNTAxMmQwYjBmZWEiLCJpYXQiOiI2LzEzLzIwMjIgNTowNzozNCBQTSIsIlVzZXJJZCI6ImRhOWViODU1LTc1YTQtNDAzYi05NTVjLTk3ODAzZGIzOTI3NSIsIlVzZXJOYW1lIjoia3RtIiwiZXhwIjoxNjU1MjI2NDU0LCJpc3MiOiJ5aWVsZFdlcnhBdXRoZW50aWNhdGlvblNlcnZlciIsImF1ZCI6InlpZWxkV2VyeCJ9.CHpaL8ugDwCfcWnzKNuKFg-REB__0M2rBIh8bFgh1Ek
+2022-06-13 22:07:34,210 - converter.py:[171] - [INFO] - Starting time after getting response status : 200
+2022-06-13 22:07:34,219 - converter.py:[175] - [INFO] - Expected Status code 200 is equal to 200
+2022-06-13 22:07:34,231 - loader.py:[741] - [INFO] - Update The Payload Policy for : readTsr
+2022-06-13 22:07:34,300 - payload_modifications.py:[115] - [INFO] - Future date time : 2022-06-13 22:08:34.300121
+2022-06-13 22:07:35,545 - converter.py:[70] - [INFO] - Post the api end point for Loader
+2022-06-13 22:07:35,557 - converter.py:[171] - [INFO] - Starting time after getting response status : 200
+2022-06-13 22:07:35,567 - converter.py:[175] - [INFO] - Expected Status code 200 is equal to 200
+2022-06-13 22:07:35,609 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-13 22:07:36,190 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-13 22:07:37,747 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-13 22:07:39,088 - db_config.py:[101] - [INFO] - db_connection
+2022-06-13 22:07:39,097 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000002083DC44820>
+2022-06-13 22:07:39,108 - database.py:[78] - [INFO] - policy_name : ModifiedLoaderPolicyNamefordataVerification 2022-06-13 22:07:34.238882
+2022-06-13 22:07:39,353 - database.py:[80] - [INFO] - Policy id : (('767b4d42-ab00-493a-b229-66969437bf46',),)
+2022-06-13 22:07:39,363 - database.py:[86] - [INFO] - Policy id : 767b4d42-ab00-493a-b229-66969437bf46
+2022-06-13 22:07:39,601 - database.py:[91] - [INFO] - Policy step id : 35f5f10a-7802-4fe1-b4bc-ad4e7b259fa7
+2022-06-13 22:08:04,000 - database.py:[108] - [INFO] - Validate start at from task_scheduling 2022-06-13 17:08:34
+2022-06-13 22:08:04,032 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-13 22:08:04,587 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-13 22:08:05,889 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-13 22:08:07,247 - db_config.py:[101] - [INFO] - db_connection
+2022-06-13 22:08:07,256 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000002083DC43E00>
+2022-06-13 22:08:12,522 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-13 22:08:13,000 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-13 22:08:14,334 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-13 22:08:15,746 - db_config.py:[101] - [INFO] - db_connection
+2022-06-13 22:08:15,755 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000002083DC44820>
+2022-06-13 22:08:21,026 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-13 22:08:21,755 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-13 22:08:23,021 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-13 22:08:24,422 - db_config.py:[101] - [INFO] - db_connection
+2022-06-13 22:08:24,430 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000002083DC46B90>
+2022-06-13 22:08:29,770 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-13 22:08:30,259 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-13 22:08:31,613 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-13 22:08:32,978 - db_config.py:[101] - [INFO] - db_connection
+2022-06-13 22:08:32,987 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000002083DC3FC30>
+2022-06-13 22:08:38,249 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-13 22:08:38,754 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-13 22:08:40,196 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-13 22:08:41,637 - db_config.py:[101] - [INFO] - db_connection
+2022-06-13 22:08:41,646 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000002083DC475B0>
+2022-06-13 22:08:41,891 - database.py:[117] - [INFO] - work flow step 83f2897a-a3a2-4bdd-9fa7-550da6603113
+2022-06-13 22:08:41,927 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-13 22:08:42,455 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-13 22:08:43,774 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-13 22:08:45,210 - db_config.py:[101] - [INFO] - db_connection
+2022-06-13 22:08:45,220 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000002083DC44D30>
+2022-06-13 22:08:45,485 - database.py:[124] - [INFO] - work flow instance ids f35bfe83-f037-40ef-b0b9-5b3a4d91d47c
+2022-06-13 22:08:45,498 - database.py:[50] - [INFO] - Verify the SUCCESS status of the file
+2022-06-13 22:08:45,536 - database_helper.py:[175] - [INFO] - Getting source file link from TestDatabase
+2022-06-13 22:08:45,548 - database.py:[60] - [INFO] - s3://yw-loader-2/FinisarSmall.atdf
+2022-06-13 22:08:45,556 - database_helper.py:[75] - [INFO] - Starting time for verifying status of file in yw-db  in at : 22:08:45
+2022-06-13 22:08:47,580 - db_config.py:[121] - [INFO] - ktm
+2022-06-13 22:08:47,671 - db_config.py:[127] - [INFO] - SELECT status from workflow_load_file WHERE source_file_location LIKE 's3://yw-loader-2/FinisarSmall.atdf' and created_by_id = (select id from user where user_name = 'ktm') order by created_on desc limit 1
+2022-06-13 22:08:47,912 - db_config.py:[130] - [INFO] - (('SUCCESS',),)
+2022-06-13 22:08:47,920 - database_helper.py:[89] - [INFO] - Getting SUCCESS of file in yw-db in at : 22:08:47
+2022-06-13 22:08:47,928 - db_config.py:[121] - [INFO] - ktm
+2022-06-13 22:08:48,023 - db_config.py:[127] - [INFO] - SELECT created_on from workflow_load_file WHERE source_file_location LIKE 's3://yw-loader-2/FinisarSmall.atdf' and created_by_id = (select id from user where user_name = 'ktm') order by created_on desc limit 1
+2022-06-13 22:08:48,258 - db_config.py:[130] - [INFO] - ((datetime.datetime(2022, 6, 13, 17, 8, 34, 652494),),)
+2022-06-13 22:08:48,267 - database_helper.py:[93] - [INFO] - Workflow table created on time after creating policy : 2022-06-13 17:08:34.652494
+2022-06-13 22:08:48,276 - db_config.py:[121] - [INFO] - ktm
+2022-06-13 22:08:48,369 - db_config.py:[127] - [INFO] - SELECT start_date from workflow_load_file wlf WHERE source_file_location LIKE 's3://yw-loader-2/FinisarSmall.atdf' and created_by_id = (select id from user where user_name = 'ktm')  order by created_on desc limit 1
+2022-06-13 22:08:48,605 - db_config.py:[130] - [INFO] - ((datetime.datetime(2022, 6, 13, 17, 8, 34, 729026),),)
+2022-06-13 22:08:48,615 - database_helper.py:[98] - [INFO] - Workflow table start date time after creating policy : 2022-06-13 17:08:34.729026
+2022-06-13 22:08:48,623 - db_config.py:[121] - [INFO] - ktm
+2022-06-13 22:08:48,713 - db_config.py:[127] - [INFO] - SELECT end_date from workflow_load_file wlf WHERE source_file_location LIKE 's3://yw-loader-2/FinisarSmall.atdf' and created_by_id = (select id from user where user_name = 'ktm') order by created_on desc limit 1
+2022-06-13 22:08:48,944 - db_config.py:[130] - [INFO] - ((datetime.datetime(2022, 6, 13, 17, 8, 41, 518216),),)
+2022-06-13 22:08:48,953 - database_helper.py:[102] - [INFO] - Workflow table end date time after creating policy : 2022-06-13 17:08:41.518216
+2022-06-13 22:08:48,964 - database.py:[152] - [INFO] - Verify the Performance log of the file
+2022-06-13 22:08:49,034 - db_config.py:[121] - [INFO] - ktm
+2022-06-13 22:08:49,129 - db_config.py:[127] - [INFO] - SELECT target_file_location from workflow_load_file wlf WHERE source_file_location LIKE 's3://yw-loader-2/FinisarSmall.atdf'and created_by_id = (select id from user where user_name = 'ktm')  order by created_on desc limit 1
+2022-06-13 22:08:49,411 - db_config.py:[130] - [INFO] - ((None,),)
+2022-06-13 22:08:49,419 - db_config.py:[121] - [INFO] - ktm
+2022-06-13 22:08:49,513 - db_config.py:[127] - [INFO] - SELECT start_date from workflow_load_file wlf WHERE source_file_location LIKE 's3://yw-loader-2/FinisarSmall.atdf' and created_by_id = (select id from user where user_name = 'ktm')  order by created_on desc limit 1
+2022-06-13 22:08:49,820 - db_config.py:[130] - [INFO] - ((datetime.datetime(2022, 6, 13, 17, 8, 34, 729026),),)
+2022-06-13 22:08:49,830 - db_config.py:[121] - [INFO] - ktm
+2022-06-13 22:08:49,916 - db_config.py:[127] - [INFO] - SELECT end_date from workflow_load_file wlf WHERE source_file_location LIKE 's3://yw-loader-2/FinisarSmall.atdf' and created_by_id = (select id from user where user_name = 'ktm') order by created_on desc limit 1
+2022-06-13 22:08:50,147 - db_config.py:[130] - [INFO] - ((datetime.datetime(2022, 6, 13, 17, 8, 41, 518216),),)
+2022-06-13 22:08:50,178 - performance_log_calculation.py:[20] - [INFO] - Difference between two datetime in minutes:0.11315316666666667
+2022-06-13 22:08:50,189 - database.py:[179] - [INFO] - FinisarSmall.atdf']
+2022-06-13 22:08:50,205 - loader.py:[170] - [INFO] - Getting the data after against facility name that is generated
+2022-06-13 22:08:53,277 - database.py:[436] - [INFO] - Getting test parameter table data against file_name : FinisarSmall.atdf
+2022-06-13 22:08:57,326 - loader.py:[180] - [INFO] - Get facility name from test db : TestTenant2 Test dataVerification 1783
+2022-06-13 22:08:57,337 - database.py:[453] - [INFO] - Getting facility id table data against facility name : TestTenant2 Test dataVerification 1783
+2022-06-13 22:08:57,598 - database.py:[472] - [INFO] - Getting customer id table data against facility_id : 8dbd5a1d-e2c4-4132-947f-180e4348353f
+2022-06-13 22:08:57,830 - database.py:[489] - [INFO] - Getting business unit id table data against customer_id + 033c2fd2-a6f3-4667-a47b-281d974d4bfe
+2022-06-13 22:08:58,064 - database.py:[508] - [INFO] - Getting test parameter table data against business_unit_id : 14d5f6a6-2b65-49d3-a7c2-3efd945fd0d8
+2022-06-13 22:08:58,325 - database.py:[528] - [INFO] - Getting device family id table data against work_center_id : 1215a601-b810-4771-93b1-f12bcd9ef3cd
+2022-06-13 22:08:58,560 - database.py:[547] - [INFO] - Getting device id table data against device_family_id : cef3b805-31fc-4a43-9c37-c0353fadeeb1
+2022-06-13 22:08:58,825 - database.py:[566] - [INFO] - Getting test program id table data against device_id : 1a726b8e-a31c-43ce-a2b9-9116953e78ef
+2022-06-13 22:08:59,061 - database.py:[583] - [INFO] - Getting test parameter table data against test_program_id : af6cf4af-36d9-456b-9df2-5fd714be213d
+2022-06-13 22:08:59,294 - database.py:[313] - [INFO] - Getting test parameter table data against test_program_id : fc54b435-98db-4024-9ba6-bab3dc8ddde1
+2022-06-13 22:08:59,529 - database.py:[332] - [INFO] - Getting test parameter table data against lot_id : de3302f7-f3ea-4152-af1f-363e61817ee0
+2022-06-13 22:08:59,767 - database.py:[602] - [INFO] - Getting test parameter table data against test_program_revision_id : fc54b435-98db-4024-9ba6-bab3dc8ddde1
+2022-06-13 22:09:00,046 - database.py:[279] - [INFO] - Getting die id table data against wafer_id : d110e2a5-a38a-454b-9bb1-a779c77764c7
+2022-06-13 22:09:01,874 - loader.py:[142] - [INFO] - Getting the data after against facility name that is generated
+2022-06-13 22:09:01,941 - loader.py:[26] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-13 22:09:22,623 - loader.py:[339] - [INFO] - Get the HBR , SBR and TSR data from marked file
+2022-06-13 22:09:22,664 - loader.py:[347] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-13 22:09:22,859 - loader.py:[371] - [INFO] - Done
+2022-06-13 22:09:29,445 - loader.py:[499] - [INFO] - Verifying the test summary table
+2022-06-13 22:09:31,050 - database.py:[646] - [INFO] - Getting test parameter table all id against test_program_id : fc54b435-98db-4024-9ba6-bab3dc8ddde1
+2022-06-13 22:09:47,446 - database.py:[666] - [INFO] - Getting the data for test summary table against test_parameter_id :0be392ec-ad34-4023-8cc9-3486e5c1b64d
+2022-06-13 22:10:01,131 - loader.py:[526] - [ERROR] - Test parameter id is null in test summary against wafer id : d110e2a5-a38a-454b-9bb1-a779c77764c7
+2022-06-14 09:19:38,768 - transport.py:[1819] - [ERROR] - Socket exception: An existing connection was forcibly closed by the remote host (10054)
+2022-06-14 09:19:38,769 - transport.py:[1819] - [ERROR] - Socket exception: An existing connection was forcibly closed by the remote host (10054)
+2022-06-14 09:19:38,770 - transport.py:[1819] - [ERROR] - Socket exception: An existing connection was forcibly closed by the remote host (10054)
+2022-06-14 09:19:38,771 - transport.py:[1819] - [ERROR] - Socket exception: An existing connection was forcibly closed by the remote host (10054)
+2022-06-14 09:19:38,772 - transport.py:[1819] - [ERROR] - Socket exception: An existing connection was forcibly closed by the remote host (10054)
+2022-06-14 09:19:38,772 - transport.py:[1819] - [ERROR] - Socket exception: An existing connection was forcibly closed by the remote host (10054)
+2022-06-14 09:19:38,773 - transport.py:[1819] - [ERROR] - Socket exception: An existing connection was forcibly closed by the remote host (10054)
+2022-06-14 10:05:37,557 - loader.py:[570] - [ERROR] - Error in verifying the test summary table
+2022-06-14 10:05:38,656 - loader.py:[798] - [INFO] - Cleaning the data base after creating loader policy
+2022-06-14 10:05:38,812 - loader.py:[170] - [INFO] - Getting the data after against facility name that is generated
+2022-06-14 10:05:41,918 - database.py:[436] - [INFO] - Getting test parameter table data against file_name : FinisarSmall.atdf
+2022-06-14 10:05:41,968 - database.py:[439] - [ERROR] - Error in get test parameter table data against file_name : FinisarSmall.atdf
+2022-06-14 10:05:41,985 - loader.py:[212] - [ERROR] - Error in getting the data after against facility name that is generated
+2022-06-14 10:05:41,994 - loader.py:[906] - [ERROR] - Error in cleaning the data base after creating loader policy

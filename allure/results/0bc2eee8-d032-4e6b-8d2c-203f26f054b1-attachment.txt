@@ -1,0 +1,1 @@
+'NoneType' object has no attribute 'list_collection_names'

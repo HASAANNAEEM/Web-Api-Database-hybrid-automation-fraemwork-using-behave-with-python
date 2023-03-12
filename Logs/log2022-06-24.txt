@@ -1,0 +1,35 @@
+2022-06-24 23:19:26,082 - environment.py:[27] - [INFO] - Start scenario name Create a loader policy and verify the load saved alert message -- @1.1 
+2022-06-24 23:19:26,099 - db_config.py:[91] - [INFO] - tunnel_connection
+2022-06-24 23:19:26,567 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-24 23:19:27,722 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-24 23:19:28,950 - db_config.py:[103] - [INFO] - db_connection
+2022-06-24 23:19:28,955 - db_config.py:[104] - [INFO] - <_mysql.connection open to '127.0.0.1' at 0000020539C768E0>
+2022-06-24 23:19:28,960 - delete_s3_bucket.py:[17] - [INFO] - Deleting ...
+2022-06-24 23:19:31,982 - delete_s3_bucket.py:[27] - [INFO] - done
+2022-06-24 23:19:31,984 - delete_s3_bucket.py:[17] - [INFO] - Deleting ...
+2022-06-24 23:19:35,244 - delete_s3_bucket.py:[27] - [INFO] - done
+2022-06-24 23:19:35,248 - delete_s3_bucket.py:[17] - [INFO] - Deleting ...
+2022-06-24 23:19:38,011 - delete_s3_bucket.py:[27] - [INFO] - done
+2022-06-24 23:19:38,017 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-24 23:19:38,021 - warnings.py:[109] - [WARNING] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto\Utilities\yaml_reader.py:36: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data_loaded = yaml.load(stream)
+
+2022-06-24 23:19:38,050 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-24 23:19:38,069 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-24 23:19:46,958 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-24 23:19:46,963 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-24 23:19:46,981 - converter.py:[111] - [INFO] - Uploading files into the bucket
+2022-06-24 23:19:46,998 - converter.py:[117] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-24 23:20:50,624 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-24 23:20:50,627 - converter.py:[120] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-24 23:20:50,637 - database.py:[814] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-24 23:20:50,655 - database.py:[820] - [INFO] - Inserting source file link to TestDatabase
+2022-06-24 23:20:50,662 - database.py:[841] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-24 23:20:50,675 - login.py:[36] - [INFO] - Login screen is displayed
+2022-06-24 23:20:50,678 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-24 23:20:50,680 - logger.py:[26] - [INFO] - 
+
+2022-06-24 23:20:50,682 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-24 23:20:50,720 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-24 23:20:50,722 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-24 23:20:51,011 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache

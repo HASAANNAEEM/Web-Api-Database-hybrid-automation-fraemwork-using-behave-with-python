@@ -1,0 +1,20 @@
+YieldWerxDataBase:
+  workflow_status: SELECT status from workflow_load_file WHERE source_file_location LIKE '%s' and workflow_step_id = '%s' and created_by_id = (select id from user where user_name = '%s') order by created_on desc limit 1
+  workflow_created_on: SELECT created_on from workflow_load_file WHERE source_file_location LIKE '%s' and created_by_id = (select id from user where user_name = '%s') order by created_on desc limit 1
+  workflow_target_file_location : SELECT target_file_location from workflow_load_file wlf WHERE source_file_location LIKE '%s'and created_by_id = (select id from user where user_name = '%s')  order by created_on desc limit 1
+  workflow_start_date: SELECT start_date from workflow_load_file wlf WHERE source_file_location LIKE '%s' and created_by_id = (select id from user where user_name = '%s')  order by created_on desc limit 1
+  workflow_end_date: SELECT end_date from workflow_load_file wlf WHERE source_file_location LIKE '%s' and created_by_id = (select id from user where user_name = '%s') order by created_on desc limit 1
+  filename: filename
+  source_location: source_location
+  table_id: SELECT id from %s WHERE %s = '%s' and created_by_id = (select id from user where user_name = '%s')
+  table_all_id: SELECT id from %s WHERE %s = '%s' and created_by_id = (select id from user where user_name = '%s')
+  table_all_value : SELECT * from %s WHERE %s = '%s' and created_by_id = (select id from user where user_name = '%s')
+  table_all_value_without_user : SELECT * from %s WHERE %s = '%s'
+  specific_column_values: SELECT %s from %s WHERE %s = '%s' and created_by_id = (select id from user where user_name = '%s')
+  test_parameter_id: SELECT id from %s where %s = '%s' and %s like '%s' and created_by_id = (select id from user where user_name = '%s') limit 1
+  bin_summary : SELECT * FROM %s where %s= '%s' and %s = '%s' and %s = '%s' and created_by_id = (select id from user where user_name = '%s')
+  delete_file : delete from %s where %s  = %s and created_by_id = (select id from user where user_name = '%s')
+  die_count : select count(T40) from dynamic_Demo_Test_Program_1_tp_1 where die_id in (select id from die where wafer_id in (select id from wafer where id = '%s' )) and T40 is not null and T40 BETWEEN %s AND %s
+  min_value : select min(T40) from dynamic_Demo_Test_Program_1_tp_1 where die_id in (select id from die where wafer_id in (select id from wafer where id = '%s' )) and T40 is not null
+  max_value : select max(T40) from dynamic_Demo_Test_Program_1_tp_1 where die_id in (select id from die where wafer_id in (select id from wafer where id = '%s' )) and T40 is not null
+  column_value : SELECT %s from %s WHERE %s = '%s'

@@ -1,0 +1,67 @@
+2022-06-04 23:46:03,463 - login.py:[39] - [INFO] - Login screen is displayed
+2022-06-04 23:46:03,466 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-04 23:46:03,468 - logger.py:[26] - [INFO] - 
+
+2022-06-04 23:46:03,471 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-04 23:46:03,509 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-04 23:46:03,512 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-04 23:46:04,025 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-04 23:46:32,041 - login.py:[58] - [INFO] - Entering username and password for Login
+2022-06-04 23:46:32,105 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-04 23:46:32,344 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-04 23:46:32,584 - login.py:[79] - [INFO] - Click the Login button
+2022-06-04 23:46:32,717 - login.py:[96] - [INFO] - Verify the dashboard
+2022-06-04 23:46:35,200 - login.py:[99] - [INFO] - Login Successful
+2022-06-04 23:46:35,206 - createpolicy.py:[80] - [INFO] - Clicked on loader policy
+2022-06-04 23:46:38,421 - createpolicy.py:[721] - [INFO] - Clicked on Selection Criteria
+2022-06-04 23:46:41,571 - parametric_histogram_page.py:[553] - [INFO] - Selection criteria window appeared - Successful
+2022-06-04 23:46:42,016 - loader.py:[170] - [INFO] - Getting the data after against facility name that is generated
+2022-06-04 23:46:44,040 - loader.py:[192] - [ERROR] - Error in getting the data after against facility name that is generated
+2022-06-04 23:46:46,919 - login.py:[39] - [INFO] - Login screen is displayed
+2022-06-04 23:46:46,926 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-04 23:46:46,936 - logger.py:[26] - [INFO] - 
+
+2022-06-04 23:46:46,945 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-04 23:46:47,026 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-04 23:46:47,035 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-04 23:46:47,374 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-04 23:47:07,189 - login.py:[58] - [INFO] - Entering username and password for Login
+2022-06-04 23:47:07,265 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-04 23:47:07,518 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-04 23:47:07,769 - login.py:[79] - [INFO] - Click the Login button
+2022-06-04 23:47:07,969 - login.py:[96] - [INFO] - Verify the dashboard
+2022-06-04 23:47:10,548 - login.py:[99] - [INFO] - Login Successful
+2022-06-04 23:47:10,554 - createpolicy.py:[80] - [INFO] - Clicked on loader policy
+2022-06-04 23:47:13,905 - createpolicy.py:[721] - [INFO] - Clicked on Selection Criteria
+2022-06-04 23:47:17,067 - parametric_histogram_page.py:[553] - [INFO] - Selection criteria window appeared - Successful
+2022-06-04 23:47:17,439 - createpolicy.py:[805] - [INFO] - Getting name of Facility,Wafer, Lot, Test Parameter data from marked file
+2022-06-04 23:47:17,442 - createpolicy.py:[806] - [INFO] - Getting name of Facility,Wafer, Lot, Test Parameter data from marked file
+2022-06-04 23:47:17,457 - createpolicy.py:[833] - [ERROR] - Error in getting name of Facility,Wafer, Lot, Test Parameter data from marked file
+2022-06-04 23:47:20,102 - login.py:[39] - [INFO] - Login screen is displayed
+2022-06-04 23:47:20,104 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-04 23:47:20,108 - logger.py:[26] - [INFO] - 
+
+2022-06-04 23:47:20,112 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-04 23:47:20,150 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-04 23:47:20,154 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-04 23:47:20,439 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-04 23:47:37,517 - login.py:[58] - [INFO] - Entering username and password for Login
+2022-06-04 23:47:37,606 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-04 23:47:37,836 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-04 23:47:38,227 - login.py:[79] - [INFO] - Click the Login button
+2022-06-04 23:47:38,341 - login.py:[96] - [INFO] - Verify the dashboard
+2022-06-04 23:47:40,876 - login.py:[99] - [INFO] - Login Successful
+2022-06-04 23:47:40,879 - createpolicy.py:[80] - [INFO] - Clicked on loader policy
+2022-06-04 23:47:44,099 - createpolicy.py:[721] - [INFO] - Clicked on Selection Criteria
+2022-06-04 23:47:47,240 - parametric_histogram_page.py:[553] - [INFO] - Selection criteria window appeared - Successful
+2022-06-04 23:47:47,615 - createpolicy.py:[805] - [INFO] - Getting name of Facility,Wafer, Lot, Test Parameter data from marked file
+2022-06-04 23:47:47,619 - createpolicy.py:[806] - [INFO] - Getting name of Facility,Wafer, Lot, Test Parameter data from marked file
+2022-06-04 23:47:47,636 - createpolicy.py:[833] - [ERROR] - Error in getting name of Facility,Wafer, Lot, Test Parameter data from marked file
+2022-06-04 23:47:50,269 - login.py:[39] - [INFO] - Login screen is displayed
+2022-06-04 23:47:50,272 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-04 23:47:50,275 - logger.py:[26] - [INFO] - 
+
+2022-06-04 23:47:50,278 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-04 23:47:50,315 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-04 23:47:50,319 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-04 23:47:50,588 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache

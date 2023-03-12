@@ -1,0 +1,106 @@
+2022-06-21 20:08:08,159 - db_config.py:[92] - [INFO] - tunnel_connection
+2022-06-21 20:08:08,741 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-21 20:08:10,211 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-21 20:08:11,674 - db_config.py:[104] - [INFO] - db_connection
+2022-06-21 20:08:11,679 - db_config.py:[105] - [INFO] - <_mysql.connection open to '127.0.0.1' at 0000012A309FB3A0>
+2022-06-21 20:08:11,685 - delete_s3_bucket.py:[17] - [INFO] - Deleting ...
+2022-06-21 20:08:15,250 - delete_s3_bucket.py:[27] - [INFO] - done
+2022-06-21 20:08:15,257 - delete_s3_bucket.py:[17] - [INFO] - Deleting ...
+2022-06-21 20:08:19,001 - delete_s3_bucket.py:[27] - [INFO] - done
+2022-06-21 20:08:19,007 - delete_s3_bucket.py:[17] - [INFO] - Deleting ...
+2022-06-21 20:08:22,330 - delete_s3_bucket.py:[27] - [INFO] - done
+2022-06-21 20:08:22,337 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-21 20:08:22,344 - warnings.py:[109] - [WARNING] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto\Utilities\yaml_reader.py:36: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data_loaded = yaml.load(stream)
+
+2022-06-21 20:08:22,375 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-21 20:08:22,418 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-21 20:08:32,652 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-21 20:08:32,655 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-21 20:08:32,681 - converter.py:[106] - [INFO] - Uploading files into the bucket
+2022-06-21 20:08:32,691 - converter.py:[112] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-21 20:09:04,785 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-21 20:09:04,793 - converter.py:[115] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-21 20:09:04,818 - database.py:[779] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-21 20:09:04,868 - database.py:[785] - [INFO] - Inserting source file link to TestDatabase
+2022-06-21 20:09:04,887 - database.py:[806] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-21 20:09:04,916 - login.py:[36] - [INFO] - Login screen is displayed
+2022-06-21 20:09:04,922 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-21 20:09:04,929 - logger.py:[26] - [INFO] - 
+
+2022-06-21 20:09:04,938 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-21 20:09:05,038 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-21 20:09:05,042 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-21 20:09:05,499 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-21 20:09:19,588 - login.py:[58] - [INFO] - Entering username and password for Login
+2022-06-21 20:09:19,597 - warnings.py:[109] - [WARNING] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto\Utilities\yaml_reader.py:27: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data_loaded = yaml.load(stream)
+
+2022-06-21 20:09:20,087 - login.py:[63] - [INFO] - Ku@litatem!1
+2022-06-21 20:09:20,604 - login.py:[80] - [INFO] - Click the Login button
+2022-06-21 20:09:20,867 - login.py:[97] - [INFO] - Verify the dashboard
+2022-06-21 20:09:23,693 - login.py:[100] - [INFO] - Login Successful
+2022-06-21 20:09:23,698 - createpolicy.py:[88] - [INFO] - Clicked on loader policy
+2022-06-21 20:09:24,601 - createpolicy.py:[104] - [INFO] - Verifying the create policy button
+2022-06-21 20:09:24,737 - createpolicy.py:[121] - [INFO] - Clicked on create policy button
+2022-06-21 20:09:25,041 - createpolicy.py:[139] - [INFO] - Entered policy name
+2022-06-21 20:09:25,045 - warnings.py:[109] - [WARNING] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto\Utilities\yaml_reader.py:67: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data_loaded = yaml.load(stream)
+
+2022-06-21 20:09:25,133 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-21 20:09:27,056 - createpolicy.py:[165] - [INFO] - Entered policy version
+2022-06-21 20:09:27,102 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-21 20:09:27,438 - createpolicy.py:[183] - [INFO] - Entered policy description
+2022-06-21 20:09:27,506 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-21 20:09:28,109 - createpolicy.py:[203] - [INFO] - Entered policy owner email address
+2022-06-21 20:09:28,149 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-21 20:09:28,637 - createpolicy.py:[242] - [INFO] - Click add stage button
+2022-06-21 20:09:28,640 - generics.py:[112] - [INFO] - Scrolling to element
+2022-06-21 20:09:29,075 - createpolicy.py:[260] - [INFO] - Select stage :"Load"
+2022-06-21 20:09:29,085 - generics.py:[125] - [INFO] - Scrolling to element
+2022-06-21 20:09:29,594 - createpolicy.py:[264] - [INFO] - Stage selected
+2022-06-21 20:09:29,604 - createpolicy.py:[279] - [INFO] - Click on view button
+2022-06-21 20:09:29,611 - generics.py:[125] - [INFO] - Scrolling to element
+2022-06-21 20:09:30,177 - createpolicy.py:[318] - [INFO] - Enter source cloud
+2022-06-21 20:09:30,181 - generics.py:[125] - [INFO] - Scrolling to element
+2022-06-21 20:09:30,630 - createpolicy.py:[360] - [INFO] - Enter container name for policy
+2022-06-21 20:09:30,661 - createpolicy.py:[363] - [INFO] - DATA yw-loader-2
+2022-06-21 20:09:30,665 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-21 20:09:31,491 - createpolicy.py:[662] - [INFO] - Check die record
+2022-06-21 20:09:31,494 - generics.py:[125] - [INFO] - Scrolling to element
+2022-06-21 20:09:31,916 - createpolicy.py:[662] - [INFO] - Check die record
+2022-06-21 20:09:31,919 - generics.py:[125] - [INFO] - Scrolling to element
+2022-06-21 20:09:32,491 - createpolicy.py:[662] - [INFO] - Check die record
+2022-06-21 20:09:32,495 - generics.py:[125] - [INFO] - Scrolling to element
+2022-06-21 20:09:32,960 - createpolicy.py:[680] - [INFO] - Check summary record
+2022-06-21 20:09:33,451 - createpolicy.py:[403] - [INFO] - Schedule mode selected
+2022-06-21 20:09:33,456 - generics.py:[125] - [INFO] - Scrolling to element
+2022-06-21 20:09:34,033 - createpolicy.py:[421] - [INFO] - Select time for policy
+2022-06-21 20:09:34,036 - createpolicy.py:[429] - [INFO] - Schedule time in utc: 6/21/2022, 8:10 PM
+2022-06-21 20:09:34,041 - createpolicy.py:[431] - [INFO] - Scheduling in Future time:  06/21/2022|08:10|PM
+2022-06-21 20:09:34,644 - createpolicy.py:[455] - [INFO] - Enter polling interval time
+2022-06-21 20:09:34,984 - createpolicy.py:[473] - [INFO] - Click on save button
+2022-06-21 20:09:35,171 - createpolicy.py:[494] - [INFO] - Verifying Saved alert message
+2022-06-21 20:09:36,678 - createpolicy.py:[497] - [INFO] - True getting : Saved! not contain Saved alert message 
+2022-06-21 20:09:36,685 - createpolicy.py:[500] - [INFO] - Policy Saved!!
+2022-06-21 20:09:36,691 - createpolicy.py:[88] - [INFO] - Clicked on loader policy
+2022-06-21 20:09:37,206 - createpolicy.py:[582] - [INFO] - Verify policy from step intake queue
+2022-06-21 20:10:25,215 - createpolicy.py:[532] - [INFO] - Verify policy from data intake queue
+2022-06-21 20:10:37,787 - createpolicy.py:[560] - [ERROR] - Error in verify policy from data intake queue
+2022-06-21 20:10:37,790 - createpolicy.py:[565] - [INFO] - Getting failure status at :20:10:37
+2022-06-21 20:10:37,792 - loader.py:[792] - [INFO] - Cleaning the data base after creating loader policy
+2022-06-21 20:10:37,804 - loader.py:[170] - [INFO] - Getting the data after against facility name that is generated
+2022-06-21 20:10:37,816 - database.py:[432] - [INFO] - Getting test parameter table data against file_name : FinisarSmall.atdf
+2022-06-21 20:10:37,832 - loader.py:[179] - [INFO] - Get facility name from test db : TestTenant2 Test createLoaderPolicyFromFrontend 1006
+2022-06-21 20:10:37,835 - database.py:[449] - [INFO] - Getting facility id table data against facility name : TestTenant2 Test createLoaderPolicyFromFrontend 1006
+2022-06-21 20:10:38,105 - database.py:[468] - [INFO] - Getting customer id table data against facility_id : 560b24a9-2816-49b7-a9be-38be600a3460
+2022-06-21 20:10:38,391 - database.py:[485] - [INFO] - Getting business unit id table data against customer_id + 0237d1ee-d4e2-4049-8b08-d09b58cd3bff
+2022-06-21 20:10:38,666 - database.py:[504] - [INFO] - Getting test parameter table data against business_unit_id : 68dc00cd-9a66-4c3d-8706-598e843dd81e
+2022-06-21 20:10:38,991 - database.py:[524] - [INFO] - Getting device family id table data against work_center_id : 06897428-f838-4da4-8848-13493deaeaa7
+2022-06-21 20:10:39,280 - database.py:[543] - [INFO] - Getting device id table data against device_family_id : 0587d3eb-bf1f-4118-b8bd-b10d413b2a07
+2022-06-21 20:10:39,552 - database.py:[562] - [INFO] - Getting test program id table data against device_id : 870cfe4e-4002-44fa-a787-aee5d36853a5
+2022-06-21 20:10:39,826 - database.py:[579] - [INFO] - Getting test parameter table data against test_program_id : 3bf2fd31-1f7f-411f-86ba-a5bd2ca77de3
+2022-06-21 20:10:40,122 - database.py:[310] - [INFO] - Getting test parameter table data against test_program_id : c6a03e2c-589f-4fcb-9245-86dbe3944daf
+2022-06-21 20:10:40,429 - database.py:[329] - [INFO] - Getting test parameter table data against lot_id : 5375c0cd-16c3-404a-8281-6e308ccfc7d8
+2022-06-21 20:10:40,724 - database.py:[598] - [INFO] - Getting test parameter table data against test_program_revision_id : c6a03e2c-589f-4fcb-9245-86dbe3944daf
+2022-06-21 20:10:41,054 - database.py:[276] - [INFO] - Getting die id table data against wafer_id : 69a81671-91dc-4d87-8396-b9bb00d92503

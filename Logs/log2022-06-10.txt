@@ -1,0 +1,61 @@
+2022-06-10 16:38:03,688 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-10 16:38:06,574 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-10 16:38:15,099 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-10 16:38:21,055 - db_config.py:[101] - [INFO] - db_connection
+2022-06-10 16:38:21,059 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000002C1DE50CE10>
+2022-06-10 16:38:21,065 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-10 16:38:21,069 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-10 16:38:21,073 - logger.py:[26] - [INFO] - 
+
+2022-06-10 16:38:21,077 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-10 16:38:21,161 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-10 16:38:21,165 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-10 16:38:23,808 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-10 16:43:25,823 - login.py:[47] - [ERROR] - Error login screen is displayed
+2022-06-10 16:43:25,872 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-10 16:43:27,944 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-10 16:43:33,531 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-10 16:43:38,094 - db_config.py:[101] - [INFO] - db_connection
+2022-06-10 16:43:38,098 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000002C1DE630230>
+2022-06-10 16:43:38,105 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-10 16:43:38,111 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-10 16:43:38,117 - logger.py:[26] - [INFO] - 
+
+2022-06-10 16:43:38,122 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-10 16:43:38,210 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-10 16:43:38,214 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-10 16:43:39,079 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-10 16:48:40,955 - login.py:[47] - [ERROR] - Error login screen is displayed
+2022-06-10 16:48:40,992 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-10 16:48:45,460 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-10 16:48:52,699 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-10 16:48:58,726 - db_config.py:[101] - [INFO] - db_connection
+2022-06-10 16:48:58,731 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000002C1DA536900>
+2022-06-10 16:48:58,737 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-10 16:48:58,741 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-10 16:48:58,745 - logger.py:[26] - [INFO] - 
+
+2022-06-10 16:48:58,749 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-10 16:48:58,822 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-10 16:48:58,827 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-10 16:49:02,714 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-10 16:54:04,718 - login.py:[47] - [ERROR] - Error login screen is displayed
+2022-06-10 16:54:04,757 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-10 16:54:11,000 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-10 16:54:20,858 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-10 16:54:25,931 - sshtunnel.py:[394] - [ERROR] - Could not establish connection from local ('127.0.0.1', 65172) to remote ('yw-test.coej4rt3ls9f.us-east-1.rds.amazonaws.com', 3306) side of the tunnel: open new channel ssh error: Timeout opening channel.
+2022-06-10 16:54:25,946 - db_config.py:[67] - [ERROR] - Yield-werx Database connection issue (2013, "Lost connection to server at 'handshake: reading initial communication packet', system error: 2")
+2022-06-10 16:54:25,968 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-10 16:54:28,328 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-10 16:54:34,500 - transport.py:[1819] - [WARNING] - Success for unrequested channel! [??]
+2022-06-10 16:54:35,591 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-10 16:54:40,629 - db_config.py:[101] - [INFO] - db_connection
+2022-06-10 16:54:40,634 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000002C1DE630230>
+2022-06-10 16:54:40,640 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-10 16:54:40,644 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-10 16:54:40,649 - logger.py:[26] - [INFO] - 
+
+2022-06-10 16:54:40,652 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-10 16:54:40,726 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-10 16:54:40,731 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-10 16:54:41,367 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache

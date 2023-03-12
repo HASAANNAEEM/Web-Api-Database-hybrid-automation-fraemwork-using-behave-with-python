@@ -1,0 +1,11 @@
+{
+"local":{
+  "UserName": "ktm",
+  "Password": "Ku@litatem!1"
+},
+"aws":{
+  "UserName": "qa",
+  "Password": "Autom@tion!1"
+}
+
+}

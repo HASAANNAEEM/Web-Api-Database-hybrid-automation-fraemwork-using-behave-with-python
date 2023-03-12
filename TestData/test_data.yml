@@ -1,0 +1,33 @@
+Converter:
+  golden_file_path: TestData/InputFiles/ConverterGoldenFiles/
+  downloaded_file_path: TestData/Outputfiles/NewlyGeneratedATDF/
+  different_lines_file_path: TestData/ComparisonOutputfiles/Different/Difference_
+  Input_Golden_file_Path: TestData/InputFiles/RawDataFiles/
+  identical_file_path: TestData/ComparisonOutputfiles/Matched/Identical_
+  local_file_directory: TestData/Outputfiles/NewlyGeneratedATDF/
+  Payload: TestData/Payload/converter_api_payload.json
+  new_policy_name: ModifiedPolicyName
+  source_format: IMS
+  Expected_Execution_Time : TestData/excution_time.json
+Expected_Golden_file:
+  Expected_Golden_file_Path : TestData/InputFiles/ConverterGoldenFiles/
+
+
+Login:
+  Payload: TestData/Payload/login_api_payload.json
+Loader:
+  marked_file_path: TestData/InputFiles/MarkedFiles/
+  file_to_read: TestData/InputFiles/Loader/
+  GoldenfilePath: TestData/InputFiles/Golden/
+  downloaded_file_path: TestData/Outputfiles/NewlyGeneratedATDF/
+  Payload: TestData/Payload/loader_api_payload.json
+  new_policy_name: ModifiedLoaderPolicyName
+  Expected_Golden_file_Path : TestData/InputFiles/Golden/
+  Expected_Parametric_Golden_file_Path : TestData/InputFiles/ParametricHistogramGoldenFile/
+  Expected_Selection_Golden_file_Path : TestData/InputFiles/SelectionCriteriaGoldenFile/
+  marked_parametric_file_path: TestData/InputFiles/ParametricHistogramMarkedFile/
+  marked_selection_file_path: TestData/InputFiles/SelectionCriteriaMarkedFile/
+  Expected_Execution_Time : TestData/loader_execution_time.json
+Selection_Criteria:
+  Payload : TestData/Payload/selection_citeria_payload.json
+

@@ -1,0 +1,62 @@
+2022-06-02 20:40:39,987 - db_config.py:[88] - [INFO] - tunnel_connection
+2022-06-02 20:40:40,894 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-02 20:40:42,232 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-02 20:40:43,528 - db_config.py:[100] - [INFO] - db_connection
+2022-06-02 20:40:43,536 - db_config.py:[101] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001D46768C050>
+2022-06-02 20:40:43,551 - database.py:[77] - [INFO] - policy_name : 
+2022-06-02 20:43:44,124 - database.py:[50] - [INFO] - Verify the SUCCESS status of the file
+2022-06-02 20:43:44,148 - database_helper.py:[175] - [INFO] - Getting source file link from TestDatabase
+2022-06-02 20:43:44,150 - database.py:[60] - [INFO] - s3://yw-loader-2/FinisarSmall.atdf
+2022-06-02 20:43:44,154 - database_helper.py:[75] - [INFO] - Starting time for verifying status of file in yw-db  in at : 20:43:44
+2022-06-02 20:43:46,166 - db_config.py:[120] - [INFO] - ktm
+2022-06-02 20:43:46,205 - db_config.py:[126] - [INFO] - SELECT status from workflow_load_file WHERE source_file_location LIKE 's3://yw-loader-2/FinisarSmall.atdf' and created_by_id = (select id from user where user_name = 'ktm') order by created_on desc limit 1
+2022-06-02 20:43:46,512 - db_config.py:[129] - [INFO] - (('SUCCESS',),)
+2022-06-02 20:43:46,515 - database_helper.py:[89] - [INFO] - Getting SUCCESS of file in yw-db in at : 20:43:46
+2022-06-02 20:43:46,518 - db_config.py:[120] - [INFO] - ktm
+2022-06-02 20:43:46,553 - db_config.py:[126] - [INFO] - SELECT created_on from workflow_load_file WHERE source_file_location LIKE 's3://yw-loader-2/FinisarSmall.atdf' and created_by_id = (select id from user where user_name = 'ktm') order by created_on desc limit 1
+2022-06-02 20:43:46,819 - db_config.py:[129] - [INFO] - ((datetime.datetime(2022, 6, 2, 15, 19, 46, 640047),),)
+2022-06-02 20:43:46,824 - database_helper.py:[93] - [INFO] - Workflow table created on time after creating policy : 2022-06-02 15:19:46.640047
+2022-06-02 20:43:46,831 - db_config.py:[120] - [INFO] - ktm
+2022-06-02 20:43:46,879 - db_config.py:[126] - [INFO] - SELECT start_date from workflow_load_file wlf WHERE source_file_location LIKE 's3://yw-loader-2/FinisarSmall.atdf' and created_by_id = (select id from user where user_name = 'ktm')  order by created_on desc limit 1
+2022-06-02 20:43:47,128 - db_config.py:[129] - [INFO] - ((datetime.datetime(2022, 6, 2, 15, 19, 46, 706482),),)
+2022-06-02 20:43:47,133 - database_helper.py:[98] - [INFO] - Workflow table start date time after creating policy : 2022-06-02 15:19:46.706482
+2022-06-02 20:43:47,136 - db_config.py:[120] - [INFO] - ktm
+2022-06-02 20:43:47,180 - db_config.py:[126] - [INFO] - SELECT end_date from workflow_load_file wlf WHERE source_file_location LIKE 's3://yw-loader-2/FinisarSmall.atdf' and created_by_id = (select id from user where user_name = 'ktm') order by created_on desc limit 1
+2022-06-02 20:43:47,436 - db_config.py:[129] - [INFO] - ((datetime.datetime(2022, 6, 2, 15, 19, 57, 57822),),)
+2022-06-02 20:43:47,441 - database_helper.py:[102] - [INFO] - Workflow table end date time after creating policy : 2022-06-02 15:19:57.057822
+2022-06-02 20:43:47,447 - database.py:[123] - [INFO] - Verify the Performance log of the file
+2022-06-02 20:43:47,455 - warnings.py:[109] - [WARNING] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto\Utilities\yaml_reader.py:38: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data_loaded = yaml.load(stream)
+
+2022-06-02 20:43:47,508 - db_config.py:[120] - [INFO] - ktm
+2022-06-02 20:43:47,562 - db_config.py:[126] - [INFO] - SELECT target_file_location from workflow_load_file wlf WHERE source_file_location LIKE 's3://yw-loader-2/FinisarSmall.atdf'and created_by_id = (select id from user where user_name = 'ktm')  order by created_on desc limit 1
+2022-06-02 20:43:47,844 - db_config.py:[129] - [INFO] - ((None,),)
+2022-06-02 20:43:47,852 - db_config.py:[120] - [INFO] - ktm
+2022-06-02 20:43:47,946 - db_config.py:[126] - [INFO] - SELECT start_date from workflow_load_file wlf WHERE source_file_location LIKE 's3://yw-loader-2/FinisarSmall.atdf' and created_by_id = (select id from user where user_name = 'ktm')  order by created_on desc limit 1
+2022-06-02 20:43:48,254 - db_config.py:[129] - [INFO] - ((datetime.datetime(2022, 6, 2, 15, 19, 46, 706482),),)
+2022-06-02 20:43:48,264 - db_config.py:[120] - [INFO] - ktm
+2022-06-02 20:43:48,349 - db_config.py:[126] - [INFO] - SELECT end_date from workflow_load_file wlf WHERE source_file_location LIKE 's3://yw-loader-2/FinisarSmall.atdf' and created_by_id = (select id from user where user_name = 'ktm') order by created_on desc limit 1
+2022-06-02 20:43:48,594 - db_config.py:[129] - [INFO] - ((datetime.datetime(2022, 6, 2, 15, 19, 57, 57822),),)
+2022-06-02 20:43:48,625 - performance_log_calculation.py:[20] - [INFO] - Difference between two datetime in minutes:0.17252233333333333
+2022-06-02 20:43:48,638 - database.py:[150] - [INFO] - FinisarSmall.atdf']
+2022-06-02 20:43:53,814 - loader.py:[169] - [INFO] - Getting the data after against facility name that is generated
+2022-06-02 20:43:57,595 - database.py:[406] - [INFO] - Getting test parameter table data against file_name : FinisarSmall.atdf
+2022-06-02 20:44:05,618 - database.py:[424] - [INFO] - Getting facility id table data against facility name : TestTenant2 Test dataVerification 1762
+2022-06-02 20:44:36,689 - database.py:[443] - [INFO] - Getting customer id table data against facility_id : a5ed6eb6-053f-43ee-b82a-7210b47b1b90
+2022-06-02 20:44:40,340 - database.py:[460] - [INFO] - Getting business unit id table data against customer_id + 0e0b5cd3-7142-4762-8226-55e9949c63fb
+2022-06-02 20:44:40,581 - database.py:[479] - [INFO] - Getting test parameter table data against business_unit_id : fd756449-ee9f-486f-b11b-2597e037f82f
+2022-06-02 20:44:40,889 - database.py:[499] - [INFO] - Getting device family id table data against work_center_id : 07f23bf1-321a-4029-be3f-e667e5045f13
+2022-06-02 20:44:41,124 - database.py:[518] - [INFO] - Getting device id table data against device_family_id : 44ea9c4b-16c6-49af-8d53-613e95a8bef3
+2022-06-02 20:44:41,369 - database.py:[537] - [INFO] - Getting test program id table data against device_id : fe81a34e-ccc3-465c-a121-a73b7fdc8477
+2022-06-02 20:44:41,706 - database.py:[554] - [INFO] - Getting test parameter table data against test_program_id : 0100471a-6f53-464d-891c-f8cfef49443f
+2022-06-02 20:44:41,951 - database.py:[284] - [INFO] - Getting test parameter table data against test_program_id : 42319ba4-9350-4159-91ef-4fbb50eb25e9
+2022-06-02 20:44:42,191 - database.py:[303] - [INFO] - Getting test parameter table data against lot_id : 5e5257cd-2a60-46e3-85fb-2fd92dc6315b
+2022-06-02 20:44:42,529 - database.py:[573] - [INFO] - Getting test parameter table data against test_program_revision_id : 42319ba4-9350-4159-91ef-4fbb50eb25e9
+2022-06-02 20:44:42,833 - database.py:[250] - [INFO] - Getting die id table data against wafer_id : 15e845f4-0aae-4c69-a511-d3b2da5ee0c4
+2022-06-02 20:45:18,724 - transport.py:[1819] - [ERROR] - Socket exception: An existing connection was forcibly closed by the remote host (10054)
+2022-06-02 20:45:18,736 - db_config.py:[156] - [ERROR] - run Query Error(2013, 'Lost connection to server during query')
+2022-06-02 20:45:18,746 - database.py:[253] - [ERROR] - Error in get die id table data against wafer_id : 15e845f4-0aae-4c69-a511-d3b2da5ee0c4
+2022-06-02 20:45:18,755 - loader.py:[191] - [ERROR] - Error in getting the data after against facility name that is generated
+2022-06-02 20:45:45,364 - loader.py:[740] - [INFO] - Cleaning the data base after creating loader policy
+2022-06-02 20:45:51,432 - loader.py:[169] - [INFO] - Getting the data after against facility name that is generated
+2022-06-02 20:45:53,518 - database.py:[406] - [INFO] - Getting test parameter table data against file_name : FinisarSmall.atdf

@@ -1,0 +1,1 @@
+'DataBaseConfig' object has no attribute 'query_data'

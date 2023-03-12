@@ -1,0 +1,10 @@
+2022-06-14 15:35:01,387 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-14 15:35:04,063 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-14 15:35:04,065 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-14 15:35:07,020 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-14 15:35:07,021 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-14 15:35:09,792 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-14 15:35:09,794 - converter.py:[106] - [INFO] - Uploading files into the bucket
+2022-06-14 15:35:09,801 - converter.py:[112] - [INFO] - TestData/InputFiles/RawDataFiles/w4670postbake68632-4.dat_A76E4B8E
+2022-06-14 15:35:10,289 - loader.py:[920] - [INFO] - Cleaning the data base after creating converter policy
+2022-06-14 15:35:10,306 - db_config.py:[89] - [INFO] - tunnel_connection

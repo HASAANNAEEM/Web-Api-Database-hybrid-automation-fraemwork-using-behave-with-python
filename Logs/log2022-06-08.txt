@@ -1,0 +1,1543 @@
+2022-06-08 23:04:58,852 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-08 23:04:59,873 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-08 23:05:01,270 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-08 23:05:02,704 - db_config.py:[101] - [INFO] - db_connection
+2022-06-08 23:05:02,708 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001CD442F8A70>
+2022-06-08 23:05:02,713 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:05:06,524 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:05:06,528 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:05:10,387 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:05:10,392 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:05:13,872 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:05:13,879 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-08 23:05:13,883 - warnings.py:[109] - [WARNING] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto\Utilities\yaml_reader.py:38: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data_loaded = yaml.load(stream)
+
+2022-06-08 23:05:13,901 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-08 23:05:13,919 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-08 23:05:21,469 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-08 23:05:21,473 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-08 23:05:21,483 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-08 23:05:21,495 - converter.py:[113] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-08 23:05:54,765 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-08 23:05:54,769 - converter.py:[116] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-08 23:05:54,774 - database.py:[789] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-08 23:05:54,786 - database.py:[795] - [INFO] - Inserting source file link to TestDatabase
+2022-06-08 23:05:54,791 - database.py:[815] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-08 23:05:54,799 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-08 23:05:54,803 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-08 23:05:54,807 - logger.py:[26] - [INFO] - 
+
+2022-06-08 23:05:54,810 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-08 23:05:54,912 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-08 23:05:54,916 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-08 23:05:55,417 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-08 23:06:11,464 - login.py:[60] - [INFO] - Entering username and password for Login
+2022-06-08 23:06:11,477 - warnings.py:[109] - [WARNING] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto\Utilities\yaml_reader.py:29: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data_loaded = yaml.load(stream)
+
+2022-06-08 23:06:11,748 - login.py:[68] - [INFO] - Ku@litatem!1
+2022-06-08 23:06:12,092 - login.py:[85] - [INFO] - Click the Login button
+2022-06-08 23:06:15,192 - login.py:[104] - [INFO] - Verify the dashboard
+2022-06-08 23:06:17,770 - login.py:[107] - [INFO] - Login Successful
+2022-06-08 23:06:17,773 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-08 23:06:22,240 - createpolicy.py:[98] - [INFO] - Verifying the create policy button
+2022-06-08 23:06:22,337 - createpolicy.py:[115] - [INFO] - Clicked on create policy button
+2022-06-08 23:06:22,905 - createpolicy.py:[133] - [INFO] - Entered policy name
+2022-06-08 23:06:22,928 - warnings.py:[109] - [WARNING] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto\Utilities\yaml_reader.py:69: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data_loaded = yaml.load(stream)
+
+2022-06-08 23:06:23,018 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:06:25,087 - createpolicy.py:[159] - [INFO] - Entered policy version
+2022-06-08 23:06:25,170 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:06:25,549 - createpolicy.py:[177] - [INFO] - Entered policy description
+2022-06-08 23:06:25,599 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:06:26,008 - createpolicy.py:[197] - [INFO] - Entered policy owner email address
+2022-06-08 23:06:26,046 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:06:26,425 - createpolicy.py:[236] - [INFO] - Click add stage button
+2022-06-08 23:06:29,473 - createpolicy.py:[254] - [INFO] - Select stage :"Load"
+2022-06-08 23:06:29,724 - createpolicy.py:[258] - [INFO] - Stage selected
+2022-06-08 23:06:29,728 - createpolicy.py:[273] - [INFO] - Click on view button
+2022-06-08 23:06:29,973 - createpolicy.py:[312] - [INFO] - Enter source cloud
+2022-06-08 23:06:30,199 - createpolicy.py:[332] - [INFO] - Enter container name for policy
+2022-06-08 23:06:30,240 - createpolicy.py:[335] - [INFO] - DATA yw-loader-2
+2022-06-08 23:06:30,245 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:06:31,211 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:06:34,493 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:06:37,658 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:06:40,853 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-08 23:06:40,857 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-08 23:06:44,577 - createpolicy.py:[375] - [INFO] - Schedule mode selected
+2022-06-08 23:06:44,583 - generics.py:[128] - [INFO] - Scrolling to element
+2022-06-08 23:06:51,136 - createpolicy.py:[404] - [INFO] - Select time for policy
+2022-06-08 23:06:51,142 - createpolicy.py:[412] - [INFO] - Schedule time in utc: 6/8/2022, 11:08 PM
+2022-06-08 23:06:51,146 - createpolicy.py:[414] - [INFO] - Scheduling in Future time:  06/08/2022|11:08|PM
+2022-06-08 23:06:52,259 - createpolicy.py:[438] - [INFO] - Enter polling interval time
+2022-06-08 23:06:52,963 - createpolicy.py:[456] - [INFO] - Click on save button
+2022-06-08 23:06:53,141 - createpolicy.py:[477] - [INFO] - Verifying Saved alert message
+2022-06-08 23:06:54,743 - createpolicy.py:[480] - [INFO] - True getting : Saved! not contain Saved alert message 
+2022-06-08 23:06:54,753 - createpolicy.py:[483] - [INFO] - Policy Saved!!
+2022-06-08 23:06:54,762 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-08 23:06:58,862 - createpolicy.py:[516] - [INFO] - Verify policy from data intake queue
+2022-06-08 23:10:31,593 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-08 23:10:32,221 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-08 23:10:34,165 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-08 23:10:35,702 - db_config.py:[101] - [INFO] - db_connection
+2022-06-08 23:10:35,706 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001CD44572D80>
+2022-06-08 23:10:35,713 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:10:39,084 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:10:39,088 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:10:42,487 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:10:42,489 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:10:45,952 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:10:45,958 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-08 23:10:45,989 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-08 23:10:46,007 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-08 23:10:53,139 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-08 23:10:53,143 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-08 23:10:53,154 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-08 23:10:53,171 - converter.py:[113] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-08 23:11:26,510 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-08 23:11:26,515 - converter.py:[116] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-08 23:11:26,520 - database.py:[789] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-08 23:11:26,528 - database.py:[795] - [INFO] - Inserting source file link to TestDatabase
+2022-06-08 23:11:26,533 - database.py:[815] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-08 23:11:26,540 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-08 23:11:26,545 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-08 23:11:26,549 - logger.py:[26] - [INFO] - 
+
+2022-06-08 23:11:26,552 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-08 23:11:26,646 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-08 23:11:26,650 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-08 23:11:27,370 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-08 23:11:48,802 - login.py:[60] - [INFO] - Entering username and password for Login
+2022-06-08 23:11:49,058 - login.py:[68] - [INFO] - Ku@litatem!1
+2022-06-08 23:11:49,379 - login.py:[85] - [INFO] - Click the Login button
+2022-06-08 23:11:52,523 - login.py:[104] - [INFO] - Verify the dashboard
+2022-06-08 23:11:54,966 - login.py:[107] - [INFO] - Login Successful
+2022-06-08 23:11:54,969 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-08 23:11:58,616 - createpolicy.py:[98] - [INFO] - Verifying the create policy button
+2022-06-08 23:11:58,952 - createpolicy.py:[115] - [INFO] - Clicked on create policy button
+2022-06-08 23:11:59,281 - createpolicy.py:[133] - [INFO] - Entered policy name
+2022-06-08 23:11:59,343 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:12:00,903 - createpolicy.py:[159] - [INFO] - Entered policy version
+2022-06-08 23:12:00,986 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:12:01,356 - createpolicy.py:[177] - [INFO] - Entered policy description
+2022-06-08 23:12:01,421 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:12:01,829 - createpolicy.py:[197] - [INFO] - Entered policy owner email address
+2022-06-08 23:12:01,867 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:12:02,273 - createpolicy.py:[236] - [INFO] - Click add stage button
+2022-06-08 23:12:05,340 - createpolicy.py:[254] - [INFO] - Select stage :"Load"
+2022-06-08 23:12:05,594 - createpolicy.py:[258] - [INFO] - Stage selected
+2022-06-08 23:12:05,596 - createpolicy.py:[273] - [INFO] - Click on view button
+2022-06-08 23:12:05,783 - createpolicy.py:[312] - [INFO] - Enter source cloud
+2022-06-08 23:12:05,932 - createpolicy.py:[332] - [INFO] - Enter container name for policy
+2022-06-08 23:12:05,965 - createpolicy.py:[335] - [INFO] - DATA yw-loader-2
+2022-06-08 23:12:05,967 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:12:06,700 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:12:09,882 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:12:13,078 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:12:16,275 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-08 23:12:16,279 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-08 23:12:19,980 - createpolicy.py:[375] - [INFO] - Schedule mode selected
+2022-06-08 23:12:19,982 - generics.py:[128] - [INFO] - Scrolling to element
+2022-06-08 23:12:26,519 - createpolicy.py:[404] - [INFO] - Select time for policy
+2022-06-08 23:12:26,524 - createpolicy.py:[412] - [INFO] - Schedule time in utc: 6/8/2022, 11:14 PM
+2022-06-08 23:12:26,528 - createpolicy.py:[414] - [INFO] - Scheduling in Future time:  06/08/2022|11:14|PM
+2022-06-08 23:12:27,661 - createpolicy.py:[438] - [INFO] - Enter polling interval time
+2022-06-08 23:12:28,076 - createpolicy.py:[456] - [INFO] - Click on save button
+2022-06-08 23:12:28,292 - createpolicy.py:[477] - [INFO] - Verifying Saved alert message
+2022-06-08 23:12:29,803 - createpolicy.py:[480] - [INFO] - True getting : Saved! not contain Saved alert message 
+2022-06-08 23:12:29,806 - createpolicy.py:[483] - [INFO] - Policy Saved!!
+2022-06-08 23:12:29,809 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-08 23:12:33,474 - createpolicy.py:[516] - [INFO] - Verify policy from data intake queue
+2022-06-08 23:15:42,687 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-08 23:15:43,561 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-08 23:15:44,991 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-08 23:15:46,303 - db_config.py:[101] - [INFO] - db_connection
+2022-06-08 23:15:46,312 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001CD44928BB0>
+2022-06-08 23:15:46,318 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:15:50,390 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:15:50,395 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:15:56,335 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:15:56,339 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:15:59,795 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:15:59,800 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-08 23:15:59,818 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-08 23:15:59,837 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-08 23:16:07,639 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-08 23:16:07,644 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-08 23:16:07,655 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-08 23:16:07,673 - converter.py:[113] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-08 23:16:42,230 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-08 23:16:42,235 - converter.py:[116] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-08 23:16:42,240 - database.py:[789] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-08 23:16:42,248 - database.py:[795] - [INFO] - Inserting source file link to TestDatabase
+2022-06-08 23:16:42,254 - database.py:[815] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-08 23:16:42,260 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-08 23:16:42,265 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-08 23:16:42,269 - logger.py:[26] - [INFO] - 
+
+2022-06-08 23:16:42,273 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-08 23:16:42,369 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-08 23:16:42,374 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-08 23:16:43,162 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-08 23:16:58,282 - login.py:[60] - [INFO] - Entering username and password for Login
+2022-06-08 23:16:58,654 - login.py:[68] - [INFO] - Ku@litatem!1
+2022-06-08 23:16:58,985 - login.py:[85] - [INFO] - Click the Login button
+2022-06-08 23:17:02,098 - login.py:[104] - [INFO] - Verify the dashboard
+2022-06-08 23:17:04,459 - login.py:[107] - [INFO] - Login Successful
+2022-06-08 23:17:04,462 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-08 23:17:08,423 - createpolicy.py:[98] - [INFO] - Verifying the create policy button
+2022-06-08 23:17:08,525 - createpolicy.py:[115] - [INFO] - Clicked on create policy button
+2022-06-08 23:17:09,191 - createpolicy.py:[133] - [INFO] - Entered policy name
+2022-06-08 23:17:09,250 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:17:10,628 - createpolicy.py:[159] - [INFO] - Entered policy version
+2022-06-08 23:17:10,697 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:17:10,930 - createpolicy.py:[177] - [INFO] - Entered policy description
+2022-06-08 23:17:10,984 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:17:11,437 - createpolicy.py:[197] - [INFO] - Entered policy owner email address
+2022-06-08 23:17:11,475 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:17:11,965 - createpolicy.py:[236] - [INFO] - Click add stage button
+2022-06-08 23:17:15,032 - createpolicy.py:[254] - [INFO] - Select stage :"Load"
+2022-06-08 23:17:15,367 - createpolicy.py:[258] - [INFO] - Stage selected
+2022-06-08 23:17:15,373 - createpolicy.py:[273] - [INFO] - Click on view button
+2022-06-08 23:17:15,786 - createpolicy.py:[312] - [INFO] - Enter source cloud
+2022-06-08 23:17:16,104 - createpolicy.py:[332] - [INFO] - Enter container name for policy
+2022-06-08 23:17:16,171 - createpolicy.py:[335] - [INFO] - DATA yw-loader-2
+2022-06-08 23:17:16,176 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:17:17,206 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:17:20,462 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:17:23,641 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:17:26,845 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-08 23:17:26,849 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-08 23:17:47,415 - createpolicy.py:[696] - [ERROR] - Error in check summary record
+2022-06-08 23:17:47,450 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-08 23:17:48,043 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-08 23:17:49,253 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-08 23:17:50,477 - db_config.py:[101] - [INFO] - db_connection
+2022-06-08 23:17:50,481 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001CD445B1BD0>
+2022-06-08 23:17:50,488 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:17:53,741 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:17:53,745 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:17:57,292 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:17:57,296 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:18:03,081 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:18:03,087 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-08 23:18:03,105 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-08 23:18:03,124 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-08 23:18:10,134 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-08 23:18:10,140 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-08 23:18:10,150 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-08 23:18:10,167 - converter.py:[113] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-08 23:18:42,736 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-08 23:18:42,740 - converter.py:[116] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-08 23:18:42,745 - database.py:[789] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-08 23:18:42,753 - database.py:[795] - [INFO] - Inserting source file link to TestDatabase
+2022-06-08 23:18:42,759 - database.py:[815] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-08 23:18:42,766 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-08 23:18:42,770 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-08 23:18:42,775 - logger.py:[26] - [INFO] - 
+
+2022-06-08 23:18:42,779 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-08 23:18:42,850 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-08 23:18:42,855 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-08 23:18:43,271 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-08 23:18:58,316 - login.py:[60] - [INFO] - Entering username and password for Login
+2022-06-08 23:18:58,556 - login.py:[68] - [INFO] - Ku@litatem!1
+2022-06-08 23:18:58,975 - login.py:[85] - [INFO] - Click the Login button
+2022-06-08 23:19:02,075 - login.py:[104] - [INFO] - Verify the dashboard
+2022-06-08 23:19:04,417 - login.py:[107] - [INFO] - Login Successful
+2022-06-08 23:19:04,422 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-08 23:19:08,234 - createpolicy.py:[98] - [INFO] - Verifying the create policy button
+2022-06-08 23:19:08,331 - createpolicy.py:[115] - [INFO] - Clicked on create policy button
+2022-06-08 23:19:08,711 - createpolicy.py:[133] - [INFO] - Entered policy name
+2022-06-08 23:19:08,861 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:19:11,099 - createpolicy.py:[159] - [INFO] - Entered policy version
+2022-06-08 23:19:11,184 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:19:11,560 - createpolicy.py:[177] - [INFO] - Entered policy description
+2022-06-08 23:19:11,612 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:19:12,104 - createpolicy.py:[197] - [INFO] - Entered policy owner email address
+2022-06-08 23:19:12,147 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:19:12,638 - createpolicy.py:[236] - [INFO] - Click add stage button
+2022-06-08 23:19:15,700 - createpolicy.py:[254] - [INFO] - Select stage :"Load"
+2022-06-08 23:19:16,117 - createpolicy.py:[258] - [INFO] - Stage selected
+2022-06-08 23:19:16,124 - createpolicy.py:[273] - [INFO] - Click on view button
+2022-06-08 23:19:16,461 - createpolicy.py:[312] - [INFO] - Enter source cloud
+2022-06-08 23:19:16,599 - createpolicy.py:[332] - [INFO] - Enter container name for policy
+2022-06-08 23:19:16,629 - createpolicy.py:[335] - [INFO] - DATA yw-loader-2
+2022-06-08 23:19:16,631 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:19:17,546 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:19:20,815 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:19:23,989 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:19:27,082 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-08 23:19:27,087 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-08 23:19:30,798 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-08 23:19:30,807 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-08 23:19:34,458 - createpolicy.py:[375] - [INFO] - Schedule mode selected
+2022-06-08 23:19:34,463 - generics.py:[128] - [INFO] - Scrolling to element
+2022-06-08 23:19:40,984 - createpolicy.py:[404] - [INFO] - Select time for policy
+2022-06-08 23:19:40,988 - createpolicy.py:[412] - [INFO] - Schedule time in utc: 6/8/2022, 11:21 PM
+2022-06-08 23:19:40,994 - createpolicy.py:[414] - [INFO] - Scheduling in Future time:  06/08/2022|11:21|PM
+2022-06-08 23:19:42,138 - createpolicy.py:[438] - [INFO] - Enter polling interval time
+2022-06-08 23:19:42,863 - createpolicy.py:[456] - [INFO] - Click on save button
+2022-06-08 23:19:43,132 - createpolicy.py:[477] - [INFO] - Verifying Saved alert message
+2022-06-08 23:19:44,805 - createpolicy.py:[480] - [INFO] - True getting : Saved! not contain Saved alert message 
+2022-06-08 23:19:44,811 - createpolicy.py:[483] - [INFO] - Policy Saved!!
+2022-06-08 23:19:44,817 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-08 23:19:48,479 - createpolicy.py:[516] - [INFO] - Verify policy from data intake queue
+2022-06-08 23:23:20,942 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-08 23:23:21,578 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-08 23:23:22,833 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-08 23:23:24,201 - db_config.py:[101] - [INFO] - db_connection
+2022-06-08 23:23:24,205 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001CD43423D10>
+2022-06-08 23:23:24,211 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:23:27,536 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:23:27,541 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:23:31,553 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:23:31,557 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:23:34,850 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:23:34,856 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-08 23:23:34,875 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-08 23:23:34,894 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-08 23:23:42,420 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-08 23:23:42,423 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-08 23:23:42,431 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-08 23:23:42,443 - converter.py:[113] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-08 23:24:15,022 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-08 23:24:15,026 - converter.py:[116] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-08 23:24:15,031 - database.py:[789] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-08 23:24:15,040 - database.py:[795] - [INFO] - Inserting source file link to TestDatabase
+2022-06-08 23:24:15,045 - database.py:[815] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-08 23:24:15,053 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-08 23:24:15,056 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-08 23:24:15,060 - logger.py:[26] - [INFO] - 
+
+2022-06-08 23:24:15,064 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-08 23:24:15,159 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-08 23:24:15,164 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-08 23:24:15,618 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-08 23:24:34,032 - login.py:[60] - [INFO] - Entering username and password for Login
+2022-06-08 23:24:34,277 - login.py:[68] - [INFO] - Ku@litatem!1
+2022-06-08 23:24:34,711 - login.py:[85] - [INFO] - Click the Login button
+2022-06-08 23:24:37,836 - login.py:[104] - [INFO] - Verify the dashboard
+2022-06-08 23:24:40,327 - login.py:[107] - [INFO] - Login Successful
+2022-06-08 23:24:40,330 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-08 23:24:43,975 - createpolicy.py:[98] - [INFO] - Verifying the create policy button
+2022-06-08 23:24:45,969 - createpolicy.py:[115] - [INFO] - Clicked on create policy button
+2022-06-08 23:24:46,472 - createpolicy.py:[133] - [INFO] - Entered policy name
+2022-06-08 23:24:46,617 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:24:48,787 - createpolicy.py:[159] - [INFO] - Entered policy version
+2022-06-08 23:24:48,868 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:24:49,235 - createpolicy.py:[177] - [INFO] - Entered policy description
+2022-06-08 23:24:49,290 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:24:49,740 - createpolicy.py:[197] - [INFO] - Entered policy owner email address
+2022-06-08 23:24:49,775 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:24:50,208 - createpolicy.py:[236] - [INFO] - Click add stage button
+2022-06-08 23:24:53,306 - createpolicy.py:[254] - [INFO] - Select stage :"Load"
+2022-06-08 23:24:53,608 - createpolicy.py:[258] - [INFO] - Stage selected
+2022-06-08 23:24:53,613 - createpolicy.py:[273] - [INFO] - Click on view button
+2022-06-08 23:24:53,865 - createpolicy.py:[312] - [INFO] - Enter source cloud
+2022-06-08 23:24:54,104 - createpolicy.py:[332] - [INFO] - Enter container name for policy
+2022-06-08 23:24:54,148 - createpolicy.py:[335] - [INFO] - DATA yw-loader-2
+2022-06-08 23:24:54,153 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:24:54,633 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:24:57,835 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:25:01,007 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:25:04,207 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-08 23:25:04,211 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-08 23:25:07,902 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-08 23:25:07,910 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-08 23:25:28,477 - createpolicy.py:[696] - [ERROR] - Error in check summary record
+2022-06-08 23:25:28,512 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-08 23:25:29,044 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-08 23:25:30,381 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-08 23:25:31,684 - db_config.py:[101] - [INFO] - db_connection
+2022-06-08 23:25:31,689 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001CD44572360>
+2022-06-08 23:25:31,695 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:25:34,996 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:25:35,002 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:25:39,580 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:25:39,585 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:25:43,437 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:25:43,444 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-08 23:25:43,463 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-08 23:25:43,483 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-08 23:25:51,342 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-08 23:25:51,345 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-08 23:25:51,353 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-08 23:25:51,371 - converter.py:[113] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-08 23:26:23,902 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-08 23:26:23,905 - converter.py:[116] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-08 23:26:23,911 - database.py:[789] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-08 23:26:23,920 - database.py:[795] - [INFO] - Inserting source file link to TestDatabase
+2022-06-08 23:26:23,924 - database.py:[815] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-08 23:26:23,932 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-08 23:26:23,936 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-08 23:26:23,940 - logger.py:[26] - [INFO] - 
+
+2022-06-08 23:26:23,945 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-08 23:26:24,036 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-08 23:26:24,040 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-08 23:26:24,349 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-08 23:26:57,719 - login.py:[60] - [INFO] - Entering username and password for Login
+2022-06-08 23:26:58,087 - login.py:[68] - [INFO] - Ku@litatem!1
+2022-06-08 23:26:58,638 - login.py:[85] - [INFO] - Click the Login button
+2022-06-08 23:27:01,743 - login.py:[104] - [INFO] - Verify the dashboard
+2022-06-08 23:27:03,998 - login.py:[107] - [INFO] - Login Successful
+2022-06-08 23:27:04,001 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-08 23:27:08,024 - createpolicy.py:[98] - [INFO] - Verifying the create policy button
+2022-06-08 23:27:09,205 - createpolicy.py:[115] - [INFO] - Clicked on create policy button
+2022-06-08 23:27:09,560 - createpolicy.py:[133] - [INFO] - Entered policy name
+2022-06-08 23:27:09,607 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:27:10,855 - createpolicy.py:[159] - [INFO] - Entered policy version
+2022-06-08 23:27:10,887 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:27:11,040 - createpolicy.py:[177] - [INFO] - Entered policy description
+2022-06-08 23:27:11,084 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:27:11,513 - createpolicy.py:[197] - [INFO] - Entered policy owner email address
+2022-06-08 23:27:11,546 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:27:11,932 - createpolicy.py:[236] - [INFO] - Click add stage button
+2022-06-08 23:27:15,019 - createpolicy.py:[254] - [INFO] - Select stage :"Load"
+2022-06-08 23:27:15,171 - createpolicy.py:[258] - [INFO] - Stage selected
+2022-06-08 23:27:15,178 - createpolicy.py:[273] - [INFO] - Click on view button
+2022-06-08 23:27:15,697 - createpolicy.py:[312] - [INFO] - Enter source cloud
+2022-06-08 23:27:16,031 - createpolicy.py:[332] - [INFO] - Enter container name for policy
+2022-06-08 23:27:16,100 - createpolicy.py:[335] - [INFO] - DATA yw-loader-2
+2022-06-08 23:27:16,105 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:27:17,106 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:27:20,388 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:27:23,549 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:27:26,739 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-08 23:27:26,741 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-08 23:27:30,391 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-08 23:27:30,397 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-08 23:27:51,008 - createpolicy.py:[696] - [ERROR] - Error in check summary record
+2022-06-08 23:27:51,042 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-08 23:27:51,504 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-08 23:27:52,682 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-08 23:27:53,850 - db_config.py:[101] - [INFO] - db_connection
+2022-06-08 23:27:53,854 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001CD446ECA40>
+2022-06-08 23:27:53,860 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:27:57,359 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:27:57,363 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:28:03,543 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:28:03,548 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:28:07,009 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:28:07,016 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-08 23:28:07,041 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-08 23:28:07,061 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-08 23:28:15,121 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-08 23:28:15,125 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-08 23:28:15,132 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-08 23:28:15,145 - converter.py:[113] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-08 23:28:47,837 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-08 23:28:47,841 - converter.py:[116] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-08 23:28:47,846 - database.py:[789] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-08 23:28:47,854 - database.py:[795] - [INFO] - Inserting source file link to TestDatabase
+2022-06-08 23:28:47,860 - database.py:[815] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-08 23:28:47,867 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-08 23:28:47,872 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-08 23:28:47,875 - logger.py:[26] - [INFO] - 
+
+2022-06-08 23:28:47,882 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-08 23:28:47,976 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-08 23:28:47,982 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-08 23:28:48,301 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-08 23:29:07,208 - login.py:[60] - [INFO] - Entering username and password for Login
+2022-06-08 23:29:07,445 - login.py:[68] - [INFO] - Ku@litatem!1
+2022-06-08 23:29:07,839 - login.py:[85] - [INFO] - Click the Login button
+2022-06-08 23:29:10,960 - login.py:[104] - [INFO] - Verify the dashboard
+2022-06-08 23:29:13,485 - login.py:[107] - [INFO] - Login Successful
+2022-06-08 23:29:13,489 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-08 23:29:17,537 - createpolicy.py:[98] - [INFO] - Verifying the create policy button
+2022-06-08 23:29:17,973 - createpolicy.py:[115] - [INFO] - Clicked on create policy button
+2022-06-08 23:29:18,276 - createpolicy.py:[133] - [INFO] - Entered policy name
+2022-06-08 23:29:18,351 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:29:20,155 - createpolicy.py:[159] - [INFO] - Entered policy version
+2022-06-08 23:29:20,239 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:29:20,685 - createpolicy.py:[177] - [INFO] - Entered policy description
+2022-06-08 23:29:20,802 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:29:21,661 - createpolicy.py:[197] - [INFO] - Entered policy owner email address
+2022-06-08 23:29:21,700 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:29:22,194 - createpolicy.py:[236] - [INFO] - Click add stage button
+2022-06-08 23:29:25,263 - createpolicy.py:[254] - [INFO] - Select stage :"Load"
+2022-06-08 23:29:25,436 - createpolicy.py:[258] - [INFO] - Stage selected
+2022-06-08 23:29:25,441 - createpolicy.py:[273] - [INFO] - Click on view button
+2022-06-08 23:29:25,871 - createpolicy.py:[312] - [INFO] - Enter source cloud
+2022-06-08 23:29:26,231 - createpolicy.py:[332] - [INFO] - Enter container name for policy
+2022-06-08 23:29:26,298 - createpolicy.py:[335] - [INFO] - DATA yw-loader-2
+2022-06-08 23:29:26,304 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:29:27,345 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:29:30,581 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:29:33,771 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:29:36,854 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-08 23:29:36,858 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-08 23:29:40,563 - createpolicy.py:[375] - [INFO] - Schedule mode selected
+2022-06-08 23:29:40,570 - generics.py:[128] - [INFO] - Scrolling to element
+2022-06-08 23:29:47,164 - createpolicy.py:[404] - [INFO] - Select time for policy
+2022-06-08 23:29:47,170 - createpolicy.py:[412] - [INFO] - Schedule time in utc: 6/8/2022, 11:31 PM
+2022-06-08 23:29:47,177 - createpolicy.py:[414] - [INFO] - Scheduling in Future time:  06/08/2022|11:31|PM
+2022-06-08 23:29:48,379 - createpolicy.py:[438] - [INFO] - Enter polling interval time
+2022-06-08 23:29:48,989 - createpolicy.py:[456] - [INFO] - Click on save button
+2022-06-08 23:29:49,169 - createpolicy.py:[477] - [INFO] - Verifying Saved alert message
+2022-06-08 23:29:50,673 - createpolicy.py:[480] - [INFO] - True getting : Saved! not contain Saved alert message 
+2022-06-08 23:29:50,678 - createpolicy.py:[483] - [INFO] - Policy Saved!!
+2022-06-08 23:29:50,682 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-08 23:29:54,739 - createpolicy.py:[516] - [INFO] - Verify policy from data intake queue
+2022-06-08 23:33:29,820 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-08 23:33:30,598 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-08 23:33:32,031 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-08 23:33:33,364 - db_config.py:[101] - [INFO] - db_connection
+2022-06-08 23:33:33,369 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001CD4451E9A0>
+2022-06-08 23:33:33,376 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:33:36,859 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:33:36,863 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:33:40,534 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:33:40,539 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:33:44,068 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:33:44,073 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-08 23:33:44,098 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-08 23:33:44,116 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-08 23:33:51,177 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-08 23:33:51,181 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-08 23:33:51,188 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-08 23:33:51,199 - converter.py:[113] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-08 23:34:23,608 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-08 23:34:23,612 - converter.py:[116] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-08 23:34:23,617 - database.py:[789] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-08 23:34:23,630 - database.py:[795] - [INFO] - Inserting source file link to TestDatabase
+2022-06-08 23:34:23,638 - database.py:[815] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-08 23:34:23,648 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-08 23:34:23,651 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-08 23:34:23,653 - logger.py:[26] - [INFO] - 
+
+2022-06-08 23:34:23,654 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-08 23:34:23,738 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-08 23:34:23,742 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-08 23:34:24,198 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-08 23:34:43,872 - login.py:[60] - [INFO] - Entering username and password for Login
+2022-06-08 23:34:44,320 - login.py:[68] - [INFO] - Ku@litatem!1
+2022-06-08 23:34:44,822 - login.py:[85] - [INFO] - Click the Login button
+2022-06-08 23:34:48,072 - login.py:[104] - [INFO] - Verify the dashboard
+2022-06-08 23:34:50,658 - login.py:[107] - [INFO] - Login Successful
+2022-06-08 23:34:50,663 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-08 23:34:54,836 - createpolicy.py:[98] - [INFO] - Verifying the create policy button
+2022-06-08 23:34:56,017 - createpolicy.py:[115] - [INFO] - Clicked on create policy button
+2022-06-08 23:34:56,471 - createpolicy.py:[133] - [INFO] - Entered policy name
+2022-06-08 23:34:56,531 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:34:58,811 - createpolicy.py:[159] - [INFO] - Entered policy version
+2022-06-08 23:34:58,901 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:34:59,302 - createpolicy.py:[177] - [INFO] - Entered policy description
+2022-06-08 23:34:59,424 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:35:00,442 - createpolicy.py:[197] - [INFO] - Entered policy owner email address
+2022-06-08 23:35:00,522 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:35:01,242 - createpolicy.py:[236] - [INFO] - Click add stage button
+2022-06-08 23:35:04,339 - createpolicy.py:[254] - [INFO] - Select stage :"Load"
+2022-06-08 23:35:04,601 - createpolicy.py:[258] - [INFO] - Stage selected
+2022-06-08 23:35:04,610 - createpolicy.py:[273] - [INFO] - Click on view button
+2022-06-08 23:35:05,013 - createpolicy.py:[312] - [INFO] - Enter source cloud
+2022-06-08 23:35:05,376 - createpolicy.py:[332] - [INFO] - Enter container name for policy
+2022-06-08 23:35:05,445 - createpolicy.py:[335] - [INFO] - DATA yw-loader-2
+2022-06-08 23:35:05,450 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:35:06,449 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:35:09,688 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:35:12,877 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:35:15,961 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-08 23:35:15,965 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-08 23:35:19,657 - createpolicy.py:[375] - [INFO] - Schedule mode selected
+2022-06-08 23:35:19,661 - generics.py:[128] - [INFO] - Scrolling to element
+2022-06-08 23:35:26,250 - createpolicy.py:[404] - [INFO] - Select time for policy
+2022-06-08 23:35:26,258 - createpolicy.py:[412] - [INFO] - Schedule time in utc: 6/8/2022, 11:37 PM
+2022-06-08 23:35:26,263 - createpolicy.py:[414] - [INFO] - Scheduling in Future time:  06/08/2022|11:37|PM
+2022-06-08 23:35:27,357 - createpolicy.py:[438] - [INFO] - Enter polling interval time
+2022-06-08 23:35:28,074 - createpolicy.py:[456] - [INFO] - Click on save button
+2022-06-08 23:35:28,512 - createpolicy.py:[477] - [INFO] - Verifying Saved alert message
+2022-06-08 23:35:29,929 - createpolicy.py:[480] - [INFO] - True getting : Saved! not contain Saved alert message 
+2022-06-08 23:35:29,936 - createpolicy.py:[483] - [INFO] - Policy Saved!!
+2022-06-08 23:35:29,946 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-08 23:35:34,179 - createpolicy.py:[516] - [INFO] - Verify policy from data intake queue
+2022-06-08 23:39:09,853 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-08 23:39:10,458 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-08 23:39:11,699 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-08 23:39:13,158 - db_config.py:[101] - [INFO] - db_connection
+2022-06-08 23:39:13,162 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001CD445741C0>
+2022-06-08 23:39:13,168 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:39:17,425 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:39:17,429 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:39:20,904 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:39:20,908 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:39:24,488 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:39:24,493 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-08 23:39:24,517 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-08 23:39:24,536 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-08 23:39:31,847 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-08 23:39:31,850 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-08 23:39:31,860 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-08 23:39:31,874 - converter.py:[113] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-08 23:40:04,958 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-08 23:40:04,962 - converter.py:[116] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-08 23:40:04,967 - database.py:[789] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-08 23:40:04,976 - database.py:[795] - [INFO] - Inserting source file link to TestDatabase
+2022-06-08 23:40:04,982 - database.py:[815] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-08 23:40:04,991 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-08 23:40:04,995 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-08 23:40:04,999 - logger.py:[26] - [INFO] - 
+
+2022-06-08 23:40:05,006 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-08 23:40:05,120 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-08 23:40:05,124 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-08 23:40:05,705 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-08 23:40:21,754 - login.py:[60] - [INFO] - Entering username and password for Login
+2022-06-08 23:40:22,021 - login.py:[68] - [INFO] - Ku@litatem!1
+2022-06-08 23:40:22,490 - login.py:[85] - [INFO] - Click the Login button
+2022-06-08 23:40:25,606 - login.py:[104] - [INFO] - Verify the dashboard
+2022-06-08 23:40:28,008 - login.py:[107] - [INFO] - Login Successful
+2022-06-08 23:40:28,014 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-08 23:40:31,468 - createpolicy.py:[98] - [INFO] - Verifying the create policy button
+2022-06-08 23:40:31,965 - createpolicy.py:[115] - [INFO] - Clicked on create policy button
+2022-06-08 23:40:32,333 - createpolicy.py:[133] - [INFO] - Entered policy name
+2022-06-08 23:40:32,409 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:40:34,637 - createpolicy.py:[159] - [INFO] - Entered policy version
+2022-06-08 23:40:34,693 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:40:34,994 - createpolicy.py:[177] - [INFO] - Entered policy description
+2022-06-08 23:40:35,087 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:40:35,740 - createpolicy.py:[197] - [INFO] - Entered policy owner email address
+2022-06-08 23:40:35,780 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:40:36,218 - createpolicy.py:[236] - [INFO] - Click add stage button
+2022-06-08 23:40:39,293 - createpolicy.py:[254] - [INFO] - Select stage :"Load"
+2022-06-08 23:40:39,584 - createpolicy.py:[258] - [INFO] - Stage selected
+2022-06-08 23:40:39,587 - createpolicy.py:[273] - [INFO] - Click on view button
+2022-06-08 23:40:39,757 - createpolicy.py:[312] - [INFO] - Enter source cloud
+2022-06-08 23:40:39,910 - createpolicy.py:[332] - [INFO] - Enter container name for policy
+2022-06-08 23:40:39,941 - createpolicy.py:[335] - [INFO] - DATA yw-loader-2
+2022-06-08 23:40:39,943 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:40:40,874 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:40:44,154 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:40:47,323 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:40:50,517 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-08 23:40:50,521 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-08 23:41:11,062 - createpolicy.py:[696] - [ERROR] - Error in check summary record
+2022-06-08 23:41:11,097 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-08 23:41:11,717 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-08 23:41:12,893 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-08 23:41:14,137 - db_config.py:[101] - [INFO] - db_connection
+2022-06-08 23:41:14,141 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001CD474D06A0>
+2022-06-08 23:41:14,147 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:41:22,287 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:41:22,291 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:41:26,402 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:41:26,406 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:41:29,797 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:41:29,802 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-08 23:41:29,821 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-08 23:41:29,840 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-08 23:41:37,789 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-08 23:41:37,794 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-08 23:41:37,805 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-08 23:41:37,825 - converter.py:[113] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-08 23:42:10,081 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-08 23:42:10,093 - converter.py:[116] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-08 23:42:10,105 - database.py:[789] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-08 23:42:10,115 - database.py:[795] - [INFO] - Inserting source file link to TestDatabase
+2022-06-08 23:42:10,121 - database.py:[815] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-08 23:42:10,128 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-08 23:42:10,131 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-08 23:42:10,136 - logger.py:[26] - [INFO] - 
+
+2022-06-08 23:42:10,139 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-08 23:42:10,212 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-08 23:42:10,214 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-08 23:42:10,491 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-08 23:42:26,486 - login.py:[60] - [INFO] - Entering username and password for Login
+2022-06-08 23:42:26,873 - login.py:[68] - [INFO] - Ku@litatem!1
+2022-06-08 23:42:27,288 - login.py:[85] - [INFO] - Click the Login button
+2022-06-08 23:42:30,569 - login.py:[104] - [INFO] - Verify the dashboard
+2022-06-08 23:42:33,035 - login.py:[107] - [INFO] - Login Successful
+2022-06-08 23:42:33,037 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-08 23:42:36,914 - createpolicy.py:[98] - [INFO] - Verifying the create policy button
+2022-06-08 23:42:37,016 - createpolicy.py:[115] - [INFO] - Clicked on create policy button
+2022-06-08 23:42:38,253 - createpolicy.py:[133] - [INFO] - Entered policy name
+2022-06-08 23:42:38,337 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:42:41,245 - createpolicy.py:[159] - [INFO] - Entered policy version
+2022-06-08 23:42:41,332 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:42:41,816 - createpolicy.py:[177] - [INFO] - Entered policy description
+2022-06-08 23:42:41,900 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:42:42,729 - createpolicy.py:[197] - [INFO] - Entered policy owner email address
+2022-06-08 23:42:42,778 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:42:43,614 - createpolicy.py:[236] - [INFO] - Click add stage button
+2022-06-08 23:42:46,754 - createpolicy.py:[254] - [INFO] - Select stage :"Load"
+2022-06-08 23:42:46,934 - createpolicy.py:[258] - [INFO] - Stage selected
+2022-06-08 23:42:46,939 - createpolicy.py:[273] - [INFO] - Click on view button
+2022-06-08 23:42:47,331 - createpolicy.py:[312] - [INFO] - Enter source cloud
+2022-06-08 23:42:47,563 - createpolicy.py:[332] - [INFO] - Enter container name for policy
+2022-06-08 23:42:47,611 - createpolicy.py:[335] - [INFO] - DATA yw-loader-2
+2022-06-08 23:42:47,615 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:42:48,443 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:42:51,618 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:42:54,790 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:42:57,955 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-08 23:42:57,958 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-08 23:43:07,199 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-08 23:43:07,209 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-08 23:43:15,444 - createpolicy.py:[375] - [INFO] - Schedule mode selected
+2022-06-08 23:43:15,451 - generics.py:[128] - [INFO] - Scrolling to element
+2022-06-08 23:43:27,251 - createpolicy.py:[404] - [INFO] - Select time for policy
+2022-06-08 23:43:27,260 - createpolicy.py:[412] - [INFO] - Schedule time in utc: 6/8/2022, 11:45 PM
+2022-06-08 23:43:27,267 - createpolicy.py:[414] - [INFO] - Scheduling in Future time:  06/08/2022|11:45|PM
+2022-06-08 23:43:28,149 - createpolicy.py:[438] - [INFO] - Enter polling interval time
+2022-06-08 23:43:28,665 - createpolicy.py:[456] - [INFO] - Click on save button
+2022-06-08 23:43:28,879 - createpolicy.py:[477] - [INFO] - Verifying Saved alert message
+2022-06-08 23:43:31,536 - createpolicy.py:[480] - [INFO] - True getting : Saved! not contain Saved alert message 
+2022-06-08 23:43:31,540 - createpolicy.py:[483] - [INFO] - Policy Saved!!
+2022-06-08 23:43:31,547 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-08 23:43:35,628 - createpolicy.py:[516] - [INFO] - Verify policy from data intake queue
+2022-06-08 23:46:00,196 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-08 23:46:00,679 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-08 23:46:01,935 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-08 23:46:03,325 - db_config.py:[101] - [INFO] - db_connection
+2022-06-08 23:46:03,331 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001CD4754B330>
+2022-06-08 23:46:03,338 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:46:06,742 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:46:06,748 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:46:11,014 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:46:11,018 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:46:14,880 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:46:14,886 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-08 23:46:14,912 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-08 23:46:14,944 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-08 23:46:23,233 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-08 23:46:23,238 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-08 23:46:23,248 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-08 23:46:23,265 - converter.py:[113] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-08 23:46:56,382 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-08 23:46:56,385 - converter.py:[116] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-08 23:46:56,392 - database.py:[789] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-08 23:46:56,401 - database.py:[795] - [INFO] - Inserting source file link to TestDatabase
+2022-06-08 23:46:56,407 - database.py:[815] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-08 23:46:56,415 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-08 23:46:56,419 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-08 23:46:56,425 - logger.py:[26] - [INFO] - 
+
+2022-06-08 23:46:56,428 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-08 23:46:56,501 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-08 23:46:56,505 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-08 23:46:57,173 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-08 23:47:12,504 - login.py:[60] - [INFO] - Entering username and password for Login
+2022-06-08 23:47:12,887 - login.py:[68] - [INFO] - Ku@litatem!1
+2022-06-08 23:47:13,299 - login.py:[85] - [INFO] - Click the Login button
+2022-06-08 23:47:16,589 - login.py:[104] - [INFO] - Verify the dashboard
+2022-06-08 23:47:19,329 - login.py:[107] - [INFO] - Login Successful
+2022-06-08 23:47:19,336 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-08 23:47:23,967 - createpolicy.py:[98] - [INFO] - Verifying the create policy button
+2022-06-08 23:47:24,034 - createpolicy.py:[115] - [INFO] - Clicked on create policy button
+2022-06-08 23:47:24,491 - createpolicy.py:[133] - [INFO] - Entered policy name
+2022-06-08 23:47:24,558 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:47:27,378 - createpolicy.py:[159] - [INFO] - Entered policy version
+2022-06-08 23:47:27,433 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:47:27,772 - createpolicy.py:[177] - [INFO] - Entered policy description
+2022-06-08 23:47:27,855 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:47:28,945 - createpolicy.py:[197] - [INFO] - Entered policy owner email address
+2022-06-08 23:47:29,035 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:47:29,786 - createpolicy.py:[236] - [INFO] - Click add stage button
+2022-06-08 23:47:32,909 - createpolicy.py:[254] - [INFO] - Select stage :"Load"
+2022-06-08 23:47:33,092 - createpolicy.py:[258] - [INFO] - Stage selected
+2022-06-08 23:47:33,099 - createpolicy.py:[273] - [INFO] - Click on view button
+2022-06-08 23:47:33,493 - createpolicy.py:[312] - [INFO] - Enter source cloud
+2022-06-08 23:47:33,731 - createpolicy.py:[332] - [INFO] - Enter container name for policy
+2022-06-08 23:47:33,813 - createpolicy.py:[335] - [INFO] - DATA yw-loader-2
+2022-06-08 23:47:33,820 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:47:34,754 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:47:37,922 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:47:41,096 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:47:44,294 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-08 23:47:44,298 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-08 23:47:53,447 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-08 23:47:53,456 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-08 23:48:14,029 - createpolicy.py:[696] - [ERROR] - Error in check summary record
+2022-06-08 23:48:14,073 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-08 23:48:14,598 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-08 23:48:15,891 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-08 23:48:17,216 - db_config.py:[101] - [INFO] - db_connection
+2022-06-08 23:48:17,221 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001CD47410F60>
+2022-06-08 23:48:17,229 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:48:20,688 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:48:20,692 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:48:24,976 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:48:24,982 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:48:30,806 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:48:30,809 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-08 23:48:30,823 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-08 23:48:30,842 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-08 23:48:41,074 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-08 23:48:41,080 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-08 23:48:41,090 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-08 23:48:41,108 - converter.py:[113] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-08 23:49:13,365 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-08 23:49:13,368 - converter.py:[116] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-08 23:49:13,373 - database.py:[789] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-08 23:49:13,381 - database.py:[795] - [INFO] - Inserting source file link to TestDatabase
+2022-06-08 23:49:13,387 - database.py:[815] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-08 23:49:13,395 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-08 23:49:13,399 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-08 23:49:13,402 - logger.py:[26] - [INFO] - 
+
+2022-06-08 23:49:13,406 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-08 23:49:13,479 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-08 23:49:13,483 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-08 23:49:13,790 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-08 23:49:56,692 - login.py:[60] - [INFO] - Entering username and password for Login
+2022-06-08 23:49:57,089 - login.py:[68] - [INFO] - Ku@litatem!1
+2022-06-08 23:49:57,494 - login.py:[85] - [INFO] - Click the Login button
+2022-06-08 23:50:00,681 - login.py:[104] - [INFO] - Verify the dashboard
+2022-06-08 23:50:03,012 - login.py:[107] - [INFO] - Login Successful
+2022-06-08 23:50:03,018 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-08 23:50:06,673 - createpolicy.py:[98] - [INFO] - Verifying the create policy button
+2022-06-08 23:50:06,753 - createpolicy.py:[115] - [INFO] - Clicked on create policy button
+2022-06-08 23:50:07,300 - createpolicy.py:[133] - [INFO] - Entered policy name
+2022-06-08 23:50:07,375 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:50:10,801 - createpolicy.py:[159] - [INFO] - Entered policy version
+2022-06-08 23:50:10,918 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:50:11,360 - createpolicy.py:[177] - [INFO] - Entered policy description
+2022-06-08 23:50:11,465 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:50:12,795 - createpolicy.py:[197] - [INFO] - Entered policy owner email address
+2022-06-08 23:50:12,888 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:50:13,872 - createpolicy.py:[236] - [INFO] - Click add stage button
+2022-06-08 23:50:16,986 - createpolicy.py:[254] - [INFO] - Select stage :"Load"
+2022-06-08 23:50:17,369 - createpolicy.py:[258] - [INFO] - Stage selected
+2022-06-08 23:50:17,377 - createpolicy.py:[273] - [INFO] - Click on view button
+2022-06-08 23:50:17,790 - createpolicy.py:[312] - [INFO] - Enter source cloud
+2022-06-08 23:50:18,119 - createpolicy.py:[332] - [INFO] - Enter container name for policy
+2022-06-08 23:50:18,244 - createpolicy.py:[335] - [INFO] - DATA yw-loader-2
+2022-06-08 23:50:18,247 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:50:19,277 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:50:22,411 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-08 23:50:22,417 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-08 23:50:26,446 - createpolicy.py:[375] - [INFO] - Schedule mode selected
+2022-06-08 23:50:26,450 - generics.py:[128] - [INFO] - Scrolling to element
+2022-06-08 23:50:37,784 - createpolicy.py:[404] - [INFO] - Select time for policy
+2022-06-08 23:50:37,788 - createpolicy.py:[412] - [INFO] - Schedule time in utc: 6/8/2022, 11:52 PM
+2022-06-08 23:50:37,792 - createpolicy.py:[414] - [INFO] - Scheduling in Future time:  06/08/2022|11:52|PM
+2022-06-08 23:50:38,323 - createpolicy.py:[438] - [INFO] - Enter polling interval time
+2022-06-08 23:50:38,773 - createpolicy.py:[456] - [INFO] - Click on save button
+2022-06-08 23:50:39,083 - createpolicy.py:[477] - [INFO] - Verifying Saved alert message
+2022-06-08 23:50:41,716 - createpolicy.py:[480] - [INFO] - True getting : Saved! not contain Saved alert message 
+2022-06-08 23:50:41,721 - createpolicy.py:[483] - [INFO] - Policy Saved!!
+2022-06-08 23:50:41,726 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-08 23:50:45,517 - createpolicy.py:[516] - [INFO] - Verify policy from data intake queue
+2022-06-08 23:53:52,659 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-08 23:53:53,125 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-08 23:53:54,538 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-08 23:53:55,809 - db_config.py:[101] - [INFO] - db_connection
+2022-06-08 23:53:55,814 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001CD4740F610>
+2022-06-08 23:53:55,820 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:53:59,683 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:53:59,686 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:54:03,678 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:54:03,682 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:54:07,014 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:54:07,020 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-08 23:54:07,038 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-08 23:54:07,055 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-08 23:54:15,186 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-08 23:54:15,188 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-08 23:54:15,192 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-08 23:54:15,200 - converter.py:[113] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-08 23:54:47,558 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-08 23:54:47,562 - converter.py:[116] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-08 23:54:47,568 - database.py:[789] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-08 23:54:47,576 - database.py:[795] - [INFO] - Inserting source file link to TestDatabase
+2022-06-08 23:54:47,581 - database.py:[815] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-08 23:54:47,589 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-08 23:54:47,593 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-08 23:54:47,596 - logger.py:[26] - [INFO] - 
+
+2022-06-08 23:54:47,602 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-08 23:54:47,673 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-08 23:54:47,678 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-08 23:54:48,289 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-08 23:55:09,223 - login.py:[60] - [INFO] - Entering username and password for Login
+2022-06-08 23:55:09,440 - login.py:[68] - [INFO] - Ku@litatem!1
+2022-06-08 23:55:09,722 - login.py:[85] - [INFO] - Click the Login button
+2022-06-08 23:55:12,820 - login.py:[104] - [INFO] - Verify the dashboard
+2022-06-08 23:55:15,284 - login.py:[107] - [INFO] - Login Successful
+2022-06-08 23:55:15,289 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-08 23:55:18,836 - createpolicy.py:[98] - [INFO] - Verifying the create policy button
+2022-06-08 23:55:19,187 - createpolicy.py:[115] - [INFO] - Clicked on create policy button
+2022-06-08 23:55:19,460 - createpolicy.py:[133] - [INFO] - Entered policy name
+2022-06-08 23:55:19,526 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:55:20,809 - createpolicy.py:[159] - [INFO] - Entered policy version
+2022-06-08 23:55:20,846 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:55:21,038 - createpolicy.py:[177] - [INFO] - Entered policy description
+2022-06-08 23:55:21,088 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:55:21,569 - createpolicy.py:[197] - [INFO] - Entered policy owner email address
+2022-06-08 23:55:21,609 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:55:22,007 - createpolicy.py:[236] - [INFO] - Click add stage button
+2022-06-08 23:55:25,069 - createpolicy.py:[254] - [INFO] - Select stage :"Load"
+2022-06-08 23:55:25,415 - createpolicy.py:[258] - [INFO] - Stage selected
+2022-06-08 23:55:25,423 - createpolicy.py:[273] - [INFO] - Click on view button
+2022-06-08 23:55:25,887 - createpolicy.py:[312] - [INFO] - Enter source cloud
+2022-06-08 23:55:26,122 - createpolicy.py:[332] - [INFO] - Enter container name for policy
+2022-06-08 23:55:26,165 - createpolicy.py:[335] - [INFO] - DATA yw-loader-2
+2022-06-08 23:55:26,171 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-08 23:55:27,161 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-08 23:55:30,408 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-08 23:55:30,412 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-08 23:55:34,122 - createpolicy.py:[375] - [INFO] - Schedule mode selected
+2022-06-08 23:55:34,130 - generics.py:[128] - [INFO] - Scrolling to element
+2022-06-08 23:55:40,668 - createpolicy.py:[404] - [INFO] - Select time for policy
+2022-06-08 23:55:40,675 - createpolicy.py:[412] - [INFO] - Schedule time in utc: 6/8/2022, 11:57 PM
+2022-06-08 23:55:40,680 - createpolicy.py:[414] - [INFO] - Scheduling in Future time:  06/08/2022|11:57|PM
+2022-06-08 23:55:41,377 - createpolicy.py:[438] - [INFO] - Enter polling interval time
+2022-06-08 23:55:41,677 - createpolicy.py:[456] - [INFO] - Click on save button
+2022-06-08 23:55:41,852 - createpolicy.py:[477] - [INFO] - Verifying Saved alert message
+2022-06-08 23:55:43,405 - createpolicy.py:[480] - [INFO] - True getting : Saved! not contain Saved alert message 
+2022-06-08 23:55:43,409 - createpolicy.py:[483] - [INFO] - Policy Saved!!
+2022-06-08 23:55:43,417 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-08 23:55:47,076 - createpolicy.py:[516] - [INFO] - Verify policy from data intake queue
+2022-06-08 23:59:19,808 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-08 23:59:20,418 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-08 23:59:21,719 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-08 23:59:22,949 - db_config.py:[101] - [INFO] - db_connection
+2022-06-08 23:59:22,953 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001CD4736A4A0>
+2022-06-08 23:59:22,960 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:59:28,583 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:59:28,587 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:59:32,374 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:59:32,380 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-08 23:59:36,030 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-08 23:59:36,040 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-08 23:59:36,066 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-08 23:59:36,088 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-08 23:59:44,223 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-08 23:59:44,230 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-08 23:59:44,239 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-08 23:59:44,261 - converter.py:[113] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-09 00:00:16,514 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-09 00:00:16,518 - converter.py:[116] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-09 00:00:16,523 - database.py:[789] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-09 00:00:16,533 - database.py:[795] - [INFO] - Inserting source file link to TestDatabase
+2022-06-09 00:00:16,538 - database.py:[815] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-09 00:00:16,547 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-09 00:00:16,556 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-09 00:00:16,566 - logger.py:[26] - [INFO] - 
+
+2022-06-09 00:00:16,575 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-09 00:00:16,669 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-09 00:00:16,673 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-09 00:00:17,281 - logger.py:[26] - [INFO] - Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
+2022-06-09 00:00:19,844 - logger.py:[26] - [INFO] - Driver has been saved in cache [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61]
+2022-06-09 00:00:35,315 - login.py:[60] - [INFO] - Entering username and password for Login
+2022-06-09 00:00:35,537 - login.py:[68] - [INFO] - Ku@litatem!1
+2022-06-09 00:00:35,826 - login.py:[85] - [INFO] - Click the Login button
+2022-06-09 00:00:38,966 - login.py:[104] - [INFO] - Verify the dashboard
+2022-06-09 00:00:41,294 - login.py:[107] - [INFO] - Login Successful
+2022-06-09 00:00:41,298 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-09 00:00:45,420 - createpolicy.py:[98] - [INFO] - Verifying the create policy button
+2022-06-09 00:00:45,537 - createpolicy.py:[115] - [INFO] - Clicked on create policy button
+2022-06-09 00:00:46,055 - createpolicy.py:[133] - [INFO] - Entered policy name
+2022-06-09 00:00:46,163 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:00:47,436 - createpolicy.py:[159] - [INFO] - Entered policy version
+2022-06-09 00:00:47,470 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:00:47,709 - createpolicy.py:[177] - [INFO] - Entered policy description
+2022-06-09 00:00:47,786 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:00:48,344 - createpolicy.py:[197] - [INFO] - Entered policy owner email address
+2022-06-09 00:00:48,390 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:00:48,796 - createpolicy.py:[236] - [INFO] - Click add stage button
+2022-06-09 00:00:51,921 - createpolicy.py:[254] - [INFO] - Select stage :"Load"
+2022-06-09 00:00:52,211 - createpolicy.py:[258] - [INFO] - Stage selected
+2022-06-09 00:00:52,215 - createpolicy.py:[273] - [INFO] - Click on view button
+2022-06-09 00:00:52,444 - createpolicy.py:[312] - [INFO] - Enter source cloud
+2022-06-09 00:00:52,652 - createpolicy.py:[332] - [INFO] - Enter container name for policy
+2022-06-09 00:00:52,694 - createpolicy.py:[335] - [INFO] - DATA yw-loader-2
+2022-06-09 00:00:52,697 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:00:53,661 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-09 00:00:56,907 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-09 00:00:56,911 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-09 00:01:17,469 - createpolicy.py:[696] - [ERROR] - Error in check summary record
+2022-06-09 00:01:17,506 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-09 00:01:18,145 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-09 00:01:19,376 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-09 00:01:20,727 - db_config.py:[101] - [INFO] - db_connection
+2022-06-09 00:01:20,731 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001CD473E3650>
+2022-06-09 00:01:20,738 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:01:24,098 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:01:24,103 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:01:30,238 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:01:30,243 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:01:33,371 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:01:33,377 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-09 00:01:33,397 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-09 00:01:33,419 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-09 00:01:40,510 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-09 00:01:40,514 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-09 00:01:40,521 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-09 00:01:40,534 - converter.py:[113] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-09 00:02:13,271 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-09 00:02:13,274 - converter.py:[116] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-09 00:02:13,280 - database.py:[789] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-09 00:02:13,289 - database.py:[795] - [INFO] - Inserting source file link to TestDatabase
+2022-06-09 00:02:13,294 - database.py:[815] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-09 00:02:13,302 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-09 00:02:13,305 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-09 00:02:13,309 - logger.py:[26] - [INFO] - 
+
+2022-06-09 00:02:13,314 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-09 00:02:13,384 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-09 00:02:13,388 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-09 00:02:13,723 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-09 00:02:32,787 - login.py:[60] - [INFO] - Entering username and password for Login
+2022-06-09 00:02:33,050 - login.py:[68] - [INFO] - Ku@litatem!1
+2022-06-09 00:02:33,474 - login.py:[85] - [INFO] - Click the Login button
+2022-06-09 00:02:36,581 - login.py:[104] - [INFO] - Verify the dashboard
+2022-06-09 00:02:38,858 - login.py:[107] - [INFO] - Login Successful
+2022-06-09 00:02:38,862 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-09 00:02:42,392 - createpolicy.py:[98] - [INFO] - Verifying the create policy button
+2022-06-09 00:02:42,776 - createpolicy.py:[115] - [INFO] - Clicked on create policy button
+2022-06-09 00:02:43,172 - createpolicy.py:[133] - [INFO] - Entered policy name
+2022-06-09 00:02:43,250 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:02:44,645 - createpolicy.py:[159] - [INFO] - Entered policy version
+2022-06-09 00:02:44,704 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:02:44,987 - createpolicy.py:[177] - [INFO] - Entered policy description
+2022-06-09 00:02:45,046 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:02:45,469 - createpolicy.py:[197] - [INFO] - Entered policy owner email address
+2022-06-09 00:02:45,509 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:02:45,890 - createpolicy.py:[236] - [INFO] - Click add stage button
+2022-06-09 00:02:48,964 - createpolicy.py:[254] - [INFO] - Select stage :"Load"
+2022-06-09 00:02:49,237 - createpolicy.py:[258] - [INFO] - Stage selected
+2022-06-09 00:02:49,240 - createpolicy.py:[273] - [INFO] - Click on view button
+2022-06-09 00:02:49,408 - createpolicy.py:[312] - [INFO] - Enter source cloud
+2022-06-09 00:02:49,552 - createpolicy.py:[332] - [INFO] - Enter container name for policy
+2022-06-09 00:02:49,586 - createpolicy.py:[335] - [INFO] - DATA yw-loader-2
+2022-06-09 00:02:49,589 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:02:50,466 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-09 00:02:53,749 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-09 00:02:53,753 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-09 00:02:57,480 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-09 00:02:57,486 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-09 00:03:01,155 - createpolicy.py:[375] - [INFO] - Schedule mode selected
+2022-06-09 00:03:01,162 - generics.py:[128] - [INFO] - Scrolling to element
+2022-06-09 00:03:07,727 - createpolicy.py:[404] - [INFO] - Select time for policy
+2022-06-09 00:03:07,730 - createpolicy.py:[412] - [INFO] - Schedule time in utc: 6/9/2022, 12:05 AM
+2022-06-09 00:03:07,735 - createpolicy.py:[414] - [INFO] - Scheduling in Future time:  06/09/2022|12:05|AM
+2022-06-09 00:03:08,463 - createpolicy.py:[438] - [INFO] - Enter polling interval time
+2022-06-09 00:03:08,896 - createpolicy.py:[456] - [INFO] - Click on save button
+2022-06-09 00:03:09,061 - createpolicy.py:[477] - [INFO] - Verifying Saved alert message
+2022-06-09 00:03:10,688 - createpolicy.py:[480] - [INFO] - True getting : Saved! not contain Saved alert message 
+2022-06-09 00:03:10,695 - createpolicy.py:[483] - [INFO] - Policy Saved!!
+2022-06-09 00:03:10,702 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-09 00:03:14,838 - createpolicy.py:[516] - [INFO] - Verify policy from data intake queue
+2022-06-09 00:06:47,764 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-09 00:06:48,277 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-09 00:06:49,613 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-09 00:06:51,145 - db_config.py:[101] - [INFO] - db_connection
+2022-06-09 00:06:51,148 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001CD47369570>
+2022-06-09 00:06:51,155 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:06:54,712 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:06:54,716 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:06:58,141 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:06:58,146 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:07:01,646 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:07:01,651 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-09 00:07:01,673 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-09 00:07:01,692 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-09 00:07:09,974 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-09 00:07:09,978 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-09 00:07:09,986 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-09 00:07:10,000 - converter.py:[113] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-09 00:07:43,949 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-09 00:07:43,954 - converter.py:[116] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-09 00:07:43,959 - database.py:[789] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-09 00:07:43,969 - database.py:[795] - [INFO] - Inserting source file link to TestDatabase
+2022-06-09 00:07:43,974 - database.py:[815] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-09 00:07:43,981 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-09 00:07:43,985 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-09 00:07:43,988 - logger.py:[26] - [INFO] - 
+
+2022-06-09 00:07:43,992 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-09 00:07:44,067 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-09 00:07:44,070 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-09 00:07:44,799 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-09 00:08:00,348 - login.py:[60] - [INFO] - Entering username and password for Login
+2022-06-09 00:08:00,639 - login.py:[68] - [INFO] - Ku@litatem!1
+2022-06-09 00:08:01,017 - login.py:[85] - [INFO] - Click the Login button
+2022-06-09 00:08:04,154 - login.py:[104] - [INFO] - Verify the dashboard
+2022-06-09 00:08:06,717 - login.py:[107] - [INFO] - Login Successful
+2022-06-09 00:08:06,720 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-09 00:08:10,589 - createpolicy.py:[98] - [INFO] - Verifying the create policy button
+2022-06-09 00:08:10,700 - createpolicy.py:[115] - [INFO] - Clicked on create policy button
+2022-06-09 00:08:11,285 - createpolicy.py:[133] - [INFO] - Entered policy name
+2022-06-09 00:08:11,340 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:08:12,575 - createpolicy.py:[159] - [INFO] - Entered policy version
+2022-06-09 00:08:12,608 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:08:12,903 - createpolicy.py:[177] - [INFO] - Entered policy description
+2022-06-09 00:08:12,953 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:08:13,427 - createpolicy.py:[197] - [INFO] - Entered policy owner email address
+2022-06-09 00:08:13,466 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:08:13,896 - createpolicy.py:[236] - [INFO] - Click add stage button
+2022-06-09 00:08:16,973 - createpolicy.py:[254] - [INFO] - Select stage :"Load"
+2022-06-09 00:08:17,316 - createpolicy.py:[258] - [INFO] - Stage selected
+2022-06-09 00:08:17,323 - createpolicy.py:[273] - [INFO] - Click on view button
+2022-06-09 00:08:17,770 - createpolicy.py:[312] - [INFO] - Enter source cloud
+2022-06-09 00:08:18,125 - createpolicy.py:[332] - [INFO] - Enter container name for policy
+2022-06-09 00:08:18,188 - createpolicy.py:[335] - [INFO] - DATA yw-loader-2
+2022-06-09 00:08:18,192 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:08:19,246 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-09 00:08:22,490 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-09 00:08:22,494 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-09 00:08:26,170 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-09 00:08:26,173 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-09 00:08:46,767 - createpolicy.py:[696] - [ERROR] - Error in check summary record
+2022-06-09 00:08:46,809 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-09 00:08:47,298 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-09 00:08:48,596 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-09 00:08:49,875 - db_config.py:[101] - [INFO] - db_connection
+2022-06-09 00:08:49,879 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001CD44571940>
+2022-06-09 00:08:49,886 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:08:53,163 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:08:53,169 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:08:56,699 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:08:56,704 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:09:01,093 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:09:01,099 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-09 00:09:01,112 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-09 00:09:01,122 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-09 00:09:08,319 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-09 00:09:08,324 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-09 00:09:08,333 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-09 00:09:08,353 - converter.py:[113] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-09 00:09:42,457 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-09 00:09:42,461 - converter.py:[116] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-09 00:09:42,466 - database.py:[789] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-09 00:09:42,475 - database.py:[795] - [INFO] - Inserting source file link to TestDatabase
+2022-06-09 00:09:42,480 - database.py:[815] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-09 00:09:42,488 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-09 00:09:42,492 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-09 00:09:42,496 - logger.py:[26] - [INFO] - 
+
+2022-06-09 00:09:42,499 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-09 00:09:42,572 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-09 00:09:42,575 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-09 00:09:42,918 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-09 00:10:00,507 - login.py:[60] - [INFO] - Entering username and password for Login
+2022-06-09 00:10:00,773 - login.py:[68] - [INFO] - Ku@litatem!1
+2022-06-09 00:10:01,158 - login.py:[85] - [INFO] - Click the Login button
+2022-06-09 00:10:04,256 - login.py:[104] - [INFO] - Verify the dashboard
+2022-06-09 00:10:06,753 - login.py:[107] - [INFO] - Login Successful
+2022-06-09 00:10:06,756 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-09 00:10:10,834 - createpolicy.py:[98] - [INFO] - Verifying the create policy button
+2022-06-09 00:10:10,977 - createpolicy.py:[115] - [INFO] - Clicked on create policy button
+2022-06-09 00:10:11,296 - createpolicy.py:[133] - [INFO] - Entered policy name
+2022-06-09 00:10:11,370 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:10:12,802 - createpolicy.py:[159] - [INFO] - Entered policy version
+2022-06-09 00:10:12,886 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:10:13,271 - createpolicy.py:[177] - [INFO] - Entered policy description
+2022-06-09 00:10:13,352 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:10:13,981 - createpolicy.py:[197] - [INFO] - Entered policy owner email address
+2022-06-09 00:10:14,020 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:10:14,498 - createpolicy.py:[236] - [INFO] - Click add stage button
+2022-06-09 00:10:17,570 - createpolicy.py:[254] - [INFO] - Select stage :"Load"
+2022-06-09 00:10:17,687 - createpolicy.py:[258] - [INFO] - Stage selected
+2022-06-09 00:10:17,692 - createpolicy.py:[273] - [INFO] - Click on view button
+2022-06-09 00:10:17,885 - createpolicy.py:[312] - [INFO] - Enter source cloud
+2022-06-09 00:10:18,193 - createpolicy.py:[332] - [INFO] - Enter container name for policy
+2022-06-09 00:10:18,256 - createpolicy.py:[335] - [INFO] - DATA yw-loader-2
+2022-06-09 00:10:18,261 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:10:19,195 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-09 00:10:22,461 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-09 00:10:22,466 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-09 00:10:26,211 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-09 00:10:26,221 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-09 00:10:46,789 - createpolicy.py:[696] - [ERROR] - Error in check summary record
+2022-06-09 00:10:46,821 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-09 00:10:47,295 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-09 00:10:48,605 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-09 00:10:49,844 - db_config.py:[101] - [INFO] - db_connection
+2022-06-09 00:10:49,849 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001CD4453BA50>
+2022-06-09 00:10:49,856 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:10:55,861 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:10:55,866 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:10:59,568 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:10:59,570 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:11:02,771 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:11:02,780 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-09 00:11:02,825 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-09 00:11:02,847 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-09 00:11:10,979 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-09 00:11:10,984 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-09 00:11:10,994 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-09 00:11:11,020 - converter.py:[113] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-09 00:11:43,708 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-09 00:11:43,712 - converter.py:[116] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-09 00:11:43,717 - database.py:[789] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-09 00:11:43,725 - database.py:[795] - [INFO] - Inserting source file link to TestDatabase
+2022-06-09 00:11:43,731 - database.py:[815] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-09 00:11:43,737 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-09 00:11:43,742 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-09 00:11:43,746 - logger.py:[26] - [INFO] - 
+
+2022-06-09 00:11:43,750 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-09 00:11:43,844 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-09 00:11:43,848 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-09 00:11:44,154 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-09 00:12:01,601 - login.py:[60] - [INFO] - Entering username and password for Login
+2022-06-09 00:12:01,968 - login.py:[68] - [INFO] - Ku@litatem!1
+2022-06-09 00:12:02,536 - login.py:[85] - [INFO] - Click the Login button
+2022-06-09 00:12:05,725 - login.py:[104] - [INFO] - Verify the dashboard
+2022-06-09 00:12:08,073 - login.py:[107] - [INFO] - Login Successful
+2022-06-09 00:12:08,075 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-09 00:12:12,111 - createpolicy.py:[98] - [INFO] - Verifying the create policy button
+2022-06-09 00:12:13,348 - createpolicy.py:[115] - [INFO] - Clicked on create policy button
+2022-06-09 00:12:13,733 - createpolicy.py:[133] - [INFO] - Entered policy name
+2022-06-09 00:12:13,835 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:12:15,559 - createpolicy.py:[159] - [INFO] - Entered policy version
+2022-06-09 00:12:15,592 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:12:15,829 - createpolicy.py:[177] - [INFO] - Entered policy description
+2022-06-09 00:12:15,906 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:12:16,567 - createpolicy.py:[197] - [INFO] - Entered policy owner email address
+2022-06-09 00:12:16,629 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:12:17,022 - createpolicy.py:[236] - [INFO] - Click add stage button
+2022-06-09 00:12:20,111 - createpolicy.py:[254] - [INFO] - Select stage :"Load"
+2022-06-09 00:12:20,441 - createpolicy.py:[258] - [INFO] - Stage selected
+2022-06-09 00:12:20,449 - createpolicy.py:[273] - [INFO] - Click on view button
+2022-06-09 00:12:20,874 - createpolicy.py:[312] - [INFO] - Enter source cloud
+2022-06-09 00:12:21,213 - createpolicy.py:[332] - [INFO] - Enter container name for policy
+2022-06-09 00:12:21,284 - createpolicy.py:[335] - [INFO] - DATA yw-loader-2
+2022-06-09 00:12:21,290 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:12:22,139 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-09 00:12:25,394 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-09 00:12:25,404 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-09 00:12:29,024 - createpolicy.py:[375] - [INFO] - Schedule mode selected
+2022-06-09 00:12:29,029 - generics.py:[128] - [INFO] - Scrolling to element
+2022-06-09 00:12:35,547 - createpolicy.py:[404] - [INFO] - Select time for policy
+2022-06-09 00:12:35,550 - createpolicy.py:[412] - [INFO] - Schedule time in utc: 6/9/2022, 12:14 AM
+2022-06-09 00:12:35,552 - createpolicy.py:[414] - [INFO] - Scheduling in Future time:  06/09/2022|12:14|AM
+2022-06-09 00:12:36,144 - createpolicy.py:[438] - [INFO] - Enter polling interval time
+2022-06-09 00:12:36,577 - createpolicy.py:[456] - [INFO] - Click on save button
+2022-06-09 00:12:36,755 - createpolicy.py:[477] - [INFO] - Verifying Saved alert message
+2022-06-09 00:12:38,342 - createpolicy.py:[480] - [INFO] - True getting : Saved! not contain Saved alert message 
+2022-06-09 00:12:38,350 - createpolicy.py:[483] - [INFO] - Policy Saved!!
+2022-06-09 00:12:38,356 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-09 00:12:42,783 - createpolicy.py:[516] - [INFO] - Verify policy from data intake queue
+2022-06-09 00:16:14,648 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-09 00:16:15,480 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-09 00:16:16,789 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-09 00:16:18,110 - db_config.py:[101] - [INFO] - db_connection
+2022-06-09 00:16:18,113 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001CD4741B480>
+2022-06-09 00:16:18,120 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:16:21,419 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:16:21,425 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:16:25,279 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:16:25,283 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:16:28,779 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:16:28,784 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-09 00:16:28,815 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-09 00:16:28,833 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-09 00:16:36,666 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-09 00:16:36,670 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-09 00:16:36,677 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-09 00:16:36,690 - converter.py:[113] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-09 00:17:08,961 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-09 00:17:08,965 - converter.py:[116] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-09 00:17:08,970 - database.py:[789] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-09 00:17:08,979 - database.py:[795] - [INFO] - Inserting source file link to TestDatabase
+2022-06-09 00:17:08,984 - database.py:[815] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-09 00:17:08,992 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-09 00:17:08,996 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-09 00:17:08,999 - logger.py:[26] - [INFO] - 
+
+2022-06-09 00:17:09,008 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-09 00:17:09,107 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-09 00:17:09,112 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-09 00:17:09,784 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-09 00:17:24,126 - login.py:[60] - [INFO] - Entering username and password for Login
+2022-06-09 00:17:24,393 - login.py:[68] - [INFO] - Ku@litatem!1
+2022-06-09 00:17:25,061 - login.py:[85] - [INFO] - Click the Login button
+2022-06-09 00:17:28,157 - login.py:[104] - [INFO] - Verify the dashboard
+2022-06-09 00:17:30,538 - login.py:[107] - [INFO] - Login Successful
+2022-06-09 00:17:30,540 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-09 00:17:34,998 - createpolicy.py:[98] - [INFO] - Verifying the create policy button
+2022-06-09 00:17:35,133 - createpolicy.py:[115] - [INFO] - Clicked on create policy button
+2022-06-09 00:17:35,555 - createpolicy.py:[133] - [INFO] - Entered policy name
+2022-06-09 00:17:35,715 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:17:37,094 - createpolicy.py:[159] - [INFO] - Entered policy version
+2022-06-09 00:17:37,132 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:17:37,297 - createpolicy.py:[177] - [INFO] - Entered policy description
+2022-06-09 00:17:37,350 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:17:37,781 - createpolicy.py:[197] - [INFO] - Entered policy owner email address
+2022-06-09 00:17:37,821 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:17:38,213 - createpolicy.py:[236] - [INFO] - Click add stage button
+2022-06-09 00:17:41,288 - createpolicy.py:[254] - [INFO] - Select stage :"Load"
+2022-06-09 00:17:41,452 - createpolicy.py:[258] - [INFO] - Stage selected
+2022-06-09 00:17:41,459 - createpolicy.py:[273] - [INFO] - Click on view button
+2022-06-09 00:17:41,905 - createpolicy.py:[312] - [INFO] - Enter source cloud
+2022-06-09 00:17:42,146 - createpolicy.py:[332] - [INFO] - Enter container name for policy
+2022-06-09 00:17:42,210 - createpolicy.py:[335] - [INFO] - DATA yw-loader-2
+2022-06-09 00:17:42,216 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:17:42,848 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-09 00:17:45,942 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-09 00:17:45,945 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-09 00:17:49,686 - createpolicy.py:[375] - [INFO] - Schedule mode selected
+2022-06-09 00:17:49,693 - generics.py:[128] - [INFO] - Scrolling to element
+2022-06-09 00:17:56,354 - createpolicy.py:[404] - [INFO] - Select time for policy
+2022-06-09 00:17:56,358 - createpolicy.py:[412] - [INFO] - Schedule time in utc: 6/9/2022, 12:19 AM
+2022-06-09 00:17:56,363 - createpolicy.py:[414] - [INFO] - Scheduling in Future time:  06/09/2022|12:19|AM
+2022-06-09 00:17:57,406 - createpolicy.py:[438] - [INFO] - Enter polling interval time
+2022-06-09 00:17:58,128 - createpolicy.py:[456] - [INFO] - Click on save button
+2022-06-09 00:17:58,355 - createpolicy.py:[477] - [INFO] - Verifying Saved alert message
+2022-06-09 00:17:59,911 - createpolicy.py:[480] - [INFO] - True getting : Saved! not contain Saved alert message 
+2022-06-09 00:17:59,916 - createpolicy.py:[483] - [INFO] - Policy Saved!!
+2022-06-09 00:17:59,922 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-09 00:18:03,528 - createpolicy.py:[516] - [INFO] - Verify policy from data intake queue
+2022-06-09 00:21:12,503 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-09 00:21:12,958 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-09 00:21:14,179 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-09 00:21:15,501 - db_config.py:[101] - [INFO] - db_connection
+2022-06-09 00:21:15,505 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001CD448803F0>
+2022-06-09 00:21:15,512 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:21:18,867 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:21:18,871 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:21:22,660 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:21:22,664 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:21:26,098 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:21:26,104 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-09 00:21:26,125 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-09 00:21:26,144 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-09 00:21:33,985 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-09 00:21:33,990 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-09 00:21:33,999 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-09 00:21:34,021 - converter.py:[113] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-09 00:22:08,480 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-09 00:22:08,483 - converter.py:[116] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-09 00:22:08,490 - database.py:[789] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-09 00:22:08,499 - database.py:[795] - [INFO] - Inserting source file link to TestDatabase
+2022-06-09 00:22:08,505 - database.py:[815] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-09 00:22:08,512 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-09 00:22:08,516 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-09 00:22:08,520 - logger.py:[26] - [INFO] - 
+
+2022-06-09 00:22:08,524 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-09 00:22:08,620 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-09 00:22:08,626 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-09 00:22:08,934 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-09 00:23:33,595 - login.py:[60] - [INFO] - Entering username and password for Login
+2022-06-09 00:23:34,012 - login.py:[68] - [INFO] - Ku@litatem!1
+2022-06-09 00:23:34,504 - login.py:[85] - [INFO] - Click the Login button
+2022-06-09 00:23:37,648 - login.py:[104] - [INFO] - Verify the dashboard
+2022-06-09 00:23:40,095 - login.py:[107] - [INFO] - Login Successful
+2022-06-09 00:23:40,099 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-09 00:23:44,040 - createpolicy.py:[98] - [INFO] - Verifying the create policy button
+2022-06-09 00:23:44,121 - createpolicy.py:[115] - [INFO] - Clicked on create policy button
+2022-06-09 00:23:44,422 - createpolicy.py:[133] - [INFO] - Entered policy name
+2022-06-09 00:23:44,490 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:23:46,119 - createpolicy.py:[159] - [INFO] - Entered policy version
+2022-06-09 00:23:46,167 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:23:46,433 - createpolicy.py:[177] - [INFO] - Entered policy description
+2022-06-09 00:23:46,491 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:23:46,913 - createpolicy.py:[197] - [INFO] - Entered policy owner email address
+2022-06-09 00:23:46,952 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:23:47,350 - createpolicy.py:[236] - [INFO] - Click add stage button
+2022-06-09 00:23:50,430 - createpolicy.py:[254] - [INFO] - Select stage :"Load"
+2022-06-09 00:23:50,727 - createpolicy.py:[258] - [INFO] - Stage selected
+2022-06-09 00:23:50,730 - createpolicy.py:[273] - [INFO] - Click on view button
+2022-06-09 00:23:51,059 - createpolicy.py:[312] - [INFO] - Enter source cloud
+2022-06-09 00:23:51,323 - createpolicy.py:[332] - [INFO] - Enter container name for policy
+2022-06-09 00:23:51,386 - createpolicy.py:[335] - [INFO] - DATA yw-loader-2
+2022-06-09 00:23:51,390 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:23:52,318 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-09 00:23:55,569 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-09 00:23:55,573 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-09 00:24:16,124 - createpolicy.py:[696] - [ERROR] - Error in check summary record
+2022-06-09 00:24:16,164 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-09 00:24:16,625 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-09 00:24:17,854 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-09 00:24:19,201 - db_config.py:[101] - [INFO] - db_connection
+2022-06-09 00:24:19,205 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001CD4487F9D0>
+2022-06-09 00:24:19,211 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:24:22,781 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:24:22,785 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:24:26,566 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:24:26,570 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:24:30,094 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:24:30,101 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-09 00:24:30,119 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-09 00:24:30,136 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-09 00:24:38,122 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-09 00:24:38,126 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-09 00:24:38,134 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-09 00:24:38,145 - converter.py:[113] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-09 00:25:10,756 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-09 00:25:10,761 - converter.py:[116] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-09 00:25:10,766 - database.py:[789] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-09 00:25:10,775 - database.py:[795] - [INFO] - Inserting source file link to TestDatabase
+2022-06-09 00:25:10,781 - database.py:[815] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-09 00:25:10,788 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-09 00:25:10,793 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-09 00:25:10,798 - logger.py:[26] - [INFO] - 
+
+2022-06-09 00:25:10,802 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-09 00:25:10,877 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-09 00:25:10,881 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-09 00:25:11,333 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-09 00:25:28,725 - login.py:[60] - [INFO] - Entering username and password for Login
+2022-06-09 00:25:28,990 - login.py:[68] - [INFO] - Ku@litatem!1
+2022-06-09 00:25:29,651 - login.py:[85] - [INFO] - Click the Login button
+2022-06-09 00:25:32,784 - login.py:[104] - [INFO] - Verify the dashboard
+2022-06-09 00:25:35,255 - login.py:[107] - [INFO] - Login Successful
+2022-06-09 00:25:35,258 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-09 00:25:39,093 - createpolicy.py:[98] - [INFO] - Verifying the create policy button
+2022-06-09 00:25:39,524 - createpolicy.py:[115] - [INFO] - Clicked on create policy button
+2022-06-09 00:25:39,987 - createpolicy.py:[133] - [INFO] - Entered policy name
+2022-06-09 00:25:40,136 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:25:41,587 - createpolicy.py:[159] - [INFO] - Entered policy version
+2022-06-09 00:25:41,626 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:25:41,843 - createpolicy.py:[177] - [INFO] - Entered policy description
+2022-06-09 00:25:41,893 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:25:42,358 - createpolicy.py:[197] - [INFO] - Entered policy owner email address
+2022-06-09 00:25:42,397 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:25:42,794 - createpolicy.py:[236] - [INFO] - Click add stage button
+2022-06-09 00:25:45,882 - createpolicy.py:[254] - [INFO] - Select stage :"Load"
+2022-06-09 00:25:46,193 - createpolicy.py:[258] - [INFO] - Stage selected
+2022-06-09 00:25:46,197 - createpolicy.py:[273] - [INFO] - Click on view button
+2022-06-09 00:25:46,432 - createpolicy.py:[312] - [INFO] - Enter source cloud
+2022-06-09 00:25:46,594 - createpolicy.py:[332] - [INFO] - Enter container name for policy
+2022-06-09 00:25:46,617 - createpolicy.py:[335] - [INFO] - DATA yw-loader-2
+2022-06-09 00:25:46,619 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:25:47,589 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-09 00:25:50,844 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-09 00:25:50,849 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-09 00:25:54,570 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-09 00:25:54,577 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-09 00:25:58,327 - createpolicy.py:[375] - [INFO] - Schedule mode selected
+2022-06-09 00:25:58,334 - generics.py:[128] - [INFO] - Scrolling to element
+2022-06-09 00:26:04,902 - createpolicy.py:[404] - [INFO] - Select time for policy
+2022-06-09 00:26:04,908 - createpolicy.py:[412] - [INFO] - Schedule time in utc: 6/9/2022, 12:28 AM
+2022-06-09 00:26:04,912 - createpolicy.py:[414] - [INFO] - Scheduling in Future time:  06/09/2022|12:28|AM
+2022-06-09 00:26:06,012 - createpolicy.py:[438] - [INFO] - Enter polling interval time
+2022-06-09 00:26:06,725 - createpolicy.py:[456] - [INFO] - Click on save button
+2022-06-09 00:26:07,048 - createpolicy.py:[477] - [INFO] - Verifying Saved alert message
+2022-06-09 00:26:08,538 - createpolicy.py:[480] - [INFO] - True getting : Saved! not contain Saved alert message 
+2022-06-09 00:26:08,544 - createpolicy.py:[483] - [INFO] - Policy Saved!!
+2022-06-09 00:26:08,550 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-09 00:26:12,666 - createpolicy.py:[516] - [INFO] - Verify policy from data intake queue
+2022-06-09 00:29:24,856 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-09 00:29:25,340 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-09 00:29:26,583 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-09 00:29:27,815 - db_config.py:[101] - [INFO] - db_connection
+2022-06-09 00:29:27,819 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001CD4740EF40>
+2022-06-09 00:29:27,825 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:29:33,657 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:29:33,662 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:29:38,234 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:29:38,239 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:29:41,459 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:29:41,469 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-09 00:29:41,487 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-09 00:29:41,514 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-09 00:29:49,236 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-09 00:29:49,239 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-09 00:29:49,246 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-09 00:29:49,263 - converter.py:[113] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-09 00:30:22,248 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-09 00:30:22,252 - converter.py:[116] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-09 00:30:22,258 - database.py:[789] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-09 00:30:22,266 - database.py:[795] - [INFO] - Inserting source file link to TestDatabase
+2022-06-09 00:30:22,271 - database.py:[815] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-09 00:30:22,278 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-09 00:30:22,282 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-09 00:30:22,287 - logger.py:[26] - [INFO] - 
+
+2022-06-09 00:30:22,291 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-09 00:30:22,385 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-09 00:30:22,389 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-09 00:30:22,959 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-09 00:30:41,673 - login.py:[60] - [INFO] - Entering username and password for Login
+2022-06-09 00:30:41,927 - login.py:[68] - [INFO] - Ku@litatem!1
+2022-06-09 00:30:42,487 - login.py:[85] - [INFO] - Click the Login button
+2022-06-09 00:30:45,587 - login.py:[104] - [INFO] - Verify the dashboard
+2022-06-09 00:30:47,884 - login.py:[107] - [INFO] - Login Successful
+2022-06-09 00:30:47,886 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-09 00:30:51,725 - createpolicy.py:[98] - [INFO] - Verifying the create policy button
+2022-06-09 00:30:52,142 - createpolicy.py:[115] - [INFO] - Clicked on create policy button
+2022-06-09 00:30:53,776 - createpolicy.py:[133] - [INFO] - Entered policy name
+2022-06-09 00:30:53,821 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:30:55,188 - createpolicy.py:[159] - [INFO] - Entered policy version
+2022-06-09 00:30:55,237 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:30:55,484 - createpolicy.py:[177] - [INFO] - Entered policy description
+2022-06-09 00:30:55,551 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:30:56,271 - createpolicy.py:[197] - [INFO] - Entered policy owner email address
+2022-06-09 00:30:56,348 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:30:57,273 - createpolicy.py:[236] - [INFO] - Click add stage button
+2022-06-09 00:31:00,408 - createpolicy.py:[254] - [INFO] - Select stage :"Load"
+2022-06-09 00:31:00,698 - createpolicy.py:[258] - [INFO] - Stage selected
+2022-06-09 00:31:00,701 - createpolicy.py:[273] - [INFO] - Click on view button
+2022-06-09 00:31:00,893 - createpolicy.py:[312] - [INFO] - Enter source cloud
+2022-06-09 00:31:01,090 - createpolicy.py:[332] - [INFO] - Enter container name for policy
+2022-06-09 00:31:01,132 - createpolicy.py:[335] - [INFO] - DATA yw-loader-2
+2022-06-09 00:31:01,134 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:31:02,031 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-09 00:31:05,315 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-09 00:31:05,319 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-09 00:31:09,053 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-09 00:31:09,058 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-09 00:31:29,652 - createpolicy.py:[696] - [ERROR] - Error in check summary record
+2022-06-09 00:31:29,687 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-09 00:31:30,160 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-09 00:31:31,341 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-09 00:31:32,556 - db_config.py:[101] - [INFO] - db_connection
+2022-06-09 00:31:32,560 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 000001CD4749F280>
+2022-06-09 00:31:32,566 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:31:35,746 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:31:35,751 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:31:39,320 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:31:39,325 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-09 00:31:44,852 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-09 00:31:44,862 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-09 00:31:44,884 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-09 00:31:44,906 - marking_files.py:[27] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-09 00:31:52,553 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-09 00:31:52,558 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-09 00:31:52,568 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-09 00:31:52,585 - converter.py:[113] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-09 00:32:24,971 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-09 00:32:24,976 - converter.py:[116] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-09 00:32:24,981 - database.py:[789] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-09 00:32:24,989 - database.py:[795] - [INFO] - Inserting source file link to TestDatabase
+2022-06-09 00:32:24,994 - database.py:[815] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-09 00:32:25,002 - login.py:[41] - [INFO] - Login screen is displayed
+2022-06-09 00:32:25,012 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-09 00:32:25,020 - logger.py:[26] - [INFO] - 
+
+2022-06-09 00:32:25,024 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-09 00:32:25,096 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-09 00:32:25,101 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-09 00:32:25,481 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-09 00:32:43,568 - login.py:[60] - [INFO] - Entering username and password for Login
+2022-06-09 00:32:43,932 - login.py:[68] - [INFO] - Ku@litatem!1
+2022-06-09 00:32:44,240 - login.py:[85] - [INFO] - Click the Login button
+2022-06-09 00:32:47,350 - login.py:[104] - [INFO] - Verify the dashboard
+2022-06-09 00:32:49,569 - login.py:[107] - [INFO] - Login Successful
+2022-06-09 00:32:49,574 - createpolicy.py:[82] - [INFO] - Clicked on loader policy
+2022-06-09 00:32:53,465 - createpolicy.py:[98] - [INFO] - Verifying the create policy button
+2022-06-09 00:32:53,551 - createpolicy.py:[115] - [INFO] - Clicked on create policy button
+2022-06-09 00:32:53,885 - createpolicy.py:[133] - [INFO] - Entered policy name
+2022-06-09 00:32:53,959 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:32:55,670 - createpolicy.py:[159] - [INFO] - Entered policy version
+2022-06-09 00:32:55,754 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:32:56,171 - createpolicy.py:[177] - [INFO] - Entered policy description
+2022-06-09 00:32:56,229 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:32:56,652 - createpolicy.py:[197] - [INFO] - Entered policy owner email address
+2022-06-09 00:32:56,707 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:32:57,111 - createpolicy.py:[236] - [INFO] - Click add stage button
+2022-06-09 00:33:00,250 - createpolicy.py:[254] - [INFO] - Select stage :"Load"
+2022-06-09 00:33:00,587 - createpolicy.py:[258] - [INFO] - Stage selected
+2022-06-09 00:33:00,595 - createpolicy.py:[273] - [INFO] - Click on view button
+2022-06-09 00:33:01,022 - createpolicy.py:[312] - [INFO] - Enter source cloud
+2022-06-09 00:33:01,378 - createpolicy.py:[332] - [INFO] - Enter container name for policy
+2022-06-09 00:33:01,451 - createpolicy.py:[335] - [INFO] - DATA yw-loader-2
+2022-06-09 00:33:01,456 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-09 00:33:02,478 - createpolicy.py:[622] - [INFO] - Check die record
+2022-06-09 00:33:05,753 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-09 00:33:05,757 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-09 00:33:09,500 - createpolicy.py:[686] - [INFO] - Check summary record
+2022-06-09 00:33:09,509 - generics.py:[115] - [INFO] - Scrolling to element
+2022-06-09 00:33:30,082 - createpolicy.py:[696] - [ERROR] - Error in check summary record

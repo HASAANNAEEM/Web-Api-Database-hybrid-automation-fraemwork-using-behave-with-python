@@ -1,0 +1,2 @@
+Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.115)

@@ -1,0 +1,424 @@
+2022-06-06 18:14:59,186 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-06 18:14:59,822 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-06 18:15:00,981 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-06 18:15:02,154 - db_config.py:[101] - [INFO] - db_connection
+2022-06-06 18:15:02,159 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 0000015FFEC86E40>
+2022-06-06 18:15:02,161 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-06 18:15:05,336 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-06 18:15:05,340 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-06 18:15:08,838 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-06 18:15:08,841 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-06 18:15:11,757 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-06 18:15:11,764 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-06 18:15:11,768 - warnings.py:[109] - [WARNING] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto\Utilities\yaml_reader.py:38: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data_loaded = yaml.load(stream)
+
+2022-06-06 18:15:11,780 - loader.py:[85] - [INFO] - TestData/InputFiles/ParametricHistogramGoldenFile/w4670postbake68632-4.atdf
+2022-06-06 18:15:11,786 - marking_files.py:[25] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/ParametricHistogramMarkedFile/w4670postbake68632-4.atdf++++++++
+2022-06-06 18:15:13,634 - loader.py:[87] - [INFO] - file 'w4670postbake68632-4.atdf' Marked
+2022-06-06 18:15:13,636 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-06 18:15:13,663 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-06 18:15:13,668 - converter.py:[113] - [INFO] - TestData/InputFiles/ParametricHistogramMarkedFile/w4670postbake68632-4.atdf
+2022-06-06 18:15:36,737 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-06 18:15:36,741 - converter.py:[116] - [INFO] - file 'w4670postbake68632-4.atdf' uploaded
+2022-06-06 18:15:36,747 - database.py:[778] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-06 18:15:36,756 - database.py:[784] - [INFO] - Inserting source file link to TestDatabase
+2022-06-06 18:15:36,759 - database.py:[804] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-06 18:15:36,763 - login.py:[39] - [INFO] - Login screen is displayed
+2022-06-06 18:15:36,765 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-06 18:15:36,766 - logger.py:[26] - [INFO] - 
+
+2022-06-06 18:15:36,768 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-06 18:15:36,805 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-06 18:15:36,806 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-06 18:15:37,088 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-06 18:16:06,870 - login.py:[58] - [INFO] - Entering username and password for Login
+2022-06-06 18:16:06,871 - warnings.py:[109] - [WARNING] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto\Utilities\yaml_reader.py:29: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data_loaded = yaml.load(stream)
+
+2022-06-06 18:16:06,905 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-06 18:16:07,041 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-06 18:16:07,136 - login.py:[79] - [INFO] - Click the Login button
+2022-06-06 18:16:07,193 - login.py:[96] - [INFO] - Verify the dashboard
+2022-06-06 18:16:09,338 - login.py:[99] - [INFO] - Login Successful
+2022-06-06 18:16:09,341 - createpolicy.py:[80] - [INFO] - Clicked on loader policy
+2022-06-06 18:16:12,740 - createpolicy.py:[96] - [INFO] - Verifying the create policy button
+2022-06-06 18:16:12,775 - createpolicy.py:[113] - [INFO] - Clicked on create policy button
+2022-06-06 18:16:12,927 - createpolicy.py:[131] - [INFO] - Entered policy name
+2022-06-06 18:16:12,928 - warnings.py:[109] - [WARNING] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto\Utilities\yaml_reader.py:69: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data_loaded = yaml.load(stream)
+
+2022-06-06 18:16:12,959 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-06 18:16:13,577 - createpolicy.py:[156] - [INFO] - Entered policy version
+2022-06-06 18:16:13,602 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-06 18:16:13,709 - createpolicy.py:[174] - [INFO] - Entered policy description
+2022-06-06 18:16:13,734 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-06 18:16:13,972 - createpolicy.py:[194] - [INFO] - Entered policy owner email address
+2022-06-06 18:16:13,995 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-06 18:16:14,238 - createpolicy.py:[233] - [INFO] - Click add stage button
+2022-06-06 18:16:17,289 - createpolicy.py:[251] - [INFO] - Select stage :"Load"
+2022-06-06 18:16:17,354 - createpolicy.py:[255] - [INFO] - Stage selected
+2022-06-06 18:16:17,355 - createpolicy.py:[270] - [INFO] - Click on view button
+2022-06-06 18:16:17,504 - createpolicy.py:[309] - [INFO] - Enter source cloud
+2022-06-06 18:16:17,601 - createpolicy.py:[329] - [INFO] - Enter container name for policy
+2022-06-06 18:16:17,614 - createpolicy.py:[332] - [INFO] - DATA yw-loader-2
+2022-06-06 18:16:17,616 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-06 18:16:17,831 - createpolicy.py:[601] - [INFO] - Check die record
+2022-06-06 18:16:20,893 - createpolicy.py:[601] - [INFO] - Check die record
+2022-06-06 18:16:23,950 - createpolicy.py:[601] - [INFO] - Check die record
+2022-06-06 18:16:27,030 - createpolicy.py:[620] - [INFO] - Check summary record
+2022-06-06 18:16:39,496 - createpolicy.py:[372] - [INFO] - Schedule mode selected
+2022-06-06 18:16:42,595 - createpolicy.py:[394] - [INFO] - Select time for policy
+2022-06-06 18:16:42,597 - createpolicy.py:[401] - [INFO] - Schedule time in utc: 6/06/2022, 6:18 PM
+2022-06-06 18:16:42,599 - createpolicy.py:[403] - [INFO] - Scheduling in Future time:  06/06/2022|06:18|PM
+2022-06-06 18:16:42,945 - createpolicy.py:[427] - [INFO] - Enter polling interval time
+2022-06-06 18:16:43,136 - createpolicy.py:[445] - [INFO] - Click on save button
+2022-06-06 18:16:43,219 - createpolicy.py:[466] - [INFO] - Verifying Saved alert message
+2022-06-06 18:16:44,628 - createpolicy.py:[469] - [INFO] - True getting : Saved! not contain Saved alert message 
+2022-06-06 18:16:44,629 - createpolicy.py:[472] - [INFO] - Policy Saved!!
+2022-06-06 18:16:44,632 - createpolicy.py:[80] - [INFO] - Clicked on loader policy
+2022-06-06 18:16:47,834 - createpolicy.py:[505] - [INFO] - Verify policy from data intake queue
+2022-06-06 18:19:31,382 - createpolicy.py:[555] - [INFO] - Getting success status at :18:19:31
+2022-06-06 18:19:31,384 - createpolicy.py:[558] - [INFO] - Verify policy is successfully executed
+2022-06-06 18:19:31,387 - loader.py:[170] - [INFO] - Getting the data after against facility name that is generated
+2022-06-06 18:19:33,406 - database.py:[432] - [INFO] - Getting test parameter table data against file_name : w4670postbake68632-4.atdf
+2022-06-06 18:19:33,425 - database.py:[449] - [INFO] - Getting facility id table data against facility name :  Test parametricHistogram 1349
+2022-06-06 18:19:33,647 - database.py:[468] - [INFO] - Getting customer id table data against facility_id : 4dbcc804-7f16-4d11-9f74-65a1c7e86a96
+2022-06-06 18:19:33,872 - database.py:[485] - [INFO] - Getting business unit id table data against customer_id + 85504fcb-6c6c-4365-95e4-4e82865e5c0e
+2022-06-06 18:19:34,094 - database.py:[504] - [INFO] - Getting test parameter table data against business_unit_id : f3576b82-a807-43a2-8c61-65961f4c721f
+2022-06-06 18:19:34,320 - database.py:[524] - [INFO] - Getting device family id table data against work_center_id : a7bb1f08-2111-428e-9e6a-86f3bb3c3721
+2022-06-06 18:19:34,545 - database.py:[543] - [INFO] - Getting device id table data against device_family_id : 742daa25-be7c-4bd2-a0b7-4da61d268472
+2022-06-06 18:19:34,771 - database.py:[562] - [INFO] - Getting test program id table data against device_id : 623e0673-5291-4f1b-b1ea-d160570f4917
+2022-06-06 18:19:34,992 - database.py:[579] - [INFO] - Getting test parameter table data against test_program_id : c9ba7fbc-b70f-4f67-83fe-670e105b7627
+2022-06-06 18:19:35,214 - database.py:[310] - [INFO] - Getting test parameter table data against test_program_id : a7bdb9ef-d12e-4a12-90d6-d9621f15e2c2
+2022-06-06 18:19:35,437 - database.py:[329] - [INFO] - Getting test parameter table data against lot_id : 0991f81c-e9a3-4aba-ad79-d51216fe2ad6
+2022-06-06 18:19:35,657 - database.py:[598] - [INFO] - Getting test parameter table data against test_program_revision_id : a7bdb9ef-d12e-4a12-90d6-d9621f15e2c2
+2022-06-06 18:19:36,123 - database.py:[276] - [INFO] - Getting die id table data against wafer_id : de8a2f99-9b42-40da-bf6c-48517c4a646f
+2022-06-06 18:19:38,808 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-06 18:19:59,843 - sshtunnel.py:[1223] - [ERROR] - Could not connect to gateway ec2-52-1-221-148.compute-1.amazonaws.com:22 : Unable to connect to ec2-52-1-221-148.compute-1.amazonaws.com: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2022-06-06 18:19:59,845 - db_config.py:[67] - [ERROR] - Yield-werx Database connection issue Could not establish session to SSH gateway
+2022-06-06 18:19:59,851 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-06 18:20:20,882 - sshtunnel.py:[1223] - [ERROR] - Could not connect to gateway ec2-52-1-221-148.compute-1.amazonaws.com:22 : Unable to connect to ec2-52-1-221-148.compute-1.amazonaws.com: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2022-06-06 18:20:20,887 - db_config.py:[67] - [ERROR] - Yield-werx Database connection issue Could not establish session to SSH gateway
+2022-06-06 18:20:20,905 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-06 18:20:41,932 - sshtunnel.py:[1223] - [ERROR] - Could not connect to gateway ec2-52-1-221-148.compute-1.amazonaws.com:22 : Unable to connect to ec2-52-1-221-148.compute-1.amazonaws.com: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2022-06-06 18:20:41,938 - db_config.py:[67] - [ERROR] - Yield-werx Database connection issue Could not establish session to SSH gateway
+2022-06-06 18:20:41,965 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-06 18:21:03,001 - sshtunnel.py:[1223] - [ERROR] - Could not connect to gateway ec2-52-1-221-148.compute-1.amazonaws.com:22 : Unable to connect to ec2-52-1-221-148.compute-1.amazonaws.com: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2022-06-06 18:21:03,003 - db_config.py:[67] - [ERROR] - Yield-werx Database connection issue Could not establish session to SSH gateway
+2022-06-06 18:21:03,011 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-06 18:21:24,056 - sshtunnel.py:[1223] - [ERROR] - Could not connect to gateway ec2-52-1-221-148.compute-1.amazonaws.com:22 : Unable to connect to ec2-52-1-221-148.compute-1.amazonaws.com: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2022-06-06 18:21:24,060 - db_config.py:[67] - [ERROR] - Yield-werx Database connection issue Could not establish session to SSH gateway
+2022-06-06 18:21:24,072 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-06 18:21:45,109 - sshtunnel.py:[1223] - [ERROR] - Could not connect to gateway ec2-52-1-221-148.compute-1.amazonaws.com:22 : Unable to connect to ec2-52-1-221-148.compute-1.amazonaws.com: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2022-06-06 18:21:45,112 - db_config.py:[67] - [ERROR] - Yield-werx Database connection issue Could not establish session to SSH gateway
+2022-06-06 18:21:45,124 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-06 18:22:06,172 - sshtunnel.py:[1223] - [ERROR] - Could not connect to gateway ec2-52-1-221-148.compute-1.amazonaws.com:22 : Unable to connect to ec2-52-1-221-148.compute-1.amazonaws.com: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2022-06-06 18:22:06,175 - db_config.py:[67] - [ERROR] - Yield-werx Database connection issue Could not establish session to SSH gateway
+2022-06-06 18:22:06,189 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-06 18:22:06,657 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-06 18:22:07,857 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-06 18:22:09,047 - db_config.py:[101] - [INFO] - db_connection
+2022-06-06 18:22:09,050 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 0000015FFEDA0E70>
+2022-06-06 18:22:09,056 - login.py:[39] - [INFO] - Login screen is displayed
+2022-06-06 18:22:09,059 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-06 18:22:09,061 - logger.py:[26] - [INFO] - 
+
+2022-06-06 18:22:09,064 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-06 18:22:09,101 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-06 18:22:09,103 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-06 18:22:09,527 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-06 18:22:38,011 - login.py:[58] - [INFO] - Entering username and password for Login
+2022-06-06 18:22:38,051 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-06 18:22:38,173 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-06 18:22:38,274 - login.py:[79] - [INFO] - Click the Login button
+2022-06-06 18:22:38,328 - login.py:[96] - [INFO] - Verify the dashboard
+2022-06-06 18:22:40,589 - login.py:[99] - [INFO] - Login Successful
+2022-06-06 18:22:40,591 - createpolicy.py:[80] - [INFO] - Clicked on loader policy
+2022-06-06 18:22:43,725 - createpolicy.py:[721] - [INFO] - Clicked on Selection Criteria
+2022-06-06 18:22:46,783 - parametric_histogram_page.py:[553] - [INFO] - Selection criteria window appeared - Successful
+2022-06-06 18:22:47,044 - loader.py:[170] - [INFO] - Getting the data after against facility name that is generated
+2022-06-06 18:22:49,058 - database.py:[432] - [INFO] - Getting test parameter table data against file_name : w4670postbake68632-4.atdf
+2022-06-06 18:22:49,060 - database.py:[449] - [INFO] - Getting facility id table data against facility name :  Test parametricHistogram 1349
+2022-06-06 18:22:49,330 - database.py:[468] - [INFO] - Getting customer id table data against facility_id : 4dbcc804-7f16-4d11-9f74-65a1c7e86a96
+2022-06-06 18:22:49,605 - database.py:[485] - [INFO] - Getting business unit id table data against customer_id + 85504fcb-6c6c-4365-95e4-4e82865e5c0e
+2022-06-06 18:22:49,845 - database.py:[504] - [INFO] - Getting test parameter table data against business_unit_id : f3576b82-a807-43a2-8c61-65961f4c721f
+2022-06-06 18:22:50,084 - database.py:[524] - [INFO] - Getting device family id table data against work_center_id : a7bb1f08-2111-428e-9e6a-86f3bb3c3721
+2022-06-06 18:22:50,317 - database.py:[543] - [INFO] - Getting device id table data against device_family_id : 742daa25-be7c-4bd2-a0b7-4da61d268472
+2022-06-06 18:22:50,549 - database.py:[562] - [INFO] - Getting test program id table data against device_id : 623e0673-5291-4f1b-b1ea-d160570f4917
+2022-06-06 18:22:50,794 - database.py:[579] - [INFO] - Getting test parameter table data against test_program_id : c9ba7fbc-b70f-4f67-83fe-670e105b7627
+2022-06-06 18:22:51,028 - database.py:[310] - [INFO] - Getting test parameter table data against test_program_id : a7bdb9ef-d12e-4a12-90d6-d9621f15e2c2
+2022-06-06 18:22:51,262 - database.py:[329] - [INFO] - Getting test parameter table data against lot_id : 0991f81c-e9a3-4aba-ad79-d51216fe2ad6
+2022-06-06 18:22:51,493 - database.py:[598] - [INFO] - Getting test parameter table data against test_program_revision_id : a7bdb9ef-d12e-4a12-90d6-d9621f15e2c2
+2022-06-06 18:22:52,016 - database.py:[276] - [INFO] - Getting die id table data against wafer_id : de8a2f99-9b42-40da-bf6c-48517c4a646f
+2022-06-06 18:22:52,516 - createpolicy.py:[805] - [INFO] - Getting name of Facility ,Wafer, Lot, Test Parameter data from marked file
+2022-06-06 18:22:52,520 - createpolicy.py:[806] - [INFO] - Getting name of Facility ,Wafer, Lot, Test Parameter data from marked file
+2022-06-06 18:22:52,532 - database.py:[432] - [INFO] - Getting test parameter table data against file_name : w4670postbake68632-4.atdf
+2022-06-06 18:22:52,535 - database.py:[886] - [INFO] - I get the names of column against facility name
+2022-06-06 18:22:55,374 - database.py:[432] - [INFO] - Getting test parameter table data against file_name : w4670postbake68632-4.atdf
+2022-06-06 18:22:55,379 - database.py:[432] - [INFO] - Getting test parameter table data against file_name : w4670postbake68632-4.atdf
+2022-06-06 18:22:55,383 - database.py:[886] - [INFO] - I get the names of column against facility name
+2022-06-06 18:22:58,211 - database.py:[432] - [INFO] - Getting test parameter table data against file_name : w4670postbake68632-4.atdf
+2022-06-06 18:22:58,223 - database.py:[886] - [INFO] - I get the names of column against facility name
+2022-06-06 18:23:01,082 - database.py:[432] - [INFO] - Getting test parameter table data against file_name : w4670postbake68632-4.atdf
+2022-06-06 18:23:01,085 - database.py:[886] - [INFO] - I get the names of column against facility name
+2022-06-06 18:23:04,190 - createpolicy.py:[849] - [INFO] - Select data for Facility,Wafer, Lot, One Test Parameterin Selection Criteria
+2022-06-06 18:23:07,207 - createpolicy.py:[853] - [INFO] - Data of file is verified from database after marking the file
+2022-06-06 18:23:07,209 - selection_criteria.py:[165] - [INFO] - Selecting data from  Test parametricHistogram 1349
+2022-06-06 18:23:10,761 - selection_criteria.py:[174] - [INFO] - Selection for the  Test parametricHistogram 1349 : Done
+2022-06-06 18:23:10,762 - selection_criteria.py:[38] - [INFO] - Selecting data from 4 Wafer ID Test
+2022-06-06 18:23:14,227 - selection_criteria.py:[50] - [INFO] - Selection for the 4 Wafer ID Test : Done
+2022-06-06 18:23:14,228 - selection_criteria.py:[23] - [INFO] - Selecting data from 68632 LOT ID Test
+2022-06-06 18:23:17,593 - selection_criteria.py:[34] - [INFO] - Selection for the 68632 LOT ID Test : Done
+2022-06-06 18:23:17,594 - selection_criteria.py:[71] - [INFO] - Selecting data from ph0 rise delta Bdist
+2022-06-06 18:23:20,957 - selection_criteria.py:[81] - [INFO] - Selection for the ph0 rise delta Bdist : Done
+2022-06-06 18:23:20,959 - parametric_histogram_page.py:[111] - [INFO] - Clicking the Save and close btn from selection criteria
+2022-06-06 18:23:24,071 - parametric_histogram_page.py:[114] - [INFO] - Clicked the Save and close btn from selection criteria - Done
+2022-06-06 18:23:26,258 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-06 18:23:26,748 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-06 18:23:28,017 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-06 18:23:29,217 - db_config.py:[101] - [INFO] - db_connection
+2022-06-06 18:23:29,218 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 0000015FFED9A420>
+2022-06-06 18:23:29,220 - login.py:[39] - [INFO] - Login screen is displayed
+2022-06-06 18:23:29,221 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-06 18:23:29,222 - logger.py:[26] - [INFO] - 
+
+2022-06-06 18:23:29,223 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-06 18:23:29,248 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-06 18:23:29,248 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-06 18:23:29,538 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-06 18:24:03,341 - login.py:[58] - [INFO] - Entering username and password for Login
+2022-06-06 18:24:03,371 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-06 18:24:03,471 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-06 18:24:03,563 - login.py:[79] - [INFO] - Click the Login button
+2022-06-06 18:24:03,623 - login.py:[96] - [INFO] - Verify the dashboard
+2022-06-06 18:24:05,735 - login.py:[99] - [INFO] - Login Successful
+2022-06-06 18:24:05,738 - createpolicy.py:[80] - [INFO] - Clicked on loader policy
+2022-06-06 18:24:08,862 - createpolicy.py:[721] - [INFO] - Clicked on Selection Criteria
+2022-06-06 18:24:11,926 - parametric_histogram_page.py:[553] - [INFO] - Selection criteria window appeared - Successful
+2022-06-06 18:24:12,387 - createpolicy.py:[805] - [INFO] - Getting name of Facility ,Wafer, Lot, Test Parameter data from marked file
+2022-06-06 18:24:12,388 - createpolicy.py:[806] - [INFO] - Getting name of Facility ,Wafer, Lot, Test Parameter data from marked file
+2022-06-06 18:24:12,393 - database.py:[432] - [INFO] - Getting test parameter table data against file_name : w4670postbake68632-4.atdf
+2022-06-06 18:24:12,395 - database.py:[886] - [INFO] - I get the names of column against facility name
+2022-06-06 18:24:15,110 - database.py:[432] - [INFO] - Getting test parameter table data against file_name : w4670postbake68632-4.atdf
+2022-06-06 18:24:15,113 - database.py:[432] - [INFO] - Getting test parameter table data against file_name : w4670postbake68632-4.atdf
+2022-06-06 18:24:15,115 - database.py:[886] - [INFO] - I get the names of column against facility name
+2022-06-06 18:24:17,814 - database.py:[432] - [INFO] - Getting test parameter table data against file_name : w4670postbake68632-4.atdf
+2022-06-06 18:24:17,819 - database.py:[886] - [INFO] - I get the names of column against facility name
+2022-06-06 18:24:20,522 - database.py:[432] - [INFO] - Getting test parameter table data against file_name : w4670postbake68632-4.atdf
+2022-06-06 18:24:20,525 - database.py:[886] - [INFO] - I get the names of column against facility name
+2022-06-06 18:24:23,219 - createpolicy.py:[849] - [INFO] - Select data for Facility,Wafer, Lot, One Test Parameterin Selection Criteria
+2022-06-06 18:24:26,225 - createpolicy.py:[853] - [INFO] - Data of file is verified from database after marking the file
+2022-06-06 18:24:26,226 - selection_criteria.py:[165] - [INFO] - Selecting data from  Test parametricHistogram 1349
+2022-06-06 18:24:29,723 - selection_criteria.py:[174] - [INFO] - Selection for the  Test parametricHistogram 1349 : Done
+2022-06-06 18:24:29,723 - selection_criteria.py:[38] - [INFO] - Selecting data from 4 Wafer ID Test
+2022-06-06 18:24:33,795 - selection_criteria.py:[50] - [INFO] - Selection for the 4 Wafer ID Test : Done
+2022-06-06 18:24:33,797 - selection_criteria.py:[23] - [INFO] - Selecting data from 68632 LOT ID Test
+2022-06-06 18:24:37,529 - selection_criteria.py:[34] - [INFO] - Selection for the 68632 LOT ID Test : Done
+2022-06-06 18:24:37,530 - selection_criteria.py:[71] - [INFO] - Selecting data from ph0 rise delta Bdist
+2022-06-06 18:24:40,873 - selection_criteria.py:[81] - [INFO] - Selection for the ph0 rise delta Bdist : Done
+2022-06-06 18:24:40,875 - parametric_histogram_page.py:[111] - [INFO] - Clicking the Save and close btn from selection criteria
+2022-06-06 18:24:43,923 - parametric_histogram_page.py:[114] - [INFO] - Clicked the Save and close btn from selection criteria - Done
+2022-06-06 18:24:43,925 - bin_wafer_map_report_page.py:[78] - [INFO] - Generating the report
+2022-06-06 18:24:52,329 - bin_wafer_map_report_page.py:[82] - [INFO] - Generating the report - Done
+2022-06-06 18:24:52,331 - parametric_histogram_page.py:[128] - [INFO] - Click on Stats tab from report 
+2022-06-06 18:25:36,418 - parametric_histogram_page.py:[133] - [ERROR] - Error in clicked on Stats tab from report
+2022-06-06 18:25:38,812 - loader.py:[749] - [INFO] - Cleaning the data base after creating loader policy
+2022-06-06 18:25:38,819 - loader.py:[170] - [INFO] - Getting the data after against facility name that is generated
+2022-06-06 18:25:40,830 - database.py:[432] - [INFO] - Getting test parameter table data against file_name : w4670postbake68632-4.atdf
+2022-06-06 18:25:40,837 - database.py:[449] - [INFO] - Getting facility id table data against facility name :  Test parametricHistogram 1349
+2022-06-06 18:25:41,065 - database.py:[468] - [INFO] - Getting customer id table data against facility_id : 4dbcc804-7f16-4d11-9f74-65a1c7e86a96
+2022-06-06 18:25:41,288 - database.py:[485] - [INFO] - Getting business unit id table data against customer_id + 85504fcb-6c6c-4365-95e4-4e82865e5c0e
+2022-06-06 18:25:41,511 - database.py:[504] - [INFO] - Getting test parameter table data against business_unit_id : f3576b82-a807-43a2-8c61-65961f4c721f
+2022-06-06 18:25:41,733 - database.py:[524] - [INFO] - Getting device family id table data against work_center_id : a7bb1f08-2111-428e-9e6a-86f3bb3c3721
+2022-06-06 18:25:41,955 - database.py:[543] - [INFO] - Getting device id table data against device_family_id : 742daa25-be7c-4bd2-a0b7-4da61d268472
+2022-06-06 18:25:42,177 - database.py:[562] - [INFO] - Getting test program id table data against device_id : 623e0673-5291-4f1b-b1ea-d160570f4917
+2022-06-06 18:25:42,399 - database.py:[579] - [INFO] - Getting test parameter table data against test_program_id : c9ba7fbc-b70f-4f67-83fe-670e105b7627
+2022-06-06 18:25:42,621 - database.py:[310] - [INFO] - Getting test parameter table data against test_program_id : a7bdb9ef-d12e-4a12-90d6-d9621f15e2c2
+2022-06-06 18:25:42,843 - database.py:[329] - [INFO] - Getting test parameter table data against lot_id : 0991f81c-e9a3-4aba-ad79-d51216fe2ad6
+2022-06-06 18:25:43,065 - database.py:[598] - [INFO] - Getting test parameter table data against test_program_revision_id : a7bdb9ef-d12e-4a12-90d6-d9621f15e2c2
+2022-06-06 18:25:43,532 - database.py:[276] - [INFO] - Getting die id table data against wafer_id : de8a2f99-9b42-40da-bf6c-48517c4a646f
+2022-06-06 18:25:44,258 - database.py:[642] - [INFO] - Getting test parameter table all id against test_program_id : a7bdb9ef-d12e-4a12-90d6-d9621f15e2c2
+2022-06-06 18:25:44,486 - database.py:[744] - [INFO] - Getting the data for test dynamic table after marking the file
+2022-06-06 18:25:44,762 - database.py:[346] - [INFO] - Getting wafer table all id's against lot_id : 0991f81c-e9a3-4aba-ad79-d51216fe2ad6
+2022-06-06 18:25:54,186 - database.py:[380] - [INFO] - Getting policy table all id's against ModifiedLoaderPolicyNameforparametricHistogram
+2022-06-06 18:25:54,409 - database.py:[397] - [INFO] - Getting policy step table id against 3f167fa6-29e2-4b11-b19e-2f931ba380d5
+2022-06-06 18:25:58,436 - database.py:[397] - [INFO] - Getting policy step table id against dacb622d-31a3-47a9-8ba3-1630085e3fc7
+2022-06-06 18:25:59,785 - db_config.py:[316] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`workflow_load_file`, CONSTRAINT `FK_workflow_load_file_workflow_step_workflow_step_id` FOREIGN KEY (`workflow_step_id`) REFERENCES `workflow_step` (`id`))')
+2022-06-06 18:26:00,012 - db_config.py:[316] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`workflow_load_file`, CONSTRAINT `FK_workflow_load_file_workflow_step_workflow_step_id` FOREIGN KEY (`workflow_step_id`) REFERENCES `workflow_step` (`id`))')
+2022-06-06 18:26:00,239 - db_config.py:[316] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`workflow_load_file`, CONSTRAINT `FK_workflow_load_file_workflow_step_workflow_step_id` FOREIGN KEY (`workflow_step_id`) REFERENCES `workflow_step` (`id`))')
+2022-06-06 18:26:00,240 - db_config.py:[319] - [ERROR] - No data is present in workflow_step
+2022-06-06 18:26:00,682 - db_config.py:[316] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`workflow_load_file`, CONSTRAINT `FK_workflow_load_file_workflow_step_workflow_step_id` FOREIGN KEY (`workflow_step_id`) REFERENCES `workflow_step` (`id`))')
+2022-06-06 18:26:00,905 - db_config.py:[316] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`workflow_load_file`, CONSTRAINT `FK_workflow_load_file_workflow_step_workflow_step_id` FOREIGN KEY (`workflow_step_id`) REFERENCES `workflow_step` (`id`))')
+2022-06-06 18:26:01,130 - db_config.py:[316] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`workflow_load_file`, CONSTRAINT `FK_workflow_load_file_workflow_step_workflow_step_id` FOREIGN KEY (`workflow_step_id`) REFERENCES `workflow_step` (`id`))')
+2022-06-06 18:26:01,131 - db_config.py:[319] - [ERROR] - No data is present in workflow_step
+2022-06-06 18:26:01,355 - db_config.py:[335] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`workflow_step`, CONSTRAINT `FK_workflow_step_workflow_instance_workflow_instance_id` FOREIGN KEY (`workflow_instance_id`) REFERENCES `workflow_instance` (`id`))')
+2022-06-06 18:26:01,582 - db_config.py:[335] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`workflow_step`, CONSTRAINT `FK_workflow_step_workflow_instance_workflow_instance_id` FOREIGN KEY (`workflow_instance_id`) REFERENCES `workflow_instance` (`id`))')
+2022-06-06 18:26:01,806 - db_config.py:[335] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`workflow_step`, CONSTRAINT `FK_workflow_step_workflow_instance_workflow_instance_id` FOREIGN KEY (`workflow_instance_id`) REFERENCES `workflow_instance` (`id`))')
+2022-06-06 18:26:01,807 - db_config.py:[338] - [ERROR] - No data is present in workflow_instance
+2022-06-06 18:26:02,030 - db_config.py:[316] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`workflow_step`, CONSTRAINT `FK_workflow_step_policy_step_policy_step_id` FOREIGN KEY (`policy_step_id`) REFERENCES `policy_step` (`id`))')
+2022-06-06 18:26:02,254 - db_config.py:[316] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`workflow_step`, CONSTRAINT `FK_workflow_step_policy_step_policy_step_id` FOREIGN KEY (`policy_step_id`) REFERENCES `policy_step` (`id`))')
+2022-06-06 18:26:02,480 - db_config.py:[316] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`workflow_step`, CONSTRAINT `FK_workflow_step_policy_step_policy_step_id` FOREIGN KEY (`policy_step_id`) REFERENCES `policy_step` (`id`))')
+2022-06-06 18:26:02,485 - db_config.py:[319] - [ERROR] - No data is present in policy_step
+2022-06-06 18:26:03,158 - db_config.py:[316] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`policy_step`, CONSTRAINT `FK_policy_step_policy_policy_id` FOREIGN KEY (`policy_id`) REFERENCES `policy` (`id`))')
+2022-06-06 18:26:03,385 - db_config.py:[316] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`policy_step`, CONSTRAINT `FK_policy_step_policy_policy_id` FOREIGN KEY (`policy_id`) REFERENCES `policy` (`id`))')
+2022-06-06 18:26:03,612 - db_config.py:[316] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`policy_step`, CONSTRAINT `FK_policy_step_policy_policy_id` FOREIGN KEY (`policy_id`) REFERENCES `policy` (`id`))')
+2022-06-06 18:26:03,617 - db_config.py:[319] - [ERROR] - No data is present in policy
+2022-06-06 18:26:03,642 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-06 18:26:04,094 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-06 18:26:05,255 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-06 18:26:06,433 - db_config.py:[101] - [INFO] - db_connection
+2022-06-06 18:26:06,434 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 0000015FFEDA0E70>
+2022-06-06 18:26:06,436 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-06 18:26:10,207 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-06 18:26:10,211 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-06 18:26:13,720 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-06 18:26:13,724 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-06 18:26:17,510 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-06 18:26:17,516 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-06 18:26:17,529 - loader.py:[85] - [INFO] - TestData/InputFiles/SelectionCriteriaGoldenFile/w4670prebake68632-4.atdf
+2022-06-06 18:26:17,536 - marking_files.py:[25] - [INFO] - E:\Tasks\YieldWerx_AWS_Repo\ywtestauto/TestData/InputFiles/SelectionCriteriaMarkedFile/w4670prebake68632-4.atdf++++++++
+2022-06-06 18:26:18,447 - loader.py:[87] - [INFO] - file 'w4670prebake68632-4.atdf' Marked
+2022-06-06 18:26:18,449 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-06 18:26:18,452 - converter.py:[107] - [INFO] - Uploading files into the bucket
+2022-06-06 18:26:18,457 - converter.py:[113] - [INFO] - TestData/InputFiles/SelectionCriteriaMarkedFile/w4670prebake68632-4.atdf
+2022-06-06 18:27:21,825 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-06 18:27:21,830 - converter.py:[116] - [INFO] - file 'w4670prebake68632-4.atdf' uploaded
+2022-06-06 18:27:21,837 - database.py:[778] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-06 18:27:21,843 - database.py:[784] - [INFO] - Inserting source file link to TestDatabase
+2022-06-06 18:27:21,846 - database.py:[804] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-06 18:27:21,850 - login.py:[39] - [INFO] - Login screen is displayed
+2022-06-06 18:27:21,851 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-06 18:27:21,853 - logger.py:[26] - [INFO] - 
+
+2022-06-06 18:27:21,855 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-06 18:27:21,881 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-06 18:27:21,882 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-06 18:27:22,319 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-06 18:27:53,927 - login.py:[58] - [INFO] - Entering username and password for Login
+2022-06-06 18:27:53,963 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-06 18:27:54,096 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-06 18:27:54,186 - login.py:[79] - [INFO] - Click the Login button
+2022-06-06 18:27:54,239 - login.py:[96] - [INFO] - Verify the dashboard
+2022-06-06 18:27:56,399 - login.py:[99] - [INFO] - Login Successful
+2022-06-06 18:27:56,400 - createpolicy.py:[80] - [INFO] - Clicked on loader policy
+2022-06-06 18:27:59,791 - createpolicy.py:[96] - [INFO] - Verifying the create policy button
+2022-06-06 18:27:59,831 - createpolicy.py:[113] - [INFO] - Clicked on create policy button
+2022-06-06 18:27:59,989 - createpolicy.py:[131] - [INFO] - Entered policy name
+2022-06-06 18:28:00,019 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-06 18:28:00,611 - createpolicy.py:[156] - [INFO] - Entered policy version
+2022-06-06 18:28:00,639 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-06 18:28:00,767 - createpolicy.py:[174] - [INFO] - Entered policy description
+2022-06-06 18:28:00,790 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-06 18:28:01,030 - createpolicy.py:[194] - [INFO] - Entered policy owner email address
+2022-06-06 18:28:01,053 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-06 18:28:01,281 - createpolicy.py:[233] - [INFO] - Click add stage button
+2022-06-06 18:28:04,329 - createpolicy.py:[251] - [INFO] - Select stage :"Load"
+2022-06-06 18:28:04,376 - createpolicy.py:[255] - [INFO] - Stage selected
+2022-06-06 18:28:04,378 - createpolicy.py:[270] - [INFO] - Click on view button
+2022-06-06 18:28:04,511 - createpolicy.py:[309] - [INFO] - Enter source cloud
+2022-06-06 18:28:04,595 - createpolicy.py:[329] - [INFO] - Enter container name for policy
+2022-06-06 18:28:04,612 - createpolicy.py:[332] - [INFO] - DATA yw-loader-2
+2022-06-06 18:28:04,614 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-06 18:28:04,833 - createpolicy.py:[601] - [INFO] - Check die record
+2022-06-06 18:28:07,898 - createpolicy.py:[601] - [INFO] - Check die record
+2022-06-06 18:28:10,969 - createpolicy.py:[601] - [INFO] - Check die record
+2022-06-06 18:28:14,029 - createpolicy.py:[620] - [INFO] - Check summary record
+2022-06-06 18:28:26,496 - createpolicy.py:[372] - [INFO] - Schedule mode selected
+2022-06-06 18:28:29,586 - createpolicy.py:[394] - [INFO] - Select time for policy
+2022-06-06 18:28:29,587 - createpolicy.py:[401] - [INFO] - Schedule time in utc: 6/06/2022, 6:30 PM
+2022-06-06 18:28:29,588 - createpolicy.py:[403] - [INFO] - Scheduling in Future time:  06/06/2022|06:30|PM
+2022-06-06 18:28:29,935 - createpolicy.py:[427] - [INFO] - Enter polling interval time
+2022-06-06 18:28:30,113 - createpolicy.py:[445] - [INFO] - Click on save button
+2022-06-06 18:28:30,196 - createpolicy.py:[80] - [INFO] - Clicked on loader policy
+2022-06-06 18:28:33,524 - createpolicy.py:[505] - [INFO] - Verify policy from data intake queue
+2022-06-06 18:31:40,210 - createpolicy.py:[555] - [INFO] - Getting success status at :18:31:40
+2022-06-06 18:31:40,211 - createpolicy.py:[558] - [INFO] - Verify policy is successfully executed
+2022-06-06 18:31:42,401 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-06 18:32:03,431 - sshtunnel.py:[1223] - [ERROR] - Could not connect to gateway ec2-52-1-221-148.compute-1.amazonaws.com:22 : Unable to connect to ec2-52-1-221-148.compute-1.amazonaws.com: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2022-06-06 18:32:03,435 - db_config.py:[67] - [ERROR] - Yield-werx Database connection issue Could not establish session to SSH gateway
+2022-06-06 18:32:03,453 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-06 18:32:24,511 - sshtunnel.py:[1223] - [ERROR] - Could not connect to gateway ec2-52-1-221-148.compute-1.amazonaws.com:22 : Unable to connect to ec2-52-1-221-148.compute-1.amazonaws.com: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2022-06-06 18:32:24,514 - db_config.py:[67] - [ERROR] - Yield-werx Database connection issue Could not establish session to SSH gateway
+2022-06-06 18:32:24,531 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-06 18:32:45,562 - sshtunnel.py:[1223] - [ERROR] - Could not connect to gateway ec2-52-1-221-148.compute-1.amazonaws.com:22 : Unable to connect to ec2-52-1-221-148.compute-1.amazonaws.com: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2022-06-06 18:32:45,567 - db_config.py:[67] - [ERROR] - Yield-werx Database connection issue Could not establish session to SSH gateway
+2022-06-06 18:32:45,582 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-06 18:33:06,628 - sshtunnel.py:[1223] - [ERROR] - Could not connect to gateway ec2-52-1-221-148.compute-1.amazonaws.com:22 : Unable to connect to ec2-52-1-221-148.compute-1.amazonaws.com: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2022-06-06 18:33:06,635 - db_config.py:[67] - [ERROR] - Yield-werx Database connection issue Could not establish session to SSH gateway
+2022-06-06 18:33:06,659 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-06 18:33:07,107 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-06 18:33:08,268 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-06 18:33:09,431 - db_config.py:[101] - [INFO] - db_connection
+2022-06-06 18:33:09,435 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 0000015FFF0FEDA0>
+2022-06-06 18:33:09,441 - login.py:[39] - [INFO] - Login screen is displayed
+2022-06-06 18:33:09,444 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-06 18:33:09,445 - logger.py:[26] - [INFO] - 
+
+2022-06-06 18:33:09,446 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-06 18:33:09,482 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-06 18:33:09,483 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-06 18:33:09,893 - logger.py:[26] - [INFO] - Driver [C:\Users\Hasaan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-06 18:33:38,486 - login.py:[58] - [INFO] - Entering username and password for Login
+2022-06-06 18:33:38,520 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-06 18:33:38,638 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-06 18:33:38,743 - login.py:[79] - [INFO] - Click the Login button
+2022-06-06 18:33:38,798 - login.py:[96] - [INFO] - Verify the dashboard
+2022-06-06 18:33:40,946 - login.py:[99] - [INFO] - Login Successful
+2022-06-06 18:33:40,948 - createpolicy.py:[80] - [INFO] - Clicked on loader policy
+2022-06-06 18:33:44,078 - createpolicy.py:[805] - [INFO] - Getting name of Work Center,Test Program data from marked file
+2022-06-06 18:33:44,079 - createpolicy.py:[806] - [INFO] - Getting name of Work Center,Test Program data from marked file
+2022-06-06 18:33:44,087 - database.py:[432] - [INFO] - Getting test parameter table data against file_name : w4670prebake68632-4.atdf
+2022-06-06 18:33:44,090 - database.py:[886] - [INFO] - I get the names of column against facility name
+2022-06-06 18:33:48,112 - database.py:[432] - [INFO] - Getting test parameter table data against file_name : w4670prebake68632-4.atdf
+2022-06-06 18:33:48,115 - database.py:[886] - [INFO] - I get the names of column against facility name
+2022-06-06 18:33:51,121 - createpolicy.py:[721] - [INFO] - Clicked on Selection Criteria
+2022-06-06 18:33:54,248 - createpolicy.py:[849] - [INFO] - Select data for Work Centerin Selection Criteria
+2022-06-06 18:33:57,252 - createpolicy.py:[853] - [INFO] - Data of file is verified from database after marking the file
+2022-06-06 18:33:57,254 - selection_criteria.py:[178] - [INFO] - Verify data from WAFER SORT TEST CODE TEST
+2022-06-06 18:34:01,725 - selection_criteria.py:[187] - [INFO] - Verified data from WAFER SORT TEST CODE TEST
+2022-06-06 18:34:01,727 - createpolicy.py:[738] - [INFO] - Verifying the data from selection criteria
+2022-06-06 18:34:01,728 - selection_criteria.py:[121] - [INFO] - Verify data from WAFER SORT TEST CODE TEST
+2022-06-06 18:34:02,097 - selection_criteria.py:[128] - [INFO] - Verified data from WAFER SORT TEST CODE TEST
+2022-06-06 18:34:02,098 - selection_criteria.py:[143] - [INFO] - Verify data from PREBAKE Job Name Test
+2022-06-06 18:34:02,431 - selection_criteria.py:[150] - [INFO] - Verified data from PREBAKE Job Name Test
+2022-06-06 18:34:04,602 - loader.py:[749] - [INFO] - Cleaning the data base after creating loader policy
+2022-06-06 18:34:04,624 - loader.py:[170] - [INFO] - Getting the data after against facility name that is generated
+2022-06-06 18:34:06,653 - database.py:[432] - [INFO] - Getting test parameter table data against file_name : w4670prebake68632-4.atdf
+2022-06-06 18:34:06,661 - database.py:[449] - [INFO] - Getting facility id table data against facility name :  Test selectionCriteria 1105
+2022-06-06 18:34:06,885 - database.py:[468] - [INFO] - Getting customer id table data against facility_id : 89bc92cf-2eee-4c50-ae15-f70db99e7b5f
+2022-06-06 18:34:07,107 - database.py:[485] - [INFO] - Getting business unit id table data against customer_id + 426e379e-633c-4104-8d0e-98ab79cdadeb
+2022-06-06 18:34:07,332 - database.py:[504] - [INFO] - Getting test parameter table data against business_unit_id : 954e6e53-24a8-462b-9bf7-934740ae9eb0
+2022-06-06 18:34:07,558 - database.py:[524] - [INFO] - Getting device family id table data against work_center_id : 11396c30-7a2d-4abf-a196-7c2b4ebc95fc
+2022-06-06 18:34:07,783 - database.py:[543] - [INFO] - Getting device id table data against device_family_id : 48e7886e-0a24-4def-ada1-cce094c31916
+2022-06-06 18:34:08,006 - database.py:[562] - [INFO] - Getting test program id table data against device_id : a6bdd898-9493-4dc0-ac6b-f40a0d1de87b
+2022-06-06 18:34:08,236 - database.py:[579] - [INFO] - Getting test parameter table data against test_program_id : 4f9c1158-2ba2-4c24-9db2-e7640d2230bd
+2022-06-06 18:34:08,466 - database.py:[310] - [INFO] - Getting test parameter table data against test_program_id : 319a3937-4e6b-4505-a719-c8bb2966a289
+2022-06-06 18:34:08,693 - database.py:[329] - [INFO] - Getting test parameter table data against lot_id : 010602cb-e90c-4489-bb33-2d037f7937c8
+2022-06-06 18:34:08,919 - database.py:[598] - [INFO] - Getting test parameter table data against test_program_revision_id : 319a3937-4e6b-4505-a719-c8bb2966a289
+2022-06-06 18:34:09,174 - database.py:[276] - [INFO] - Getting die id table data against wafer_id : fe6f5e35-9a04-4e82-a28d-80d3eb6afc9d
+2022-06-06 18:34:09,646 - database.py:[642] - [INFO] - Getting test parameter table all id against test_program_id : 319a3937-4e6b-4505-a719-c8bb2966a289
+2022-06-06 18:34:09,876 - database.py:[744] - [INFO] - Getting the data for test dynamic table after marking the file
+2022-06-06 18:34:10,134 - database.py:[346] - [INFO] - Getting wafer table all id's against lot_id : 010602cb-e90c-4489-bb33-2d037f7937c8
+2022-06-06 18:34:19,785 - database.py:[380] - [INFO] - Getting policy table all id's against ModifiedLoaderPolicyNameforselectionCriteria
+2022-06-06 18:34:20,015 - database.py:[397] - [INFO] - Getting policy step table id against 552b358a-cf51-423f-84e6-f56d9b248792
+2022-06-06 18:34:21,362 - db_config.py:[316] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`workflow_load_file`, CONSTRAINT `FK_workflow_load_file_workflow_step_workflow_step_id` FOREIGN KEY (`workflow_step_id`) REFERENCES `workflow_step` (`id`))')
+2022-06-06 18:34:21,590 - db_config.py:[316] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`workflow_load_file`, CONSTRAINT `FK_workflow_load_file_workflow_step_workflow_step_id` FOREIGN KEY (`workflow_step_id`) REFERENCES `workflow_step` (`id`))')
+2022-06-06 18:34:21,818 - db_config.py:[316] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`workflow_load_file`, CONSTRAINT `FK_workflow_load_file_workflow_step_workflow_step_id` FOREIGN KEY (`workflow_step_id`) REFERENCES `workflow_step` (`id`))')
+2022-06-06 18:34:21,824 - db_config.py:[319] - [ERROR] - No data is present in workflow_step
+2022-06-06 18:34:22,273 - db_config.py:[316] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`workflow_load_file`, CONSTRAINT `FK_workflow_load_file_workflow_step_workflow_step_id` FOREIGN KEY (`workflow_step_id`) REFERENCES `workflow_step` (`id`))')
+2022-06-06 18:34:22,500 - db_config.py:[316] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`workflow_load_file`, CONSTRAINT `FK_workflow_load_file_workflow_step_workflow_step_id` FOREIGN KEY (`workflow_step_id`) REFERENCES `workflow_step` (`id`))')
+2022-06-06 18:34:22,727 - db_config.py:[316] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`workflow_load_file`, CONSTRAINT `FK_workflow_load_file_workflow_step_workflow_step_id` FOREIGN KEY (`workflow_step_id`) REFERENCES `workflow_step` (`id`))')
+2022-06-06 18:34:22,733 - db_config.py:[319] - [ERROR] - No data is present in workflow_step
+2022-06-06 18:34:22,959 - db_config.py:[335] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`workflow_step`, CONSTRAINT `FK_workflow_step_workflow_instance_workflow_instance_id` FOREIGN KEY (`workflow_instance_id`) REFERENCES `workflow_instance` (`id`))')
+2022-06-06 18:34:23,182 - db_config.py:[335] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`workflow_step`, CONSTRAINT `FK_workflow_step_workflow_instance_workflow_instance_id` FOREIGN KEY (`workflow_instance_id`) REFERENCES `workflow_instance` (`id`))')
+2022-06-06 18:34:23,410 - db_config.py:[335] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`workflow_step`, CONSTRAINT `FK_workflow_step_workflow_instance_workflow_instance_id` FOREIGN KEY (`workflow_instance_id`) REFERENCES `workflow_instance` (`id`))')
+2022-06-06 18:34:23,413 - db_config.py:[338] - [ERROR] - No data is present in workflow_instance
+2022-06-06 18:34:23,640 - db_config.py:[316] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`workflow_step`, CONSTRAINT `FK_workflow_step_policy_step_policy_step_id` FOREIGN KEY (`policy_step_id`) REFERENCES `policy_step` (`id`))')
+2022-06-06 18:34:23,867 - db_config.py:[316] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`workflow_step`, CONSTRAINT `FK_workflow_step_policy_step_policy_step_id` FOREIGN KEY (`policy_step_id`) REFERENCES `policy_step` (`id`))')
+2022-06-06 18:34:24,093 - db_config.py:[316] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`workflow_step`, CONSTRAINT `FK_workflow_step_policy_step_policy_step_id` FOREIGN KEY (`policy_step_id`) REFERENCES `policy_step` (`id`))')
+2022-06-06 18:34:24,096 - db_config.py:[319] - [ERROR] - No data is present in policy_step
+2022-06-06 18:34:24,771 - db_config.py:[316] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`policy_step`, CONSTRAINT `FK_policy_step_policy_policy_id` FOREIGN KEY (`policy_id`) REFERENCES `policy` (`id`))')
+2022-06-06 18:34:25,000 - db_config.py:[316] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`policy_step`, CONSTRAINT `FK_policy_step_policy_policy_id` FOREIGN KEY (`policy_id`) REFERENCES `policy` (`id`))')
+2022-06-06 18:34:25,229 - db_config.py:[316] - [ERROR] - run Query Error(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`yieldwerx`.`policy_step`, CONSTRAINT `FK_policy_step_policy_policy_id` FOREIGN KEY (`policy_id`) REFERENCES `policy` (`id`))')
+2022-06-06 18:34:25,234 - db_config.py:[319] - [ERROR] - No data is present in policy

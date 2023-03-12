@@ -1,0 +1,30 @@
+ConverterPolicy:
+  policyName: ModifiedConverterPolicyName
+  policyVersion: 1.0
+  policyDesc: YW policy for converter
+  polling: 9999
+  container: yw-rawfile-1
+  ftp_address: ftp.etrisoft.com
+  ftp_username: ywftp@etrisoft.com
+  ftp_password: +CGEOz.pq+88
+  folder_to_transfer_files_from: /Temp/Ktm
+LoaderPolicy:
+  policyName: ModifiedLoaderPolicyName
+  policyVersion: 1.0
+  policyDesc: YW policy for Loader
+  polling: 9999
+  container: yw-loader-2
+  ftp_address: ftp.etrisoft.com
+  ftp_username: ywftp@etrisoft.com
+  ftp_password: +CGEOz.pq+88
+  folder_to_transfer_files_from: /Temp/Ktm
+ConverterToLoaderPolicy:
+  policyName: ModifiedConverterToLoaderPolicy
+  policyVersion: 1.0
+  policyDesc: YW policy for converter to loader
+  polling: 9999
+  container: yw-rawfile-1
+  ftp_address: ftp.etrisoft.com
+  ftp_username: ywftp@etrisoft.com
+  ftp_password: +CGEOz.pq+88
+  folder_to_transfer_files_from: /Temp/Ktm

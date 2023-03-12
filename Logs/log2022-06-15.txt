@@ -1,0 +1,86 @@
+2022-06-15 19:22:16,671 - db_config.py:[89] - [INFO] - tunnel_connection
+2022-06-15 19:22:17,300 - transport.py:[1819] - [INFO] - Connected (version 2.0, client OpenSSH_7.9p1)
+2022-06-15 19:22:18,490 - transport.py:[1819] - [INFO] - Authentication (publickey) successful!
+2022-06-15 19:22:19,639 - db_config.py:[101] - [INFO] - db_connection
+2022-06-15 19:22:19,645 - db_config.py:[102] - [INFO] - <_mysql.connection open to '127.0.0.1' at 0000013F9D656150>
+2022-06-15 19:22:19,653 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-15 19:22:22,979 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-15 19:22:22,985 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-15 19:22:26,384 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-15 19:22:26,390 - delete_s3_bucket.py:[18] - [INFO] - Deleting ...
+2022-06-15 19:22:29,399 - delete_s3_bucket.py:[28] - [INFO] - done
+2022-06-15 19:22:29,408 - loader.py:[79] - [INFO] - Mark the downloaded file for identify the changed
+2022-06-15 19:22:29,422 - warnings.py:[109] - [WARNING] - D:\yieldwerx-yw\ywtestauto\Utilities\yaml_reader.py:36: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data_loaded = yaml.load(stream)
+
+2022-06-15 19:22:29,435 - loader.py:[85] - [INFO] - TestData/InputFiles/Golden/FinisarSmall.atdf
+2022-06-15 19:22:29,448 - marking_files.py:[27] - [INFO] - D:\yieldwerx-yw\ywtestauto/TestData/InputFiles/MarkedFiles/FinisarSmall.atdf++++++++
+2022-06-15 19:22:31,920 - loader.py:[87] - [INFO] - file 'FinisarSmall.atdf' Marked
+2022-06-15 19:22:31,922 - loader.py:[107] - [INFO] - Save the marked data into test db
+2022-06-15 19:22:31,967 - converter.py:[106] - [INFO] - Uploading files into the bucket
+2022-06-15 19:22:31,984 - converter.py:[112] - [INFO] - TestData/InputFiles/MarkedFiles/FinisarSmall.atdf
+2022-06-15 19:23:01,919 - upload_file_to_bucket.py:[27] - [INFO] - file Uploaded Successfully
+2022-06-15 19:23:01,925 - converter.py:[115] - [INFO] - file 'FinisarSmall.atdf' uploaded
+2022-06-15 19:23:01,933 - database.py:[779] - [INFO] - Delete the collection data from test db against collection name :loader_file_location
+2022-06-15 19:23:01,970 - database.py:[785] - [INFO] - Inserting source file link to TestDatabase
+2022-06-15 19:23:01,973 - database.py:[805] - [INFO] - Write expected output into test db against collection name :loader_file_location
+2022-06-15 19:23:01,977 - login.py:[42] - [INFO] - Login screen is displayed
+2022-06-15 19:23:01,979 - driver_manager.py:[23] - [INFO] - Initialize the driver
+2022-06-15 19:23:01,981 - logger.py:[26] - [INFO] - 
+
+2022-06-15 19:23:01,983 - logger.py:[26] - [INFO] - ====== WebDriver manager ======
+2022-06-15 19:23:02,034 - logger.py:[26] - [INFO] - Current google-chrome version is 102.0.5005
+2022-06-15 19:23:02,037 - logger.py:[26] - [INFO] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-15 19:23:02,362 - logger.py:[26] - [INFO] - There is no [win32] chromedriver for browser  in cache
+2022-06-15 19:23:02,368 - logger.py:[26] - [INFO] - Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
+2022-06-15 19:23:11,836 - logger.py:[26] - [INFO] - Driver has been saved in cache [C:\Users\Hassan Naeem\.wdm\drivers\chromedriver\win32\102.0.5005.61]
+2022-06-15 19:23:41,609 - login.py:[63] - [INFO] - Entering username and password for Login
+2022-06-15 19:23:41,611 - warnings.py:[109] - [WARNING] - D:\yieldwerx-yw\ywtestauto\Utilities\yaml_reader.py:27: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data_loaded = yaml.load(stream)
+
+2022-06-15 19:23:43,757 - login.py:[71] - [INFO] - Ku@litatem!1
+2022-06-15 19:23:45,895 - login.py:[88] - [INFO] - Click the Login button
+2022-06-15 19:23:49,020 - login.py:[107] - [INFO] - Verify the dashboard
+2022-06-15 19:23:52,520 - login.py:[110] - [INFO] - Login Successful
+2022-06-15 19:23:52,523 - createpolicy.py:[83] - [INFO] - Clicked on loader policy
+2022-06-15 19:23:55,931 - createpolicy.py:[99] - [INFO] - Verifying the create policy button
+2022-06-15 19:23:55,965 - createpolicy.py:[116] - [INFO] - Clicked on create policy button
+2022-06-15 19:23:56,122 - createpolicy.py:[134] - [INFO] - Entered policy name
+2022-06-15 19:23:56,127 - warnings.py:[109] - [WARNING] - D:\yieldwerx-yw\ywtestauto\Utilities\yaml_reader.py:67: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data_loaded = yaml.load(stream)
+
+2022-06-15 19:23:56,152 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-15 19:23:56,919 - createpolicy.py:[160] - [INFO] - Entered policy version
+2022-06-15 19:23:56,943 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-15 19:23:57,072 - createpolicy.py:[178] - [INFO] - Entered policy description
+2022-06-15 19:23:57,098 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-15 19:23:57,341 - createpolicy.py:[198] - [INFO] - Entered policy owner email address
+2022-06-15 19:23:57,363 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-15 19:23:57,580 - createpolicy.py:[237] - [INFO] - Click add stage button
+2022-06-15 19:23:57,581 - generics.py:[117] - [INFO] - Scrolling to element
+2022-06-15 19:24:04,032 - createpolicy.py:[260] - [INFO] - Select stage :"Load"
+2022-06-15 19:24:04,034 - generics.py:[130] - [INFO] - Scrolling to element
+2022-06-15 19:24:07,467 - createpolicy.py:[264] - [INFO] - Stage selected
+2022-06-15 19:24:07,470 - createpolicy.py:[279] - [INFO] - Click on view button
+2022-06-15 19:24:07,471 - generics.py:[130] - [INFO] - Scrolling to element
+2022-06-15 19:24:10,932 - createpolicy.py:[320] - [INFO] - Enter source cloud
+2022-06-15 19:24:10,933 - generics.py:[130] - [INFO] - Scrolling to element
+2022-06-15 19:24:14,344 - createpolicy.py:[362] - [INFO] - Enter container name for policy
+2022-06-15 19:24:14,361 - createpolicy.py:[365] - [INFO] - DATA yw-loader-2
+2022-06-15 19:24:14,363 - generics.py:[59] - [INFO] - Send data in input fields using send keys
+2022-06-15 19:24:14,603 - createpolicy.py:[652] - [INFO] - Check die record
+2022-06-15 19:24:17,657 - createpolicy.py:[652] - [INFO] - Check die record
+2022-06-15 19:24:20,723 - createpolicy.py:[652] - [INFO] - Check die record
+2022-06-15 19:24:23,859 - createpolicy.py:[671] - [INFO] - Check summary record
+2022-06-15 19:24:36,282 - createpolicy.py:[405] - [INFO] - Schedule mode selected
+2022-06-15 19:24:36,284 - generics.py:[130] - [INFO] - Scrolling to element
+2022-06-15 19:24:42,657 - createpolicy.py:[434] - [INFO] - Select time for policy
+2022-06-15 19:24:42,659 - createpolicy.py:[442] - [INFO] - Schedule time in utc: 6/15/2022, 7:25 PM
+2022-06-15 19:24:42,661 - createpolicy.py:[444] - [INFO] - Scheduling in Future time:  06/15/2022|07:25|PM
+2022-06-15 19:24:44,972 - createpolicy.py:[468] - [INFO] - Enter polling interval time
+2022-06-15 19:24:47,223 - createpolicy.py:[486] - [INFO] - Click on save button
+2022-06-15 19:24:47,304 - createpolicy.py:[507] - [INFO] - Verifying Saved alert message
+2022-06-15 19:24:49,362 - createpolicy.py:[510] - [INFO] - True getting : Saved! not contain Saved alert message 
+2022-06-15 19:24:49,364 - createpolicy.py:[513] - [INFO] - Policy Saved!!
+2022-06-15 19:24:49,366 - createpolicy.py:[83] - [INFO] - Clicked on loader policy
+2022-06-15 19:24:52,786 - createpolicy.py:[546] - [INFO] - Verify policy from data intake queue
